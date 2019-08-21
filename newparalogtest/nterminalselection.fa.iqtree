@@ -1,0 +1,320 @@
+IQ-TREE 1.6.10 built Feb 19 2019
+
+Input file name: nterminalselection.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 819307
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 51 sequences with 452 amino-acid sites
+Number of constant sites: 50 (= 11.0619% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 50 (= 11.0619% of all sites)
+Number of parsimony informative sites: 311
+Number of distinct site patterns: 448
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0699
+  pi(R) = 0.0573
+  pi(N) = 0.0422
+  pi(D) = 0.0572
+  pi(C) = 0.0271
+  pi(Q) = 0.0446
+  pi(E) = 0.0712
+  pi(G) = 0.0774
+  pi(H) = 0.0330
+  pi(I) = 0.0188
+  pi(L) = 0.0785
+  pi(K) = 0.0813
+  pi(M) = 0.0202
+  pi(F) = 0.0244
+  pi(P) = 0.0694
+  pi(S) = 0.1042
+  pi(T) = 0.0552
+  pi(W) = 0.0100
+  pi(Y) = 0.0160
+  pi(V) = 0.0420
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.9603
+
+ Category  Relative_rate  Proportion
+  1         0.2885         0.2500
+  2         0.6507         0.2500
+  3         1.0690         0.2500
+  4         1.9918         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -17174.1517 (s.e. 553.6029)
+Unconstrained log-likelihood (without tree): -2757.8392
+Number of free parameters (#branches + #model parameters): 119
+Akaike information criterion (AIC) score: 34586.3033
+Corrected Akaike information criterion (AICc) score: 34672.3274
+Bayesian information criterion (BIC) score: 35075.8315
+
+Total tree length (sum of branch lengths): 31.3432
+Sum of internal branch lengths: 11.1284 (35.5050% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0022) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Rhinatrema_bivittatum__Rhinatrema_bivittatum_' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----Rhinatrema_bivittatum__Rhinatrema_bivittatum_
+|
+|            +--Aptendodytes_forsteri__Emperor_Penguin_
+|     +------| (100)
+|     |      +--Aquila_chrysaetos__Golden_Eagle_
+|  +--| (51)
+|  |  |                                           +--Acanthochromis_polyacanthus__Spiny_chromis_
+|  |  |                                        +--| (100)
+|  |  |                                        |  +--Amphiprion_percula__Orange_clownfish_
+|  |  |                                     +--| (84)
+|  |  |                                     |  +--Stegastes_partitus__Bicolor_damselfish_
+|  |  |                                  +--| (37)
+|  |  |                                  |  |        +--Amphilophus_citrinellus__Midas_cichlid_
+|  |  |                                  |  |     +--| (78)
+|  |  |                                  |  |     |  +**Neolamprologus_brichardi__Lyretail_cichlid_
+|  |  |                                  |  |  +--| (70)
+|  |  |                                  |  |  |  |        +**Haplochromis_burtoni__Burton_s_mouthbrooder_
+|  |  |                                  |  |  |  |     +**| (30)
+|  |  |                                  |  |  |  |     |  +--Maylandia_zebra__Zebra_mbuna_
+|  |  |                                  |  |  |  |  +**| (69)
+|  |  |                                  |  |  |  |  |  +--Pundamilia_nyererei__Makobe_Island_cichlid_
+|  |  |                                  |  |  |  +--| (39)
+|  |  |                                  |  |  |     +**Oreochromis_niloticus__Tilapia_
+|  |  |                                  |  +--| (29)
+|  |  |                                  |     |           +---Anabas_testudineus__Climbing_perch_
+|  |  |                                  |     |        +--| (75)
+|  |  |                                  |     |        |  +----------Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_
+|  |  |                                  |     |     +--| (90)
+|  |  |                                  |     |     |  +------Oryzias_latipes__Japanese_medaka_
+|  |  |                                  |     |  +--| (54)
+|  |  |                                  |     |  |  |        +-------Cynoglossus_semilaevis__Tongue_sole_
+|  |  |                                  |     |  |  |     +--| (57)
+|  |  |                                  |     |  |  |     |  |  +--Gambusia_affinis__Western_mosquitofish_
+|  |  |                                  |     |  |  |     |  +**| (69)
+|  |  |                                  |     |  |  |     |     +--Poecilia_reticulata__Guppy_
+|  |  |                                  |     |  |  |  +--| (57)
+|  |  |                                  |     |  |  |  |  +--Cyprinodon_variegatus__Sheepshead_minnow_
+|  |  |                                  |     |  |  +--| (71)
+|  |  |                                  |     |  |     +--Fundulus_heteroclitus__Mummichog_
+|  |  |                                  |     +--| (51)
+|  |  |                                  |        +--Kryptolebias_marmoratus__Mangrove_rivulus_
+|  |  |                         +--------| (100)
+|  |  |                         |        |     +--Lates_calcarifer__Barramundi_perch_
+|  |  |                         |        |  +**| (33)
+|  |  |                         |        |  |  |  +--Scophthalmus_maximus__Turbot_
+|  |  |                         |        |  |  +--| (64)
+|  |  |                         |        |  |     +--Seriola_dumerili__Greater_amberjack_
+|  |  |                         |        +--| (71)
+|  |  |                         |           +--Monopterus_albus__Swamp_eel_
+|  |  |                      +--| (87)
+|  |  |                      |  +-----Hucho_hucho__Huchen_
+|  |  |              +-------| (98)
+|  |  |              |       |             +------Astyanax_mexicanus__Mexican_tetra_
+|  |  |              |       |        +----| (85)
+|  |  |              |       |        |    +------Pygocentrus_nattereri__Red-bellied_piranha_
+|  |  |              |       |  +-----| (97)
+|  |  |              |       |  |     +----Electrophorus_electricus__Electric_eel_
+|  |  |              |       +--| (89)
+|  |  |              |          +---Danio_rerio__Zebrafish_
+|  |  |         +----| (83)
+|  |  |         |    +------------Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_
+|  |  |      +--| (51)
+|  |  |      |  +---------------Lepisosteus_oculatus__Spotted_gar_
+|  |  |  +---| (77)
+|  |  |  |   +---------Latimeria_chalumnae__Coelacanth_
+|  |  +--| (52)
+|  |     |        +--Apteryx_owenii__Little_spotted_kiwi_
+|  |     |  +-----| (96)
+|  |     |  |     +---------Apteryx_rowi__Okarito_brown_kiwi_
+|  |     +--| (77)
+|  |        |                     +--Bos_taurus__Cow_
+|  |        |                  +--| (98)
+|  |        |                  |  +--Equus_caballus__Horse_
+|  |        |               +--| (86)
+|  |        |               |  |        +--Mustela_putorius_furo__Ferret_
+|  |        |               |  |     +--| (59)
+|  |        |               |  |     |  +--Vulpes_vulpes__Red_fox_
+|  |        |               |  |  +--| (93)
+|  |        |               |  |  |  +--Ursus_maritimus__Polar_bear_
+|  |        |               |  +--| (100)
+|  |        |               |     +--Panthera_tigris_altaica__Tiger_
+|  |        +---------------| (100)
+|  |                        |        +--Castor_canadensis__American_beaver_
+|  |                        |     +--| (54)
+|  |                        |     |  +--Marmota_marmota_marmota__Alpine_marmot_
+|  |                        |  +--| (82)
+|  |                        |  |  +-----Mus_Musculus__Mouse_
+|  |                        +--| (91)
+|  |                           |        +--Homo_sapiens__Human_
+|  |                           |     +--| (78)
+|  |                           |     |  +--Nomascus_leucogenys__Gibbon_
+|  |                           |  +--| (100)
+|  |                           |  |  +--Piliocolobus_tephrosceles__Ugandan_red_Colobus_
+|  |                           +--| (57)
+|  |                              +--Otolemur_garnettii__Bushbaby_
++--| (67)
+|  |  +--Crocodylus_porosus__Australian_saltwater_crocodile_
+|  +--| (88)
+|     +--Gopherus_agassizii__Agassiz_s_desert_tortoise_
+|
++------------------Pelodiscus_sinensis__Chinese_softshell_turtle_
+
+Tree in newick format:
+
+(Rhinatrema_bivittatum__Rhinatrema_bivittatum_:0.5972783895,(((Aptendodytes_forsteri__Emperor_Penguin_:0.1714155485,Aquila_chrysaetos__Golden_Eagle_:0.1795115342)100:0.6771434197,((((((((((Acanthochromis_polyacanthus__Spiny_chromis_:0.1019528529,Amphiprion_percula__Orange_clownfish_:0.0547572228)100:0.1036881628,Stegastes_partitus__Bicolor_damselfish_:0.0785025887)84:0.0928740532,(((Amphilophus_citrinellus__Midas_cichlid_:0.0567704468,Neolamprologus_brichardi__Lyretail_cichlid_:0.0000020810)78:0.0476259411,(((Haplochromis_burtoni__Burton_s_mouthbrooder_:0.0000020810,Maylandia_zebra__Zebra_mbuna_:0.0039354609)30:0.0000017975,Pundamilia_nyererei__Makobe_Island_cichlid_:0.0039655765)69:0.0000028304,Oreochromis_niloticus__Tilapia_:0.0000020810)39:0.1198749425)70:0.2011379558,((((Anabas_testudineus__Climbing_perch_:0.4507412727,Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_:1.1398523134)75:0.2322394048,Oryzias_latipes__Japanese_medaka_:0.7468065136)90:0.2704291521,(((Cynoglossus_semilaevis__Tongue_sole_:0.8251440250,(Gambusia_affinis__Western_mosquitofish_:0.1524626996,Poecilia_reticulata__Guppy_:0.0803907256)69:0.0000024753)57:0.1727232983,Cyprinodon_variegatus__Sheepshead_minnow_:0.2540611504)57:0.0478459566,Fundulus_heteroclitus__Mummichog_:0.2963132808)71:0.1248089401)54:0.1421871760,Kryptolebias_marmoratus__Mangrove_rivulus_:0.3445628399)51:0.1448661640)29:0.0356586974)37:0.0526155346,((Lates_calcarifer__Barramundi_perch_:0.3625642739,(Scophthalmus_maximus__Turbot_:0.3000222607,Seriola_dumerili__Greater_amberjack_:0.1668499072)64:0.0422606077)33:0.0000021608,Monopterus_albus__Swamp_eel_:0.3162134672)71:0.0824184860)100:0.8812628786,Hucho_hucho__Huchen_:0.6060007122)87:0.3189688083,(((Astyanax_mexicanus__Mexican_tetra_:0.7284371850,Pygocentrus_nattereri__Red-bellied_piranha_:0.6942830487)85:0.5070536830,Electrophorus_electricus__Electric_eel_:0.5433080117)97:0.6290933356,Danio_rerio__Zebrafish_:0.4771637458)89:0.3781336670)98:0.8629371886,Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_:1.3440379881)83:0.5098230371,Lepisosteus_oculatus__Spotted_gar_:1.6110207200)51:0.1476430908,Latimeria_chalumnae__Coelacanth_:1.0228956023)77:0.3894785338,((Apteryx_owenii__Little_spotted_kiwi_:0.2324338871,Apteryx_rowi__Okarito_brown_kiwi_:1.0553227522)96:0.6543790952,(((Bos_taurus__Cow_:0.3017343286,Equus_caballus__Horse_:0.1479540978)98:0.0648983397,(((Mustela_putorius_furo__Ferret_:0.1398648299,Vulpes_vulpes__Red_fox_:0.1597074922)59:0.0062439745,Ursus_maritimus__Polar_bear_:0.1130491390)93:0.0349291448,Panthera_tigris_altaica__Tiger_:0.1722360387)100:0.0899897572)86:0.0373957963,(((Castor_canadensis__American_beaver_:0.2854644485,Marmota_marmota_marmota__Alpine_marmot_:0.3265855260)54:0.0316371191,Mus_Musculus__Mouse_:0.6695600468)82:0.0798527181,(((Homo_sapiens__Human_:0.0327661624,Nomascus_leucogenys__Gibbon_:0.0428431123)78:0.0117191228,Piliocolobus_tephrosceles__Ugandan_red_Colobus_:0.0678008389)100:0.1592471692,Otolemur_garnettii__Bushbaby_:0.3644830230)57:0.0323793480)91:0.0731550390)100:1.5678539290)77:0.2948513326)52:0.1691129255)51:0.1539700399,(Crocodylus_porosus__Australian_saltwater_crocodile_:0.2878362067,Gopherus_agassizii__Agassiz_s_desert_tortoise_:0.1904852123)88:0.1082915134)67:0.3436877796,Pelodiscus_sinensis__Chinese_softshell_turtle_:1.9134422575);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -17175.583665
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----Rhinatrema_bivittatum__Rhinatrema_bivittatum_
+|
+|            +--Aptendodytes_forsteri__Emperor_Penguin_
+|     +------| (100)
+|     |      +--Aquila_chrysaetos__Golden_Eagle_
+|  +--| (51)
+|  |  |                                               +--Acanthochromis_polyacanthus__Spiny_chromis_
+|  |  |                                            +--| (100)
+|  |  |                                            |  +--Amphiprion_percula__Orange_clownfish_
+|  |  |                                         +--| (84)
+|  |  |                                         |  +--Stegastes_partitus__Bicolor_damselfish_
+|  |  |                                      +--| (26)
+|  |  |                                      |  |     +--Lates_calcarifer__Barramundi_perch_
+|  |  |                                      |  |  +--| (33)
+|  |  |                                      |  |  |  |  +--Scophthalmus_maximus__Turbot_
+|  |  |                                      |  |  |  +--| (64)
+|  |  |                                      |  |  |     +--Seriola_dumerili__Greater_amberjack_
+|  |  |                                      |  +--| (71)
+|  |  |                                      |     +--Monopterus_albus__Swamp_eel_
+|  |  |                                   +--| (52)
+|  |  |                                   |  |     +--Amphilophus_citrinellus__Midas_cichlid_
+|  |  |                                   |  |  +--| (78)
+|  |  |                                   |  |  |  +--Neolamprologus_brichardi__Lyretail_cichlid_
+|  |  |                                   |  +--| (70)
+|  |  |                                   |     |        +--Haplochromis_burtoni__Burton_s_mouthbrooder_
+|  |  |                                   |     |     +--| (32)
+|  |  |                                   |     |     |  +--Pundamilia_nyererei__Makobe_Island_cichlid_
+|  |  |                                   |     |  +--| (69)
+|  |  |                                   |     |  |  +--Maylandia_zebra__Zebra_mbuna_
+|  |  |                                   |     +--| (39)
+|  |  |                                   |        +--Oreochromis_niloticus__Tilapia_
+|  |  |                          +--------| (100)
+|  |  |                          |        |           +---Anabas_testudineus__Climbing_perch_
+|  |  |                          |        |        +--| (75)
+|  |  |                          |        |        |  +-----------Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_
+|  |  |                          |        |     +--| (90)
+|  |  |                          |        |     |  +------Oryzias_latipes__Japanese_medaka_
+|  |  |                          |        |  +--| (54)
+|  |  |                          |        |  |  |        +-------Cynoglossus_semilaevis__Tongue_sole_
+|  |  |                          |        |  |  |     +--| (57)
+|  |  |                          |        |  |  |     |  |  +--Gambusia_affinis__Western_mosquitofish_
+|  |  |                          |        |  |  |     |  +--| (69)
+|  |  |                          |        |  |  |     |     +--Poecilia_reticulata__Guppy_
+|  |  |                          |        |  |  |  +--| (57)
+|  |  |                          |        |  |  |  |  +--Cyprinodon_variegatus__Sheepshead_minnow_
+|  |  |                          |        |  |  +--| (71)
+|  |  |                          |        |  |     +--Fundulus_heteroclitus__Mummichog_
+|  |  |                          |        +--| (51)
+|  |  |                          |           +--Kryptolebias_marmoratus__Mangrove_rivulus_
+|  |  |                       +--| (87)
+|  |  |                       |  +-----Hucho_hucho__Huchen_
+|  |  |              +--------| (98)
+|  |  |              |        |              +------Astyanax_mexicanus__Mexican_tetra_
+|  |  |              |        |         +----| (85)
+|  |  |              |        |         |    +------Pygocentrus_nattereri__Red-bellied_piranha_
+|  |  |              |        |   +-----| (97)
+|  |  |              |        |   |     +----Electrophorus_electricus__Electric_eel_
+|  |  |              |        +---| (89)
+|  |  |              |            +----Danio_rerio__Zebrafish_
+|  |  |         +----| (83)
+|  |  |         |    +-------------Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_
+|  |  |      +--| (51)
+|  |  |      |  +----------------Lepisosteus_oculatus__Spotted_gar_
+|  |  |  +---| (77)
+|  |  |  |   +---------Latimeria_chalumnae__Coelacanth_
+|  |  +--| (52)
+|  |     |         +--Apteryx_owenii__Little_spotted_kiwi_
+|  |     |  +------| (96)
+|  |     |  |      +----------Apteryx_rowi__Okarito_brown_kiwi_
+|  |     +--| (77)
+|  |        |                     +--Bos_taurus__Cow_
+|  |        |                  +--| (98)
+|  |        |                  |  +--Equus_caballus__Horse_
+|  |        |               +--| (86)
+|  |        |               |  |        +--Mustela_putorius_furo__Ferret_
+|  |        |               |  |     +--| (59)
+|  |        |               |  |     |  +--Vulpes_vulpes__Red_fox_
+|  |        |               |  |  +--| (93)
+|  |        |               |  |  |  +--Ursus_maritimus__Polar_bear_
+|  |        |               |  +--| (100)
+|  |        |               |     +--Panthera_tigris_altaica__Tiger_
+|  |        +---------------| (100)
+|  |                        |        +--Castor_canadensis__American_beaver_
+|  |                        |     +--| (54)
+|  |                        |     |  +--Marmota_marmota_marmota__Alpine_marmot_
+|  |                        |  +--| (82)
+|  |                        |  |  +------Mus_Musculus__Mouse_
+|  |                        +--| (91)
+|  |                           |        +--Homo_sapiens__Human_
+|  |                           |     +--| (78)
+|  |                           |     |  +--Nomascus_leucogenys__Gibbon_
+|  |                           |  +--| (100)
+|  |                           |  |  +--Piliocolobus_tephrosceles__Ugandan_red_Colobus_
+|  |                           +--| (57)
+|  |                              +--Otolemur_garnettii__Bushbaby_
++--| (67)
+|  |  +--Crocodylus_porosus__Australian_saltwater_crocodile_
+|  +--| (88)
+|     +--Gopherus_agassizii__Agassiz_s_desert_tortoise_
+|
++-------------------Pelodiscus_sinensis__Chinese_softshell_turtle_
+
+
+Consensus tree in newick format: 
+
+(Rhinatrema_bivittatum__Rhinatrema_bivittatum_:0.5971779678,(((Aptendodytes_forsteri__Emperor_Penguin_:0.1718081864,Aquila_chrysaetos__Golden_Eagle_:0.1789404342)100:0.6793963748,(((((((((((Acanthochromis_polyacanthus__Spiny_chromis_:0.1022907525,Amphiprion_percula__Orange_clownfish_:0.0546224641)100:0.1043168851,Stegastes_partitus__Bicolor_damselfish_:0.0783235451)84:0.0911989734,((Lates_calcarifer__Barramundi_perch_:0.3614146700,(Scophthalmus_maximus__Turbot_:0.2999349874,Seriola_dumerili__Greater_amberjack_:0.1679289783)64:0.0386777459)33:0.0000027183,Monopterus_albus__Swamp_eel_:0.3150631740)71:0.1359340735)26:0.0305567625,((Amphilophus_citrinellus__Midas_cichlid_:0.0566703641,Neolamprologus_brichardi__Lyretail_cichlid_:0.0000020810)78:0.0484122773,(((Haplochromis_burtoni__Burton_s_mouthbrooder_:0.0000020810,Pundamilia_nyererei__Makobe_Island_cichlid_:0.0022149695)32:0.0017485296,Maylandia_zebra__Zebra_mbuna_:0.0039336079)69:0.0760289051,Oreochromis_niloticus__Tilapia_:0.0000020810)39:0.0429860808)70:0.2068075189)52:0.0334266817,((((Anabas_testudineus__Climbing_perch_:0.4491680592,Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_:1.1333350969)75:0.2346469316,Oryzias_latipes__Japanese_medaka_:0.7395285683)90:0.2722272948,(((Cynoglossus_semilaevis__Tongue_sole_:0.8243814397,(Gambusia_affinis__Western_mosquitofish_:0.1522987497,Poecilia_reticulata__Guppy_:0.0792645395)69:0.0414836040)57:0.1334638576,Cyprinodon_variegatus__Sheepshead_minnow_:0.2543151416)57:0.0483152667,Fundulus_heteroclitus__Mummichog_:0.2958956699)71:0.1271271165)54:0.1326899063,Kryptolebias_marmoratus__Mangrove_rivulus_:0.3477983164)51:0.1186737245)100:0.8649113566,Hucho_hucho__Huchen_:0.6280691506)87:0.3039561022,(((Astyanax_mexicanus__Mexican_tetra_:0.7264880190,Pygocentrus_nattereri__Red-bellied_piranha_:0.6930357114)85:0.5052725327,Electrophorus_electricus__Electric_eel_:0.5425048312)97:0.6278946279,Danio_rerio__Zebrafish_:0.4686056654)89:0.3791824814)98:0.8599223974,Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_:1.3473651153)83:0.5064831405,Lepisosteus_oculatus__Spotted_gar_:1.6200566547)51:0.1428143286,Latimeria_chalumnae__Coelacanth_:1.0278341166)77:0.3843669369,((Apteryx_owenii__Little_spotted_kiwi_:0.2318009927,Apteryx_rowi__Okarito_brown_kiwi_:1.0559599543)96:0.6567144795,(((Bos_taurus__Cow_:0.3016451899,Equus_caballus__Horse_:0.1479305402)98:0.0649105309,(((Mustela_putorius_furo__Ferret_:0.1397908253,Vulpes_vulpes__Red_fox_:0.1596379728)59:0.0062559467,Ursus_maritimus__Polar_bear_:0.1130059486)93:0.0349231542,Panthera_tigris_altaica__Tiger_:0.1722188562)100:0.0899714197)86:0.0374967466,(((Castor_canadensis__American_beaver_:0.2852388154,Marmota_marmota_marmota__Alpine_marmot_:0.3264142438)54:0.0316735341,Mus_Musculus__Mouse_:0.6687852691)82:0.0798344880,(((Homo_sapiens__Human_:0.0327558028,Nomascus_leucogenys__Gibbon_:0.0428258110)78:0.0117250432,Piliocolobus_tephrosceles__Ugandan_red_Colobus_:0.0677851517)100:0.1591855762,Otolemur_garnettii__Bushbaby_:0.3644429887)57:0.0323650833)91:0.0730278696)100:1.5628231530)77:0.2962131651)52:0.1688741766)51:0.1532703344,(Crocodylus_porosus__Australian_saltwater_crocodile_:0.2881070323,Gopherus_agassizii__Agassiz_s_desert_tortoise_:0.1902639459)88:0.1067846539)67:0.3450700673,Pelodiscus_sinensis__Chinese_softshell_turtle_:1.9118213298);
+
+TIME STAMP
+----------
+
+Date and time: Fri Aug 16 10:22:24 2019
+Total CPU time used: 464.306875 seconds (0h:7m:44s)
+Total wall-clock time used: 465.3353269 seconds (0h:7m:45s)
+

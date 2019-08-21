@@ -1,0 +1,158 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s blastpali.fa -m LG+G+F -bb 1000 -bnni -wbtl
+Seed:    726478 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 20 10:23:20 2019
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file blastpali.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 35 sequences with 829 columns, 662 distinct patterns
+436 parsimony-informative, 148 singleton sites, 245 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  XP_011587093.1   44.27%    passed      7.57%
+   2  XP_019326690.1   44.99%    failed      0.00%
+   3  NP_001009992.1   31.48%    passed     55.51%
+   4  XP_003264475.1   31.48%    passed     74.18%
+   5  XP_023059151.2   31.85%    passed     62.23%
+   6  XP_003785695.1   33.53%    passed     48.55%
+   7  XP_008699351.1   31.48%    passed     22.45%
+   8  XP_004767958.1   31.36%    passed     25.20%
+   9  XP_025856853.1   31.36%    passed     25.27%
+  10  XP_007096264.1   31.36%    passed     10.59%
+  11  NP_001243856.2   31.60%    passed     14.05%
+  12  XP_002694251.1   31.97%    failed      3.89%
+  13  XP_015347534.1   32.33%    passed     53.13%
+  14  XP_020010330.1   33.41%    passed     97.63%
+  15  NP_001191837.1   36.67%    passed     77.91%
+  16  XP_019386498.1   30.16%    passed     91.08%
+  17  XP_029474736.1   33.29%    passed     81.67%
+  18  XP_006009790.1   25.21%    failed      0.00%
+  19  XP_008406008.1   41.74%    passed      8.40%
+  20  XP_021165050.1   48.73%    passed     45.46%
+  21  XP_015241009.1   48.25%    passed     31.36%
+  22  XP_026201462.1   42.82%    passed     33.62%
+  23  XP_022071645.1   48.13%    failed      3.02%
+  24  XP_008295215.1   41.13%    passed     12.58%
+  25  XP_005727304.1   41.13%    passed     21.03%
+  26  XP_004552969.1   41.13%    passed     18.96%
+  27  XP_005919896.1   41.13%    passed     23.01%
+  28  XP_005451194.1   41.13%    passed     22.39%
+  29  XP_017289194.1   41.01%    failed      0.07%
+  30  XP_008335129.1   39.81%    passed     13.91%
+  31  XP_004068312.1   46.44%    passed     98.32%
+  32  XP_021332776.1   41.98%    failed      0.08%
+  33  XP_023672427.1   57.30%    passed     85.28%
+  34  XP_007253506.2   40.41%    passed     63.24%
+  35  XP_015210642.1   53.32%    failed      0.34%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL            38.67%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 726478)...
+
+NOTE: 17 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19131.206
+2. Current log-likelihood: -18728.576
+3. Current log-likelihood: -18720.999
+4. Current log-likelihood: -18720.826
+Optimal log-likelihood: -18720.808
+Gamma shape alpha: 0.672
+Parameters optimization took 4 rounds (0.588 sec)
+Computing ML distances based on estimated model parameters... 0.258 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -18791.373
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.546 second
+Computing log-likelihood of 98 initial trees ... 5.335 seconds
+Current best score: -18716.450
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18704.363
+Iteration 10 / LogL: -18705.369 / Time: 0h:0m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -18699.637
+Iteration 20 / LogL: -18703.331 / Time: 0h:0m:14s
+Finish initializing candidate tree set (9)
+Current best tree score: -18699.637 / CPU time: 13.322
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -18699.485
+Iteration 30 / LogL: -18699.524 / Time: 0h:0m:19s (0h:1m:0s left)
+Iteration 40 / LogL: -18699.487 / Time: 0h:0m:25s (0h:0m:50s left)
+Iteration 50 / LogL: -18699.573 / Time: 0h:0m:30s (0h:0m:42s left)
+Iteration 60 / LogL: -18706.373 / Time: 0h:0m:37s (0h:0m:36s left)
+Iteration 70 / LogL: -18703.035 / Time: 0h:0m:44s (0h:0m:30s left)
+Iteration 80 / LogL: -18699.512 / Time: 0h:0m:50s (0h:0m:24s left)
+Iteration 90 / LogL: -18700.083 / Time: 0h:0m:57s (0h:0m:18s left)
+Iteration 100 / LogL: -18699.959 / Time: 0h:1m:2s (0h:0m:11s left)
+Iteration 110 / LogL: -18699.486 / Time: 0h:1m:8s (0h:0m:5s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 959 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 119 ITERATIONS / Time: 0h:3m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18699.485
+Optimal log-likelihood: -18699.483
+Gamma shape alpha: 0.675
+Parameters optimization took 1 rounds (0.131 sec)
+BEST SCORE FOUND : -18699.483
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file blastpali.fa.splits.nex
+Total tree length: 15.655
+
+Total number of iterations: 119
+CPU time used for tree search: 229.175 sec (0h:3m:49s)
+Wall-clock time used for tree search: 229.264 sec (0h:3m:49s)
+Total CPU time used: 230.531 sec (0h:3m:50s)
+Total wall-clock time used: 230.641 sec (0h:3m:50s)
+UFBoot trees printed to blastpali.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file blastpali.fa.splits.nex...
+35 taxa and 191 splits.
+Consensus tree written to blastpali.fa.contree
+Reading input trees file blastpali.fa.contree
+Log-likelihood of consensus tree: -18700.187
+
+Analysis results written to: 
+  IQ-TREE report:                blastpali.fa.iqtree
+  Maximum-likelihood tree:       blastpali.fa.treefile
+  Likelihood distances:          blastpali.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          blastpali.fa.splits.nex
+  Consensus tree:                blastpali.fa.contree
+  UFBoot trees:                  blastpali.fa.ufboot
+  Screen log file:               blastpali.fa.log
+
+Date and Time: Tue Aug 20 10:27:12 2019

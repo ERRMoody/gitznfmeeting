@@ -1,0 +1,245 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s nterminalselection.fa -m LG+G+F -bb 1000 -bnni -wbtl
+Seed:    819307 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 16 10:14:38 2019
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file nterminalselection.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 51 sequences with 452 columns, 448 distinct patterns
+311 parsimony-informative, 91 singleton sites, 50 constant sites
+WARNING: Some sequence names are changed as follows:
+Rhinatrema_bivittatum_(Rhinatrema_bivittatum) -> Rhinatrema_bivittatum__Rhinatrema_bivittatum_
+Aptendodytes_forsteri_(Emperor_Penguin) -> Aptendodytes_forsteri__Emperor_Penguin_
+Aquila_chrysaetos_(Golden_Eagle) -> Aquila_chrysaetos__Golden_Eagle_
+Acanthochromis_polyacanthus_(Spiny_chromis) -> Acanthochromis_polyacanthus__Spiny_chromis_
+Amphilophus_citrinellus_(Midas_cichlid) -> Amphilophus_citrinellus__Midas_cichlid_
+Amphiprion_percula_(Orange_clownfish) -> Amphiprion_percula__Orange_clownfish_
+Anabas_testudineus_(Climbing_perch) -> Anabas_testudineus__Climbing_perch_
+Apteryx_owenii_(Little_spotted_kiwi) -> Apteryx_owenii__Little_spotted_kiwi_
+Apteryx_rowi_(Okarito_brown_kiwi) -> Apteryx_rowi__Okarito_brown_kiwi_
+Astyanax_mexicanus_(Mexican_tetra) -> Astyanax_mexicanus__Mexican_tetra_
+Bos_taurus_(Cow) -> Bos_taurus__Cow_
+Castor_canadensis_(American_beaver) -> Castor_canadensis__American_beaver_
+Crocodylus_porosus_(Australian_saltwater_crocodile) -> Crocodylus_porosus__Australian_saltwater_crocodile_
+Cynoglossus_semilaevis_(Tongue_sole) -> Cynoglossus_semilaevis__Tongue_sole_
+Cyprinodon_variegatus_(Sheepshead_minnow) -> Cyprinodon_variegatus__Sheepshead_minnow_
+Danio_rerio_(Zebrafish) -> Danio_rerio__Zebrafish_
+Electrophorus_electricus_(Electric_eel) -> Electrophorus_electricus__Electric_eel_
+Equus_caballus_(Horse) -> Equus_caballus__Horse_
+Fundulus_heteroclitus_(Mummichog) -> Fundulus_heteroclitus__Mummichog_
+Gambusia_affinis_(Western_mosquitofish) -> Gambusia_affinis__Western_mosquitofish_
+Gopherus_agassizii_(Agassiz's_desert_tortoise) -> Gopherus_agassizii__Agassiz_s_desert_tortoise_
+Haplochromis_burtoni_(Burton's_mouthbrooder) -> Haplochromis_burtoni__Burton_s_mouthbrooder_
+Homo_sapiens_(Human) -> Homo_sapiens__Human_
+Hucho_hucho_(Huchen) -> Hucho_hucho__Huchen_
+Kryptolebias_marmoratus_(Mangrove_rivulus) -> Kryptolebias_marmoratus__Mangrove_rivulus_
+Lates_calcarifer_(Barramundi_perch) -> Lates_calcarifer__Barramundi_perch_
+Latimeria_chalumnae_(Coelacanth) -> Latimeria_chalumnae__Coelacanth_
+Lepisosteus_oculatus_(Spotted_gar) -> Lepisosteus_oculatus__Spotted_gar_
+Marmota_marmota_marmota_(Alpine_marmot) -> Marmota_marmota_marmota__Alpine_marmot_
+Maylandia_zebra_(Zebra_mbuna) -> Maylandia_zebra__Zebra_mbuna_
+Monopterus_albus_(Swamp_eel) -> Monopterus_albus__Swamp_eel_
+Mus_Musculus_(Mouse) -> Mus_Musculus__Mouse_
+Mustela_putorius_furo_(Ferret) -> Mustela_putorius_furo__Ferret_
+Neolamprologus_brichardi_(Lyretail_cichlid) -> Neolamprologus_brichardi__Lyretail_cichlid_
+Nomascus_leucogenys_(Gibbon) -> Nomascus_leucogenys__Gibbon_
+Oreochromis_niloticus_(Tilapia) -> Oreochromis_niloticus__Tilapia_
+Oryzias_latipes_(Japanese_medaka) -> Oryzias_latipes__Japanese_medaka_
+Otolemur_garnettii_(Bushbaby) -> Otolemur_garnettii__Bushbaby_
+Panthera_tigris_altaica_(Tiger) -> Panthera_tigris_altaica__Tiger_
+Paramormyrops_kingsleyae_(Paramormyrops_kingsleyae) -> Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_
+Pelodiscus_sinensis_(Chinese_softshell_turtle) -> Pelodiscus_sinensis__Chinese_softshell_turtle_
+Periophthalmus_magnuspinnatus_(Periophthalmus_magnuspinnatus) -> Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_
+Piliocolobus_tephrosceles_(Ugandan_red_Colobus) -> Piliocolobus_tephrosceles__Ugandan_red_Colobus_
+Poecilia_reticulata_(Guppy) -> Poecilia_reticulata__Guppy_
+Pundamilia_nyererei_(Makobe_Island_cichlid) -> Pundamilia_nyererei__Makobe_Island_cichlid_
+Pygocentrus_nattereri_(Red-bellied_piranha) -> Pygocentrus_nattereri__Red-bellied_piranha_
+Scophthalmus_maximus_(Turbot) -> Scophthalmus_maximus__Turbot_
+Seriola_dumerili_(Greater_amberjack) -> Seriola_dumerili__Greater_amberjack_
+Stegastes_partitus_(Bicolor_damselfish) -> Stegastes_partitus__Bicolor_damselfish_
+Ursus_maritimus_(Polar_bear) -> Ursus_maritimus__Polar_bear_
+Vulpes_vulpes_(Red_fox) -> Vulpes_vulpes__Red_fox_
+
+                                                               Gap/Ambiguity  Composition  p-value
+   1  Rhinatrema_bivittatum__Rhinatrema_bivittatum_                   33.85%    passed     88.27%
+   2  Aptendodytes_forsteri__Emperor_Penguin_                         84.07%    passed     14.36%
+   3  Aquila_chrysaetos__Golden_Eagle_                                53.32%    passed     44.31%
+   4  Acanthochromis_polyacanthus__Spiny_chromis_                     59.96%    passed     16.80%
+   5  Amphilophus_citrinellus__Midas_cichlid_                         49.78%    passed     73.27%
+   6  Amphiprion_percula__Orange_clownfish_                           79.42%    failed      1.64%
+   7  Anabas_testudineus__Climbing_perch_                             70.58%    failed      2.47%
+   8  Apteryx_owenii__Little_spotted_kiwi_                            64.38%    failed      0.11%
+   9  Apteryx_rowi__Okarito_brown_kiwi_                               55.97%    failed      0.01%
+  10  Astyanax_mexicanus__Mexican_tetra_                              73.23%    passed     94.15%
+  11  Bos_taurus__Cow_                                                39.38%    failed      0.11%
+  12  Castor_canadensis__American_beaver_                             41.81%    passed     61.40%
+  13  Crocodylus_porosus__Australian_saltwater_crocodile_             35.40%    passed     61.14%
+  14  Cynoglossus_semilaevis__Tongue_sole_                            97.35%    failed      0.49%
+  15  Cyprinodon_variegatus__Sheepshead_minnow_                       60.84%    passed     87.60%
+  16  Danio_rerio__Zebrafish_                                         50.00%    failed      0.00%
+  17  Electrophorus_electricus__Electric_eel_                         77.88%    passed     94.89%
+  18  Equus_caballus__Horse_                                          38.50%    failed      0.50%
+  19  Fundulus_heteroclitus__Mummichog_                               53.10%    passed     75.16%
+  20  Gambusia_affinis__Western_mosquitofish_                         65.93%    passed     68.89%
+  21  Gopherus_agassizii__Agassiz_s_desert_tortoise_                  34.07%    passed     26.44%
+  22  Haplochromis_burtoni__Burton_s_mouthbrooder_                    90.27%    passed     31.38%
+  23  Homo_sapiens__Human_                                            38.27%    passed     14.23%
+  24  Hucho_hucho__Huchen_                                            38.94%    passed     10.78%
+  25  Kryptolebias_marmoratus__Mangrove_rivulus_                      46.90%    failed      0.42%
+  26  Lates_calcarifer__Barramundi_perch_                             73.23%    passed      8.02%
+  27  Latimeria_chalumnae__Coelacanth_                                28.98%    failed      0.00%
+  28  Lepisosteus_oculatus__Spotted_gar_                              57.08%    failed      0.01%
+  29  Marmota_marmota_marmota__Alpine_marmot_                         39.82%    passed     11.04%
+  30  Maylandia_zebra__Zebra_mbuna_                                   48.45%    passed     36.72%
+  31  Monopterus_albus__Swamp_eel_                                    63.50%    failed      1.27%
+  32  Mus_Musculus__Mouse_                                            47.79%    passed     68.84%
+  33  Mustela_putorius_furo__Ferret_                                  38.05%    failed      1.22%
+  34  Neolamprologus_brichardi__Lyretail_cichlid_                     90.27%    passed     49.76%
+  35  Nomascus_leucogenys__Gibbon_                                    38.27%    passed     31.65%
+  36  Oreochromis_niloticus__Tilapia_                                 97.12%    passed      8.08%
+  37  Oryzias_latipes__Japanese_medaka_                               52.65%    passed     37.15%
+  38  Otolemur_garnettii__Bushbaby_                                   41.37%    passed     16.57%
+  39  Panthera_tigris_altaica__Tiger_                                 38.05%    failed      0.84%
+  40  Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_             65.49%    passed     62.61%
+  41  Pelodiscus_sinensis__Chinese_softshell_turtle_                  50.88%    failed      0.00%
+  42  Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_   57.74%    failed      0.01%
+  43  Piliocolobus_tephrosceles__Ugandan_red_Colobus_                 38.94%    passed     12.72%
+  44  Poecilia_reticulata__Guppy_                                     39.82%    passed     12.50%
+  45  Pundamilia_nyererei__Makobe_Island_cichlid_                     48.45%    passed     33.66%
+  46  Pygocentrus_nattereri__Red-bellied_piranha_                     75.44%    failed      0.72%
+  47  Scophthalmus_maximus__Turbot_                                   45.13%    passed     74.49%
+  48  Seriola_dumerili__Greater_amberjack_                            38.50%    passed     34.15%
+  49  Stegastes_partitus__Bicolor_damselfish_                         48.45%    passed     21.44%
+  50  Ursus_maritimus__Polar_bear_                                    38.27%    failed      3.85%
+  51  Vulpes_vulpes__Red_fox_                                         38.05%    failed      4.81%
+WARNING: 24 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                           54.37%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 819307)...
+
+NOTE: 16 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -17733.422
+2. Current log-likelihood: -17210.235
+3. Current log-likelihood: -17192.324
+4. Current log-likelihood: -17192.000
+Optimal log-likelihood: -17191.982
+Gamma shape alpha: 1.954
+Parameters optimization took 4 rounds (0.791 sec)
+Computing ML distances based on estimated model parameters... 0.854 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -17427.068
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.025 second
+Computing log-likelihood of 98 initial trees ... 8.264 seconds
+Current best score: -17191.982
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -17174.976
+BETTER TREE FOUND at iteration 2: -17174.970
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -17174.951
+BETTER TREE FOUND at iteration 8: -17174.947
+Iteration 10 / LogL: -17178.249 / Time: 0h:0m:23s
+Iteration 20 / LogL: -17184.696 / Time: 0h:0m:36s
+Finish initializing candidate tree set (19)
+Current best tree score: -17174.947 / CPU time: 35.050
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 30: -17174.947
+Iteration 30 / LogL: -17174.947 / Time: 0h:0m:52s (0h:2m:59s left)
+Iteration 40 / LogL: -17177.093 / Time: 0h:1m:7s (0h:2m:35s left)
+BETTER TREE FOUND at iteration 41: -17174.946
+Iteration 50 / LogL: -17174.947 / Time: 0h:1m:19s (0h:2m:28s left)
+Iteration 60 / LogL: -17244.188 / Time: 0h:1m:34s (0h:2m:9s left)
+Iteration 70 / LogL: -17174.947 / Time: 0h:1m:47s (0h:1m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -17174.152
+BETTER TREE FOUND at iteration 77: -17174.152
+Iteration 80 / LogL: -17174.950 / Time: 0h:2m:0s (0h:2m:27s left)
+Iteration 90 / LogL: -17174.154 / Time: 0h:2m:13s (0h:2m:10s left)
+UPDATE BEST LOG-LIKELIHOOD: -17174.152
+Iteration 100 / LogL: -17177.420 / Time: 0h:2m:25s (0h:1m:53s left)
+BETTER TREE FOUND at iteration 102: -17174.152
+BETTER TREE FOUND at iteration 104: -17174.152
+Iteration 110 / LogL: -17174.152 / Time: 0h:2m:38s (0h:2m:16s left)
+Iteration 120 / LogL: -17174.152 / Time: 0h:2m:51s (0h:2m:0s left)
+Iteration 130 / LogL: -17181.924 / Time: 0h:3m:3s (0h:1m:45s left)
+Iteration 140 / LogL: -17174.152 / Time: 0h:3m:16s (0h:1m:30s left)
+Iteration 150 / LogL: -17183.839 / Time: 0h:3m:29s (0h:1m:15s left)
+Iteration 160 / LogL: -17174.152 / Time: 0h:3m:43s (0h:1m:1s left)
+Iteration 170 / LogL: -17175.583 / Time: 0h:3m:55s (0h:0m:47s left)
+Iteration 180 / LogL: -17174.152 / Time: 0h:4m:7s (0h:0m:33s left)
+Iteration 190 / LogL: -17174.152 / Time: 0h:4m:19s (0h:0m:19s left)
+Iteration 200 / LogL: -17214.138 / Time: 0h:4m:31s (0h:0m:5s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 205 ITERATIONS / Time: 0h:7m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -17174.152
+Optimal log-likelihood: -17174.152
+Gamma shape alpha: 1.960
+Parameters optimization took 1 rounds (0.108 sec)
+BEST SCORE FOUND : -17174.152
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file nterminalselection.fa.splits.nex
+Total tree length: 31.343
+
+Total number of iterations: 205
+CPU time used for tree search: 462.096 sec (0h:7m:42s)
+Wall-clock time used for tree search: 462.685 sec (0h:7m:42s)
+Total CPU time used: 464.307 sec (0h:7m:44s)
+Total wall-clock time used: 464.908 sec (0h:7m:44s)
+UFBoot trees printed to nterminalselection.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file nterminalselection.fa.splits.nex...
+51 taxa and 474 splits.
+Consensus tree written to nterminalselection.fa.contree
+Reading input trees file nterminalselection.fa.contree
+Log-likelihood of consensus tree: -17175.584
+
+Analysis results written to: 
+  IQ-TREE report:                nterminalselection.fa.iqtree
+  Maximum-likelihood tree:       nterminalselection.fa.treefile
+  Likelihood distances:          nterminalselection.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          nterminalselection.fa.splits.nex
+  Consensus tree:                nterminalselection.fa.contree
+  UFBoot trees:                  nterminalselection.fa.ufboot
+  Screen log file:               nterminalselection.fa.log
+
+Date and Time: Fri Aug 16 10:22:24 2019

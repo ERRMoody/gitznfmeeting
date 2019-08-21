@@ -1,0 +1,166 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -m LG+G+F -s representativeselectionznf648.fa -bb 1000 -wbtl -bnni
+Seed:    401003 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 20 11:25:24 2019
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file representativeselectionznf648.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 40 sequences with 1219 columns, 854 distinct patterns
+461 parsimony-informative, 201 singleton sites, 557 constant sites
+                              Gap/Ambiguity  Composition  p-value
+   1  Terrapene_carolina_triunguis   27.65%    passed     97.97%
+   2  Chrysemys_picta_bellii         22.31%    passed     95.52%
+   3  Chelonia_mydas                 24.28%    passed     80.06%
+   4  Pelodiscus_sinensis            22.15%    passed     89.22%
+   5  Alligator_sinensis             30.68%    passed     91.96%
+   6  Crocodylus_porosus             52.50%    passed     96.69%
+   7  Rhinatrema_bivittatum          54.63%    passed     89.56%
+   8  Latimeria_chalumnae            49.14%    failed      0.00%
+   9  Poecilia_reticulata            60.38%    passed      7.73%
+  10  Fundulus_heteroclitus          65.14%    passed     45.15%
+  11  Cyprinodon_variegatus          64.81%    passed     38.98%
+  12  Anabas_testudineus             61.12%    passed     34.47%
+  13  Acanthochromis_polyacanthus    64.73%    failed      3.23%
+  14  Stegastes_partitus             59.97%    passed     14.02%
+  15  Pundamilia_nyererei            59.97%    passed     24.98%
+  16  Neolamprologus_brichardi       70.14%    passed     18.19%
+  17  Maylandia_zebra                59.97%    passed     22.21%
+  18  Haplochromis_burtoni           59.97%    passed     26.40%
+  19  Oreochromis_niloticus          59.97%    passed     25.34%
+  20  Kryptolebias_marmoratus        59.89%    failed      0.07%
+  21  Cynoglossus_semilaevis         59.06%    passed     14.49%
+  22  Oryzias_latipes                63.58%    passed     98.57%
+  23  Danio_rerio                    60.54%    failed      0.35%
+  24  Astyanax_mexicanus             59.47%    passed     83.14%
+  25  Homo_sapiens                   53.40%    passed     44.00%
+  26  Nomascus_leucogenys            53.40%    passed     63.76%
+  27  Piliocolobus_tephrosceles      53.65%    passed     49.50%
+  28  Otolemur_garnettii             54.80%    passed     33.98%
+  29  Ursus_maritimus                53.40%    passed     14.09%
+  30  Mustela_putorius_furo          53.32%    passed     12.86%
+  31  Vulpes_vulpes                  53.32%    passed     15.39%
+  32  Panthera_tigris_altaica        53.32%    passed      6.59%
+  33  Equus_caballus                 53.49%    passed      7.90%
+  34  Bos_taurus                     53.73%    failed      2.08%
+  35  Marmota_marmota_marmota        53.98%    passed     48.50%
+  36  Castor_canadensis              54.72%    passed     96.63%
+  37  Mus_musculus                   56.93%    passed     77.82%
+  38  Lepisosteus_oculatus           68.25%    failed      0.20%
+  39  Aquila_chrysaetos_canadensis   62.10%    failed      4.01%
+  40  Aptenodytes_forsteri           62.59%    failed      0.00%
+WARNING: 34 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                          54.16%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 401003)...
+
+NOTE: 25 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22012.608
+2. Current log-likelihood: -21368.141
+3. Current log-likelihood: -21356.388
+4. Current log-likelihood: -21356.181
+Optimal log-likelihood: -21356.162
+Gamma shape alpha: 0.667
+Parameters optimization took 4 rounds (0.869 sec)
+Computing ML distances based on estimated model parameters... 0.346 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21617.824
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.583 second
+Computing log-likelihood of 98 initial trees ... 8.222 seconds
+Current best score: -21356.162
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21341.437
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -21332.810
+Iteration 10 / LogL: -21332.952 / Time: 0h:0m:16s
+Iteration 20 / LogL: -21341.583 / Time: 0h:0m:24s
+Finish initializing candidate tree set (3)
+Current best tree score: -21332.810 / CPU time: 22.946
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -21331.591
+Iteration 30 / LogL: -21331.727 / Time: 0h:0m:35s (0h:1m:53s left)
+Iteration 40 / LogL: -21331.593 / Time: 0h:0m:43s (0h:1m:33s left)
+Iteration 50 / LogL: -21331.728 / Time: 0h:0m:53s (0h:1m:20s left)
+Iteration 60 / LogL: -21339.951 / Time: 0h:1m:3s (0h:1m:9s left)
+UPDATE BEST LOG-LIKELIHOOD: -21331.589
+Iteration 70 / LogL: -21335.993 / Time: 0h:1m:12s (0h:0m:57s left)
+Iteration 80 / LogL: -21333.338 / Time: 0h:1m:22s (0h:0m:45s left)
+Iteration 90 / LogL: -21339.487 / Time: 0h:1m:31s (0h:0m:34s left)
+Iteration 100 / LogL: -21332.361 / Time: 0h:1m:40s (0h:0m:24s left)
+Iteration 110 / LogL: -21338.150 / Time: 0h:1m:48s (0h:0m:13s left)
+UPDATE BEST LOG-LIKELIHOOD: -21331.582
+Iteration 120 / LogL: -21331.654 / Time: 0h:1m:57s (0h:0m:3s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 979 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 125 ITERATIONS / Time: 0h:5m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21331.582
+Optimal log-likelihood: -21331.581
+Gamma shape alpha: 0.666
+Parameters optimization took 1 rounds (0.152 sec)
+BEST SCORE FOUND : -21331.581
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 14.090
+
+Total number of iterations: 125
+CPU time used for tree search: 335.768 sec (0h:5m:35s)
+Wall-clock time used for tree search: 335.923 sec (0h:5m:35s)
+Total CPU time used: 337.465 sec (0h:5m:37s)
+Total wall-clock time used: 337.636 sec (0h:5m:37s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 224 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21331.633
+
+Analysis results written to: 
+  IQ-TREE report:                representativeselectionznf648.fa.iqtree
+  Maximum-likelihood tree:       representativeselectionznf648.fa.treefile
+  Likelihood distances:          representativeselectionznf648.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          representativeselectionznf648.fa.splits.nex
+  Consensus tree:                representativeselectionznf648.fa.contree
+  UFBoot trees:                  representativeselectionznf648.fa.ufboot
+  Screen log file:               representativeselectionznf648.fa.log
+
+Date and Time: Tue Aug 20 11:31:02 2019

@@ -1,0 +1,487 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s paralogali.fa -m LG+G+F -bb 1000 -bnni -wbtl
+Seed:    280796 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 16 09:35:19 2019
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file paralogali.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 251 sequences with 1404 columns, 1294 distinct patterns
+735 parsimony-informative, 324 singleton sites, 345 constant sites
+WARNING: Some sequence names are changed as follows:
+Rhinatrema_bivittatum_(Rhinatrema_bivittatum) -> Rhinatrema_bivittatum__Rhinatrema_bivittatum_
+Aptendodytes_forsteri_(Emperor_Penguin) -> Aptendodytes_forsteri__Emperor_Penguin_
+Aquila_chrysaetos_(Golden_Eagle) -> Aquila_chrysaetos__Golden_Eagle_
+Acanthochromis_polyacanthus_(Spiny_chromis) -> Acanthochromis_polyacanthus__Spiny_chromis_
+Amphilophus_citrinellus_(Midas_cichlid) -> Amphilophus_citrinellus__Midas_cichlid_
+Amphiprion_percula_(Orange_clownfish) -> Amphiprion_percula__Orange_clownfish_
+Anabas_testudineus_(Climbing_perch) -> Anabas_testudineus__Climbing_perch_
+Apteryx_owenii_(Little_spotted_kiwi) -> Apteryx_owenii__Little_spotted_kiwi_
+Apteryx_rowi_(Okarito_brown_kiwi) -> Apteryx_rowi__Okarito_brown_kiwi_
+Astyanax_mexicanus_(Mexican_tetra) -> Astyanax_mexicanus__Mexican_tetra_
+Bos_taurus_(Cow) -> Bos_taurus__Cow_
+Castor_canadensis_(American_beaver) -> Castor_canadensis__American_beaver_
+Crocodylus_porosus_(Australian_saltwater_crocodile) -> Crocodylus_porosus__Australian_saltwater_crocodile_
+Cynoglossus_semilaevis_(Tongue_sole) -> Cynoglossus_semilaevis__Tongue_sole_
+Cyprinodon_variegatus_(Sheepshead_minnow) -> Cyprinodon_variegatus__Sheepshead_minnow_
+Danio_rerio_(Zebrafish) -> Danio_rerio__Zebrafish_
+Electrophorus_electricus_(Electric_eel) -> Electrophorus_electricus__Electric_eel_
+Equus_caballus_(Horse) -> Equus_caballus__Horse_
+Fundulus_heteroclitus_(Mummichog) -> Fundulus_heteroclitus__Mummichog_
+Gambusia_affinis_(Western_mosquitofish) -> Gambusia_affinis__Western_mosquitofish_
+Gopherus_agassizii_(Agassiz's_desert_tortoise) -> Gopherus_agassizii__Agassiz_s_desert_tortoise_
+Haplochromis_burtoni_(Burton's_mouthbrooder) -> Haplochromis_burtoni__Burton_s_mouthbrooder_
+Homo_sapiens_(Human) -> Homo_sapiens__Human_
+Hucho_hucho_(Huchen) -> Hucho_hucho__Huchen_
+Kryptolebias_marmoratus_(Mangrove_rivulus) -> Kryptolebias_marmoratus__Mangrove_rivulus_
+Lates_calcarifer_(Barramundi_perch) -> Lates_calcarifer__Barramundi_perch_
+Latimeria_chalumnae_(Coelacanth) -> Latimeria_chalumnae__Coelacanth_
+Lepisosteus_oculatus_(Spotted_gar) -> Lepisosteus_oculatus__Spotted_gar_
+Marmota_marmota_marmota_(Alpine_marmot) -> Marmota_marmota_marmota__Alpine_marmot_
+Maylandia_zebra_(Zebra_mbuna) -> Maylandia_zebra__Zebra_mbuna_
+Monopterus_albus_(Swamp_eel) -> Monopterus_albus__Swamp_eel_
+Mus_Musculus_(Mouse) -> Mus_Musculus__Mouse_
+Mustela_putorius_furo_(Ferret) -> Mustela_putorius_furo__Ferret_
+Neolamprologus_brichardi_(Lyretail_cichlid) -> Neolamprologus_brichardi__Lyretail_cichlid_
+Nomascus_leucogenys_(Gibbon) -> Nomascus_leucogenys__Gibbon_
+Oreochromis_niloticus_(Tilapia) -> Oreochromis_niloticus__Tilapia_
+Oryzias_latipes_(Japanese_medaka) -> Oryzias_latipes__Japanese_medaka_
+Otolemur_garnettii_(Bushbaby) -> Otolemur_garnettii__Bushbaby_
+Panthera_tigris_altaica_(Tiger) -> Panthera_tigris_altaica__Tiger_
+Paramormyrops_kingsleyae_(Paramormyrops_kingsleyae) -> Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_
+Pelodiscus_sinensis_(Chinese_softshell_turtle) -> Pelodiscus_sinensis__Chinese_softshell_turtle_
+Periophthalmus_magnuspinnatus_(Periophthalmus_magnuspinnatus) -> Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_
+Piliocolobus_tephrosceles_(Ugandan_red_Colobus) -> Piliocolobus_tephrosceles__Ugandan_red_Colobus_
+Poecilia_reticulata_(Guppy) -> Poecilia_reticulata__Guppy_
+Pundamilia_nyererei_(Makobe_Island_cichlid) -> Pundamilia_nyererei__Makobe_Island_cichlid_
+Pygocentrus_nattereri_(Red-bellied_piranha) -> Pygocentrus_nattereri__Red-bellied_piranha_
+Scophthalmus_maximus_(Turbot) -> Scophthalmus_maximus__Turbot_
+Seriola_dumerili_(Greater_amberjack) -> Seriola_dumerili__Greater_amberjack_
+Stegastes_partitus_(Bicolor_damselfish) -> Stegastes_partitus__Bicolor_damselfish_
+Ursus_maritimus_(Polar_bear) -> Ursus_maritimus__Polar_bear_
+Vulpes_vulpes_(Red_fox) -> Vulpes_vulpes__Red_fox_
+
+                                                               Gap/Ambiguity  Composition  p-value
+   1  NP_002008.2                                                     67.81%    failed      4.76%
+   2  XP_011730230.1                                                  67.31%    failed      4.08%
+   3  XP_008019675.1                                                  66.10%    passed      6.12%
+   4  XP_002754624.1                                                  67.81%    passed      5.86%
+   5  XP_011730231.1                                                  67.88%    passed      8.24%
+   6  NP_001161153.1                                                  70.16%    failed      2.14%
+   7  XP_021526918.1                                                  67.81%    failed      3.58%
+   8  XP_003253438.1                                                  67.81%    failed      4.54%
+   9  XP_003253437.1                                                  67.81%    passed      5.53%
+  10  XP_011908759.1                                                  66.74%    passed     13.19%
+  11  XP_025213446.1                                                  67.81%    passed      5.76%
+  12  XP_005580201.1                                                  67.81%    failed      4.58%
+  13  XP_017379025.1                                                  67.81%    passed      5.13%
+  14  XP_009245523.2                                                  67.81%    passed      5.55%
+  15  XP_008019677.1                                                  70.16%    failed      2.66%
+  16  XP_003910991.1                                                  67.81%    passed      6.15%
+  17  XP_015291427.1                                                  70.16%    failed      1.88%
+  18  XP_014971577.1                                                  67.81%    passed      5.19%
+  19  XP_010614860.1                                                  67.31%    failed      3.18%
+  20  XP_011790047.1                                                  67.81%    passed      5.92%
+  21  XP_015354522.1                                                  67.81%    passed      5.06%
+  22  XP_010614858.1                                                  66.67%    failed      2.76%
+  23  XP_028689983.1                                                  70.16%    failed      2.09%
+  24  XP_010614862.1                                                  67.81%    failed      4.66%
+  25  XP_012627743.1                                                  66.31%    passed      6.64%
+  26  XP_021585811.1                                                  67.31%    failed      2.98%
+  27  XP_012627744.1                                                  67.81%    passed      7.21%
+  28  XP_010614861.1                                                  70.16%    failed      2.07%
+  29  XP_007945415.1                                                  67.81%    failed      4.18%
+  30  XP_004862666.1                                                  67.31%    failed      3.86%
+  31  XP_005330799.1                                                  67.81%    failed      4.61%
+  32  XP_004862665.1                                                  66.67%    failed      3.08%
+  33  XP_004438515.1                                                  67.81%    passed      5.77%
+  34  XP_012507124.1                                                  67.31%    failed      4.82%
+  35  XP_012507125.1                                                  67.81%    passed      6.06%
+  36  XP_004665535.1                                                  67.81%    failed      3.57%
+  37  XP_008072410.1                                                  67.81%    passed      5.69%
+  38  XP_019667105.1                                                  66.67%    failed      2.54%
+  39  XP_004862667.1                                                  67.81%    passed      5.91%
+  40  XP_019276940.1                                                  67.31%    failed      3.00%
+  41  XP_012627745.1                                                  70.16%    failed      3.41%
+  42  XP_012865212.1                                                  67.81%    passed      5.96%
+  43  XP_023421932.1                                                  67.31%    failed      4.31%
+  44  XP_011284787.1                                                  67.81%    failed      4.63%
+  45  XP_013011074.1                                                  68.16%    passed      6.41%
+  46  XP_008839586.1                                                  67.31%    failed      2.98%
+  47  XP_008839588.1                                                  67.81%    failed      4.61%
+  48  XP_026361199.1                                                  67.31%    failed      3.00%
+  49  XP_021098456.1                                                  70.16%    failed      2.81%
+  50  XP_023412825.1                                                  70.16%    failed      1.36%
+  51  XP_004379390.1                                                  67.81%    passed      5.25%
+  52  XP_020039665.1                                                  67.81%    passed     10.65%
+  53  XP_019515724.1                                                  67.88%    failed      4.06%
+  54  XP_024413076.1                                                  67.88%    passed      5.66%
+  55  XP_011219971.1                                                  67.31%    failed      4.24%
+  56  XP_001505150.1                                                  67.81%    passed      8.77%
+  57  XP_005378589.1                                                  67.81%    passed      6.22%
+  58  XP_019276939.1                                                  70.16%    failed      2.53%
+  59  XP_026361200.1                                                  67.81%    failed      4.63%
+  60  XP_015447542.1                                                  68.23%    passed      6.71%
+  61  XP_013011075.1                                                  70.16%    failed      3.10%
+  62  XP_006915251.1                                                  67.88%    passed      6.33%
+  63  XP_025784146.1                                                  70.16%    failed      2.94%
+  64  XP_002912740.1                                                  67.81%    passed      6.58%
+  65  XP_008839587.1                                                  70.16%    failed      2.53%
+  66  XP_019515725.1                                                  70.16%    failed      3.34%
+  67  XP_012421954.1                                                  66.67%    failed      3.69%
+  68  XP_024904912.1                                                  67.17%    passed      8.05%
+  69  XP_017534563.1                                                  67.81%    passed      5.43%
+  70  XP_015994633.1                                                  67.88%    passed      8.58%
+  71  XP_013366606.1                                                  70.16%    failed      3.11%
+  72  XP_015447543.1                                                  70.16%    failed      4.61%
+  73  XP_014596686.1                                                  70.16%    passed      5.81%
+  74  XP_022368547.1                                                  67.81%    failed      3.46%
+  75  XP_004412107.1                                                  67.81%    passed      6.37%
+  76  XP_005883061.1                                                  67.38%    failed      3.07%
+  77  XP_028002716.1                                                  67.38%    failed      3.64%
+  78  XP_004763954.1                                                  67.81%    passed      6.67%
+  79  XP_029812078.1                                                  67.81%    failed      4.74%
+  80  XP_008140772.1                                                  67.88%    passed      5.32%
+  81  XP_004593342.1                                                  67.81%    failed      4.02%
+  82  XP_017534568.1                                                  70.16%    failed      3.68%
+  83  XP_028734906.1                                                  67.81%    passed      9.50%
+  84  XP_027434960.1                                                  70.16%    failed      3.39%
+  85  XP_008686529.1                                                  67.31%    failed      1.45%
+  86  XP_006873142.1                                                  67.81%    failed      1.89%
+  87  XP_008564717.1                                                  67.81%    passed      8.61%
+  88  XP_007539540.2                                                  67.74%    failed      2.28%
+  89  XP_017198099.1                                                  67.31%    passed     12.60%
+  90  XP_017898810.1                                                  66.67%    failed      3.41%
+  91  XP_015426839.1                                                  70.16%    failed      3.36%
+  92  XP_028002717.1                                                  70.16%    failed      3.46%
+  93  XP_017898811.1                                                  66.95%    passed      8.31%
+  94  XP_021507261.1                                                  67.81%    passed      7.68%
+  95  XP_004714230.1                                                  67.88%    failed      3.63%
+  96  XP_017898812.1                                                  67.31%    failed      3.93%
+  97  XP_007639195.2                                                  67.81%    failed      4.98%
+  98  XP_008257555.1                                                  67.81%    passed     16.37%
+  99  XP_006901441.1                                                  67.81%    failed      2.07%
+ 100  XP_017898813.1                                                  67.81%    passed      6.49%
+ 101  XP_003814877.1                                                  74.22%    failed      0.00%
+ 102  XP_004060159.2                                                  74.22%    failed      0.00%
+ 103  XP_003275639.1                                                  74.22%    failed      0.00%
+ 104  XP_011525944.1                                                  76.92%    failed      0.00%
+ 105  XP_023044461.1                                                  74.22%    failed      0.04%
+ 106  XP_023044460.1                                                  72.36%    failed      0.01%
+ 107  XP_011949437.1                                                  74.22%    failed      0.00%
+ 108  XP_025224318.1                                                  74.22%    failed      0.00%
+ 109  XP_007993641.1                                                  74.22%    failed      0.00%
+ 110  XP_017353278.1                                                  74.22%    failed      0.06%
+ 111  XP_011712212.1                                                  74.22%    failed      0.00%
+ 112  XP_542040.3                                                     73.72%    failed      0.00%
+ 113  XP_019283090.1                                                  73.36%    failed      0.00%
+ 114  XP_025313497.1                                                  73.72%    failed      0.00%
+ 115  XP_008564878.1                                                  74.22%    failed      0.10%
+ 116  XP_025839402.1                                                  73.72%    failed      0.00%
+ 117  XP_030157364.1                                                  73.22%    failed      0.00%
+ 118  XP_008046232.1                                                  75.21%    failed      0.00%
+ 119  XP_026906352.1                                                  73.08%    failed      0.00%
+ 120  XP_012645893.1                                                  74.07%    failed      0.00%
+ 121  XP_004748394.1                                                  72.86%    failed      0.00%
+ 122  XP_021561125.1                                                  73.58%    failed      0.00%
+ 123  XP_029774831.1                                                  73.58%    failed      0.00%
+ 124  XP_006730613.1                                                  73.93%    failed      0.00%
+ 125  XP_007172019.1                                                  73.86%    failed      0.00%
+ 126  XP_020742791.1                                                  73.86%    failed      0.00%
+ 127  XP_007469155.1                                                  73.86%    failed      0.00%
+ 128  XP_029072595.1                                                  73.86%    failed      0.00%
+ 129  XP_024623122.1                                                  73.86%    failed      0.00%
+ 130  XP_027811155.1                                                  74.22%    failed      0.15%
+ 131  XP_007103667.1                                                  73.86%    failed      0.00%
+ 132  XP_004277507.1                                                  73.86%    failed      0.00%
+ 133  XP_017906742.1                                                  73.86%    failed      0.00%
+ 134  XP_026940703.1                                                  73.86%    failed      0.00%
+ 135  XP_014951289.2                                                  73.86%    failed      0.00%
+ 136  XP_006206300.1                                                  73.86%    failed      0.01%
+ 137  XP_002921053.3                                                  74.64%    failed      0.00%
+ 138  XP_020011500.1                                                  74.36%    failed      0.01%
+ 139  XP_029413208.1                                                  72.79%    failed      0.01%
+ 140  XP_002761831.1                                                  74.22%    failed      0.01%
+ 141  NP_001073828.1                                                  73.50%    failed      0.00%
+ 142  XP_015344592.1                                                  74.22%    failed      0.13%
+ 143  XP_019519680.1                                                  74.29%    failed      0.00%
+ 144  XP_006041625.1                                                  73.86%    failed      0.00%
+ 145  XP_005900592.1                                                  73.58%    failed      0.00%
+ 146  XP_010853766.1                                                  73.43%    failed      0.00%
+ 147  XP_004872457.1                                                  74.79%    failed      0.00%
+ 148  XP_007532491.1                                                  74.79%    failed      0.00%
+ 149  XP_021106017.1                                                  71.44%    failed      0.00%
+ 150  XP_006918800.1                                                  74.22%    failed      0.00%
+ 151  XP_017519985.1                                                  76.07%    failed      0.02%
+ 152  XP_004442601.1                                                  74.15%    failed      0.00%
+ 153  XP_006255316.1                                                  72.86%    failed      0.01%
+ 154  XP_006998424.1                                                  73.08%    failed      0.00%
+ 155  XP_004635610.1                                                  74.79%    failed      0.00%
+ 156  XP_006874322.1                                                  74.22%    failed      0.26%
+ 157  XP_028718074.1                                                  73.15%    failed      0.00%
+ 158  XP_006161059.1                                                  74.36%    failed      0.00%
+ 159  XP_004616662.1                                                  74.43%    failed      0.08%
+ 160  XP_005087375.1                                                  73.36%    failed      0.00%
+ 161  XP_006900855.1                                                  74.72%    failed      0.18%
+ 162  XP_005381094.1                                                  74.79%    failed      0.00%
+ 163  XP_015846723.1                                                  77.64%    failed      0.00%
+ 164  NP_034765.3                                                     74.50%    failed      0.03%
+ 165  XP_003501967.1                                                  73.36%    failed      0.00%
+ 166  XP_014717223.1                                                  74.36%    failed      0.00%
+ 167  XP_023501069.1                                                  74.36%    failed      0.00%
+ 168  XP_012889677.1                                                  74.29%    failed      0.00%
+ 169  XP_028611327.1                                                  73.22%    failed      0.00%
+ 170  XP_021487835.1                                                  73.22%    failed      0.00%
+ 171  XP_015422367.1                                                  74.36%    failed      0.00%
+ 172  XP_017195902.1                                                  72.86%    failed      0.00%
+ 173  XP_004595917.1                                                  75.14%    failed      0.00%
+ 174  XP_008710005.1                                                  86.89%    failed      3.56%
+ 175  XP_028909023.1                                                  75.36%    failed      0.65%
+ 176  XP_028909022.1                                                  72.01%    passed     16.07%
+ 177  XP_027707161.1                                                  73.15%    failed      0.46%
+ 178  XP_003760719.2                                                  74.29%    failed      0.00%
+ 179  XP_029441481.1                                                  71.01%    passed     10.75%
+ 180  XP_005315362.1                                                  81.05%    failed      0.00%
+ 181  XP_007898112.1                                                  68.23%    failed      0.02%
+ 182  XP_030051147.1                                                  70.58%    passed     19.11%
+ 183  XP_026877531.1                                                  70.16%    passed     12.86%
+ 184  XP_022603827.1                                                  67.88%    failed      1.58%
+ 185  XP_020509082.1                                                  67.66%    failed      0.07%
+ 186  XP_023282024.1                                                  67.95%    failed      0.98%
+ 187  XP_030015445.1                                                  68.66%    failed      1.51%
+ 188  XP_014794994.1                                                  72.79%    failed      0.00%
+ 189  XP_021141475.1                                                  81.55%    failed      0.51%
+ 190  XP_012681522.1                                                  70.80%    passed      7.12%
+ 191  XP_027748479.1                                                  74.43%    failed      0.00%
+ 192  XP_026563052.1                                                  79.70%    failed      4.83%
+ 193  XP_027603008.1                                                  70.51%    failed      0.00%
+ 194  XP_026563051.1                                                  70.51%    passed     34.55%
+ 195  XP_028589560.1                                                  70.37%    failed      0.37%
+ 196  XP_028589561.1                                                  70.44%    failed      0.54%
+ 197  XP_030050170.1                                                  67.31%    passed     13.90%
+ 198  XP_026646184.1                                                  86.61%    failed      0.23%
+ 199  XP_021261011.1                                                  70.80%    failed      0.00%
+ 200  XP_422416.3                                                     71.08%    failed      0.00%
+ 201  Rhinatrema_bivittatum__Rhinatrema_bivittatum_                   60.61%    failed      0.00%
+ 202  Aptendodytes_forsteri__Emperor_Penguin_                         67.52%    failed      0.00%
+ 203  Aquila_chrysaetos__Golden_Eagle_                                67.09%    failed      0.05%
+ 204  Acanthochromis_polyacanthus__Spiny_chromis_                     73.01%    failed      0.00%
+ 205  Amphilophus_citrinellus__Midas_cichlid_                         62.25%    failed      0.00%
+ 206  Amphiprion_percula__Orange_clownfish_                           83.19%    failed      0.00%
+ 207  Anabas_testudineus__Climbing_perch_                             74.50%    failed      0.00%
+ 208  Apteryx_owenii__Little_spotted_kiwi_                            78.99%    failed      0.00%
+ 209  Apteryx_rowi__Okarito_brown_kiwi_                               66.81%    failed      0.00%
+ 210  Astyanax_mexicanus__Mexican_tetra_                              86.40%    passed     49.34%
+ 211  Bos_taurus__Cow_                                                59.83%    failed      0.00%
+ 212  Castor_canadensis__American_beaver_                             60.68%    failed      0.01%
+ 213  Crocodylus_porosus__Australian_saltwater_crocodile_             58.76%    failed      0.01%
+ 214  Cynoglossus_semilaevis__Tongue_sole_                            83.12%    failed      0.00%
+ 215  Cyprinodon_variegatus__Sheepshead_minnow_                       72.15%    failed      0.00%
+ 216  Danio_rerio__Zebrafish_                                         65.74%    failed      0.00%
+ 217  Electrophorus_electricus__Electric_eel_                         84.12%    passed      6.50%
+ 218  Equus_caballus__Horse_                                          59.62%    failed      0.00%
+ 219  Fundulus_heteroclitus__Mummichog_                               65.46%    failed      0.00%
+ 220  Gambusia_affinis__Western_mosquitofish_                         68.66%    failed      0.00%
+ 221  Gopherus_agassizii__Agassiz_s_desert_tortoise_                  58.26%    failed      0.01%
+ 222  Haplochromis_burtoni__Burton_s_mouthbrooder_                    80.70%    failed      0.00%
+ 223  Homo_sapiens__Human_                                            59.54%    failed      0.18%
+ 224  Hucho_hucho__Huchen_                                            59.97%    failed      0.00%
+ 225  Kryptolebias_marmoratus__Mangrove_rivulus_                      65.17%    failed      0.00%
+ 226  Lates_calcarifer__Barramundi_perch_                             67.02%    failed      0.00%
+ 227  Latimeria_chalumnae__Coelacanth_                                55.84%    failed      0.00%
+ 228  Lepisosteus_oculatus__Spotted_gar_                              72.86%    failed      0.00%
+ 229  Marmota_marmota_marmota__Alpine_marmot_                         60.04%    failed      0.10%
+ 230  Maylandia_zebra__Zebra_mbuna_                                   65.24%    failed      0.00%
+ 231  Monopterus_albus__Swamp_eel_                                    70.30%    failed      0.00%
+ 232  Mus_Musculus__Mouse_                                            62.61%    failed      0.00%
+ 233  Mustela_putorius_furo__Ferret_                                  59.47%    failed      0.03%
+ 234  Neolamprologus_brichardi__Lyretail_cichlid_                     80.56%    failed      0.00%
+ 235  Nomascus_leucogenys__Gibbon_                                    59.54%    failed      0.22%
+ 236  Oreochromis_niloticus__Tilapia_                                 84.47%    failed      0.00%
+ 237  Oryzias_latipes__Japanese_medaka_                               64.81%    failed      0.00%
+ 238  Otolemur_garnettii__Bushbaby_                                   60.54%    failed      0.01%
+ 239  Panthera_tigris_altaica__Tiger_                                 59.47%    failed      0.01%
+ 240  Paramormyrops_kingsleyae__Paramormyrops_kingsleyae_             72.65%    failed      0.03%
+ 241  Pelodiscus_sinensis__Chinese_softshell_turtle_                  64.60%    failed      0.00%
+ 242  Periophthalmus_magnuspinnatus__Periophthalmus_magnuspinnatus_   68.59%    failed      0.00%
+ 243  Piliocolobus_tephrosceles__Ugandan_red_Colobus_                 59.76%    failed      0.23%
+ 244  Poecilia_reticulata__Guppy_                                     62.68%    failed      0.00%
+ 245  Pundamilia_nyererei__Makobe_Island_cichlid_                     65.24%    failed      0.00%
+ 246  Pygocentrus_nattereri__Red-bellied_piranha_                     81.05%    passed     20.66%
+ 247  Scophthalmus_maximus__Turbot_                                   64.10%    failed      0.00%
+ 248  Seriola_dumerili__Greater_amberjack_                            60.19%    failed      0.00%
+ 249  Stegastes_partitus__Bicolor_damselfish_                         65.24%    failed      0.00%
+ 250  Ursus_maritimus__Polar_bear_                                    59.54%    failed      0.00%
+ 251  Vulpes_vulpes__Red_fox_                                         59.47%    failed      0.04%
+WARNING: 251 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                           70.17%  199 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.211 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 280796)...
+
+NOTE: 209 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -53345.622
+2. Current log-likelihood: -51068.171
+3. Current log-likelihood: -51036.946
+4. Current log-likelihood: -51032.605
+5. Current log-likelihood: -51028.095
+6. Current log-likelihood: -51021.904
+7. Current log-likelihood: -51017.661
+8. Current log-likelihood: -51015.899
+9. Current log-likelihood: -51015.346
+Optimal log-likelihood: -51015.215
+Gamma shape alpha: 0.923
+Parameters optimization took 9 rounds (23.364 sec)
+Computing ML distances based on estimated model parameters... 15.193 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.028 seconds
+Log-likelihood of BIONJ tree: -54374.205
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 12.135 second
+Computing log-likelihood of 98 initial trees ... 88.507 seconds
+Current best score: -51015.215
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -50959.922
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -50921.575
+Iteration 10 / LogL: -50936.596 / Time: 0h:9m:5s
+Iteration 20 / LogL: -50955.545 / Time: 0h:14m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -50921.575 / CPU time: 822.081
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -50917.829
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -50916.509
+Iteration 30 / LogL: -50923.476 / Time: 0h:17m:26s (0h:58m:55s left)
+Iteration 40 / LogL: -50924.660 / Time: 0h:20m:37s (0h:46m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -50914.508
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -50913.717
+Iteration 50 / LogL: -50927.316 / Time: 0h:23m:40s (0h:46m:22s left)
+Iteration 60 / LogL: -50925.175 / Time: 0h:26m:44s (0h:38m:58s left)
+Iteration 70 / LogL: -50917.650 / Time: 0h:29m:49s (0h:32m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -50913.414
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -50913.195
+Iteration 80 / LogL: -50915.688 / Time: 0h:33m:7s (0h:40m:40s left)
+Iteration 90 / LogL: -50919.524 / Time: 0h:37m:1s (0h:36m:11s left)
+Iteration 100 / LogL: -50914.666 / Time: 0h:41m:13s (0h:32m:3s left)
+BETTER TREE FOUND at iteration 102: -50913.195
+Iteration 110 / LogL: -50915.807 / Time: 0h:45m:20s (0h:38m:16s left)
+Iteration 120 / LogL: -50915.435 / Time: 0h:49m:11s (0h:33m:53s left)
+Iteration 130 / LogL: -50916.054 / Time: 0h:53m:0s (0h:29m:35s left)
+Iteration 140 / LogL: -50933.366 / Time: 0h:56m:26s (0h:25m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -50913.059
+Iteration 150 / LogL: -50972.182 / Time: 0h:59m:34s (0h:37m:10s left)
+Iteration 160 / LogL: -50914.233 / Time: 1h:2m:58s (0h:32m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 167: -50912.743
+Iteration 170 / LogL: -50913.059 / Time: 1h:6m:0s (0h:37m:52s left)
+Iteration 180 / LogL: -50923.054 / Time: 1h:8m:59s (0h:33m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 187: -50912.475
+Iteration 190 / LogL: -50932.505 / Time: 1h:12m:13s (0h:37m:3s left)
+Iteration 200 / LogL: -50924.048 / Time: 1h:15m:14s (0h:32m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 205: -50911.853
+Iteration 210 / LogL: -50922.726 / Time: 1h:18m:11s (0h:35m:32s left)
+Iteration 220 / LogL: -50913.423 / Time: 1h:22m:20s (0h:31m:57s left)
+Iteration 230 / LogL: -50915.309 / Time: 1h:25m:44s (0h:28m:4s left)
+Iteration 240 / LogL: -50930.401 / Time: 1h:28m:57s (0h:24m:11s left)
+Iteration 250 / LogL: -50916.656 / Time: 1h:32m:17s (0h:20m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 256: -50911.772
+Iteration 260 / LogL: -50937.616 / Time: 1h:35m:58s (0h:35m:34s left)
+Iteration 270 / LogL: -50922.665 / Time: 1h:39m:34s (0h:31m:50s left)
+Iteration 280 / LogL: -50957.478 / Time: 1h:42m:53s (0h:28m:1s left)
+Iteration 290 / LogL: -50913.861 / Time: 1h:46m:4s (0h:24m:13s left)
+Iteration 300 / LogL: -50914.347 / Time: 1h:49m:32s (0h:20m:30s left)
+Iteration 310 / LogL: -50938.155 / Time: 1h:54m:20s (0h:17m:1s left)
+Iteration 320 / LogL: -50916.323 / Time: 1h:58m:2s (0h:13m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 325: -50911.508
+Iteration 330 / LogL: -50918.852 / Time: 2h:1m:12s (0h:34m:59s left)
+Iteration 340 / LogL: -50923.679 / Time: 2h:4m:27s (0h:31m:12s left)
+Iteration 350 / LogL: -50938.860 / Time: 2h:7m:26s (0h:27m:23s left)
+Iteration 360 / LogL: -50920.227 / Time: 2h:10m:41s (0h:23m:39s left)
+Iteration 370 / LogL: -50934.240 / Time: 2h:14m:12s (0h:20m:0s left)
+Iteration 380 / LogL: -50957.923 / Time: 2h:17m:46s (0h:16m:21s left)
+Iteration 390 / LogL: -50926.821 / Time: 2h:20m:58s (0h:12m:41s left)
+Iteration 400 / LogL: -50953.482 / Time: 2h:24m:13s (0h:9m:2s left)
+Iteration 410 / LogL: -50922.466 / Time: 2h:27m:37s (0h:5m:24s left)
+Iteration 420 / LogL: -50911.511 / Time: 2h:31m:14s (0h:1m:48s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 426 ITERATIONS / Time: 3h:52m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -50911.508
+Optimal log-likelihood: -50911.507
+Gamma shape alpha: 0.911
+Parameters optimization took 1 rounds (1.383 sec)
+BEST SCORE FOUND : -50911.507
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file paralogali.fa.splits.nex
+Total tree length: 51.482
+
+Total number of iterations: 426
+CPU time used for tree search: 13857.805 sec (3h:50m:57s)
+Wall-clock time used for tree search: 13905.143 sec (3h:51m:45s)
+Total CPU time used: 13904.630 sec (3h:51m:44s)
+Total wall-clock time used: 13952.136 sec (3h:52m:32s)
+UFBoot trees printed to paralogali.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file paralogali.fa.splits.nex...
+251 taxa and 9295 splits.
+Consensus tree written to paralogali.fa.contree
+Reading input trees file paralogali.fa.contree
+Log-likelihood of consensus tree: -50913.063
+
+Analysis results written to: 
+  IQ-TREE report:                paralogali.fa.iqtree
+  Maximum-likelihood tree:       paralogali.fa.treefile
+  Likelihood distances:          paralogali.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          paralogali.fa.splits.nex
+  Consensus tree:                paralogali.fa.contree
+  UFBoot trees:                  paralogali.fa.ufboot
+  Screen log file:               paralogali.fa.log
+
+Date and Time: Fri Aug 16 13:28:02 2019

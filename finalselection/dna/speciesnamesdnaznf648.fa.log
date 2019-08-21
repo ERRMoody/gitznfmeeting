@@ -1,0 +1,274 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s speciesnamesdnaznf648.fa -m GTR+G+F -bnni -bb 1000 -wbtl
+Seed:    172808 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 20 14:45:38 2019
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file speciesnamesdnaznf648.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 72 sequences with 13664 columns, 3254 distinct patterns
+2452 parsimony-informative, 1669 singleton sites, 9543 constant sites
+WARNING: Some sequence names are changed as follows:
+Homo_sapiens__PREDICTED:_Homo_sapiens_zinc_finger_protein_648_(ZNF648),_transcript_variant_X3,_mRNA -> Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA
+Homo_sapiens__PREDICTED:_Homo_sapiens_zinc_finger_protein_648_(ZNF648),_transcript_variant_X2,_mRNA -> Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA
+Homo_sapiens__Homo_sapiens_zinc_finger_protein_648,_mRNA_(cDNA_clone_MGC:168844_IMAGE:9021221),_complete_cds -> Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__mRNA__cDNA_clone_MGC_168844_IMAGE_9021221___complete_cds
+Homo_sapiens__Homo_sapiens_zinc_finger_protein_648,_mRNA_(cDNA_clone_MGC:168843_IMAGE:9021220),_complete_cds -> Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__mRNA__cDNA_clone_MGC_168843_IMAGE_9021220___complete_cds
+Homo_sapiens__Homo_sapiens_zinc_finger_protein_648_(ZNF648),_mRNA -> Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__ZNF648___mRNA
+Homo_sapiens__Homo_sapiens_cDNA_FLJ46813_fis,_clone_TRACH3036750,_weakly__similar_to_Zinc_finger_protein_135 -> Homo_sapiens__Homo_sapiens_cDNA_FLJ46813_fis__clone_TRACH3036750__weakly__similar_to_Zinc_finger_protein_135
+Gorilla_gorilla_gorilla__PREDICTED:_Gorilla_gorilla_gorilla_zinc_finger_protein_648_(ZNF648),_mRNA -> Gorilla_gorilla_gorilla__PREDICTED__Gorilla_gorilla_gorilla_zinc_finger_protein_648__ZNF648___mRNA
+Pan_paniscus__PREDICTED:_Pan_paniscus_zinc_finger_protein_648_(ZNF648),_mRNA -> Pan_paniscus__PREDICTED__Pan_paniscus_zinc_finger_protein_648__ZNF648___mRNA
+Pan_troglodytes__PREDICTED:_Pan_troglodytes_zinc_finger_protein_648_(ZNF648),_mRNA -> Pan_troglodytes__PREDICTED__Pan_troglodytes_zinc_finger_protein_648__ZNF648___mRNA
+Pongo_abelii__PREDICTED:_Pongo_abelii_zinc_finger_protein_648_(ZNF648),_mRNA -> Pongo_abelii__PREDICTED__Pongo_abelii_zinc_finger_protein_648__ZNF648___mRNA
+Nomascus_leucogenys__PREDICTED:_Nomascus_leucogenys_zinc_finger_protein_648_(ZNF648),_mRNA -> Nomascus_leucogenys__PREDICTED__Nomascus_leucogenys_zinc_finger_protein_648__ZNF648___mRNA
+Chlorocebus_sabaeus__PREDICTED:_Chlorocebus_sabaeus_zinc_finger_protein_648_(ZNF648),_mRNA -> Chlorocebus_sabaeus__PREDICTED__Chlorocebus_sabaeus_zinc_finger_protein_648__ZNF648___mRNA
+Papio_anubis__PREDICTED:_Papio_anubis_zinc_finger_protein_648_(ZNF648),_mRNA -> Papio_anubis__PREDICTED__Papio_anubis_zinc_finger_protein_648__ZNF648___mRNA
+Theropithecus_gelada__PREDICTED:_Theropithecus_gelada_zinc_finger_protein_648_(ZNF648),_mRNA -> Theropithecus_gelada__PREDICTED__Theropithecus_gelada_zinc_finger_protein_648__ZNF648___mRNA
+Macaca_nemestrina__PREDICTED:_Macaca_nemestrina_zinc_finger_protein_648_(ZNF648),_transcript_variant_X3,_mRNA -> Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA
+Macaca_nemestrina__PREDICTED:_Macaca_nemestrina_zinc_finger_protein_648_(ZNF648),_transcript_variant_X2,_mRNA -> Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA
+Macaca_nemestrina__PREDICTED:_Macaca_nemestrina_zinc_finger_protein_648_(ZNF648),_transcript_variant_X1,_mRNA -> Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA
+Piliocolobus_tephrosceles__PREDICTED:_Piliocolobus_tephrosceles_zinc_finger_protein_648_(ZNF648),_mRNA -> Piliocolobus_tephrosceles__PREDICTED__Piliocolobus_tephrosceles_zinc_finger_protein_648__ZNF648___mRNA
+Macaca_fascicularis__PREDICTED:_Macaca_fascicularis_zinc_finger_protein_648_(ZNF648),_mRNA -> Macaca_fascicularis__PREDICTED__Macaca_fascicularis_zinc_finger_protein_648__ZNF648___mRNA
+Rhinopithecus_bieti__PREDICTED:_Rhinopithecus_bieti_zinc_finger_protein_648_(ZNF648),_mRNA -> Rhinopithecus_bieti__PREDICTED__Rhinopithecus_bieti_zinc_finger_protein_648__ZNF648___mRNA
+Rhinopithecus_roxellana__PREDICTED:_Rhinopithecus_roxellana_zinc_finger_protein_648_(ZNF648),_mRNA -> Rhinopithecus_roxellana__PREDICTED__Rhinopithecus_roxellana_zinc_finger_protein_648__ZNF648___mRNA
+Cercocebus_atys__PREDICTED:_Cercocebus_atys_zinc_finger_protein_648_(ZNF648),_transcript_variant_X4,_mRNA -> Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA
+Cercocebus_atys__PREDICTED:_Cercocebus_atys_zinc_finger_protein_648_(ZNF648),_transcript_variant_X3,_mRNA -> Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA
+Cercocebus_atys__PREDICTED:_Cercocebus_atys_zinc_finger_protein_648_(ZNF648),_transcript_variant_X2,_mRNA -> Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA
+Cercocebus_atys__PREDICTED:_Cercocebus_atys_zinc_finger_protein_648_(ZNF648),_transcript_variant_X1,_mRNA -> Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA
+Macaca_mulatta__PREDICTED:_Macaca_mulatta_zinc_finger_protein_648_(ZNF648),_mRNA -> Macaca_mulatta__PREDICTED__Macaca_mulatta_zinc_finger_protein_648__ZNF648___mRNA
+Colobus_angolensis_palliatus__PREDICTED:_Colobus_angolensis_palliatus_zinc_finger_protein_648_(ZNF648),_mRNA -> Colobus_angolensis_palliatus__PREDICTED__Colobus_angolensis_palliatus_zinc_finger_protein_648__ZNF648___mRNA
+Mandrillus_leucophaeus__PREDICTED:_Mandrillus_leucophaeus_zinc_finger_protein_648_(ZNF648),_mRNA -> Mandrillus_leucophaeus__PREDICTED__Mandrillus_leucophaeus_zinc_finger_protein_648__ZNF648___mRNA
+Callithrix_jacchus__PREDICTED:_Callithrix_jacchus_zinc_finger_protein_648_(ZNF648),_mRNA -> Callithrix_jacchus__PREDICTED__Callithrix_jacchus_zinc_finger_protein_648__ZNF648___mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X6,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X6__mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X8,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X8__mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X7,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X7__mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X5,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X5__mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X4,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X3,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X2,_misc_RNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X2__misc_RNA
+Aotus_nancymaae__PREDICTED:_Aotus_nancymaae_zinc_finger_protein_648_(ZNF648),_transcript_variant_X1,_mRNA -> Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA
+Cebus_capucinus_imitator__PREDICTED:_Cebus_capucinus_imitator_zinc_finger_protein_648_(ZNF648),_mRNA -> Cebus_capucinus_imitator__PREDICTED__Cebus_capucinus_imitator_zinc_finger_protein_648__ZNF648___mRNA
+Propithecus_coquereli__PREDICTED:_Propithecus_coquereli_zinc_finger_protein_648_(ZNF648),_mRNA -> Propithecus_coquereli__PREDICTED__Propithecus_coquereli_zinc_finger_protein_648__ZNF648___mRNA
+Galeopterus_variegatus__PREDICTED:_Galeopterus_variegatus_zinc_finger_protein_648_(ZNF648),_mRNA -> Galeopterus_variegatus__PREDICTED__Galeopterus_variegatus_zinc_finger_protein_648__ZNF648___mRNA
+Odobenus_rosmarus_divergens__PREDICTED:_Odobenus_rosmarus_divergens_zinc_finger_protein_648_(ZNF648),_mRNA -> Odobenus_rosmarus_divergens__PREDICTED__Odobenus_rosmarus_divergens_zinc_finger_protein_648__ZNF648___mRNA
+Eumetopias_jubatus__PREDICTED:_Eumetopias_jubatus_zinc_finger_protein_648_(ZNF648),_mRNA -> Eumetopias_jubatus__PREDICTED__Eumetopias_jubatus_zinc_finger_protein_648__ZNF648___mRNA
+Callorhinus_ursinus__PREDICTED:_Callorhinus_ursinus_zinc_finger_protein_648_(ZNF648),_mRNA -> Callorhinus_ursinus__PREDICTED__Callorhinus_ursinus_zinc_finger_protein_648__ZNF648___mRNA
+Ursus_arctos_horribilis__PREDICTED:_Ursus_arctos_horribilis_zinc_finger_protein_648_(ZNF648),_mRNA -> Ursus_arctos_horribilis__PREDICTED__Ursus_arctos_horribilis_zinc_finger_protein_648__ZNF648___mRNA
+Zalophus_californianus__PREDICTED:_Zalophus_californianus_zinc_finger_protein_648_(ZNF648),_mRNA -> Zalophus_californianus__PREDICTED__Zalophus_californianus_zinc_finger_protein_648__ZNF648___mRNA
+Ursus_maritimus__PREDICTED:_Ursus_maritimus_zinc_finger_protein_648_(ZNF648),_mRNA -> Ursus_maritimus__PREDICTED__Ursus_maritimus_zinc_finger_protein_648__ZNF648___mRNA
+Microcebus_murinus__PREDICTED:_Microcebus_murinus_zinc_finger_protein_648_(ZNF648),_transcript_variant_X1,_mRNA -> Microcebus_murinus__PREDICTED__Microcebus_murinus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA
+Microcebus_murinus__PREDICTED:_Microcebus_murinus_zinc_finger_protein_648_(ZNF648),_transcript_variant_X2,_mRNA -> Microcebus_murinus__PREDICTED__Microcebus_murinus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA
+Ceratotherium_simum_simum__PREDICTED:_Ceratotherium_simum_simum_zinc_finger_protein_648_(LOC101406016),_mRNA -> Ceratotherium_simum_simum__PREDICTED__Ceratotherium_simum_simum_zinc_finger_protein_648__LOC101406016___mRNA
+Leptonychotes_weddellii__PREDICTED:_Leptonychotes_weddellii_zinc_finger_protein_648_(ZNF648),_mRNA -> Leptonychotes_weddellii__PREDICTED__Leptonychotes_weddellii_zinc_finger_protein_648__ZNF648___mRNA
+Neomonachus_schauinslandi__PREDICTED:_Neomonachus_schauinslandi_zinc_finger_protein_648_(ZNF648),_mRNA -> Neomonachus_schauinslandi__PREDICTED__Neomonachus_schauinslandi_zinc_finger_protein_648__ZNF648___mRNA
+Ailuropoda_melanoleuca__PREDICTED:_Ailuropoda_melanoleuca_zinc_finger_protein_648_(ZNF648),_mRNA -> Ailuropoda_melanoleuca__PREDICTED__Ailuropoda_melanoleuca_zinc_finger_protein_648__ZNF648___mRNA
+Marmota_marmota_marmota__PREDICTED:_Marmota_marmota_marmota_zinc_finger_protein_648_(Znf648),_mRNA -> Marmota_marmota_marmota__PREDICTED__Marmota_marmota_marmota_zinc_finger_protein_648__Znf648___mRNA
+Marmota_flaviventris__PREDICTED:_Marmota_flaviventris_zinc_finger_protein_648_(Znf648),_mRNA -> Marmota_flaviventris__PREDICTED__Marmota_flaviventris_zinc_finger_protein_648__Znf648___mRNA
+Urocitellus_parryii__PREDICTED:_Urocitellus_parryii_zinc_finger_protein_648_(Znf648),_mRNA -> Urocitellus_parryii__PREDICTED__Urocitellus_parryii_zinc_finger_protein_648__Znf648___mRNA
+Equus_asinus__PREDICTED:_Equus_asinus_zinc_finger_protein_648_(ZNF648),_mRNA -> Equus_asinus__PREDICTED__Equus_asinus_zinc_finger_protein_648__ZNF648___mRNA
+Ictidomys_tridecemlineatus__PREDICTED:_Ictidomys_tridecemlineatus_zinc_finger_protein_648_(Znf648),_transcript_variant_X2,_mRNA -> Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X2__mRNA
+Ictidomys_tridecemlineatus__PREDICTED:_Ictidomys_tridecemlineatus_zinc_finger_protein_648_(Znf648),_transcript_variant_X3,_mRNA -> Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X3__mRNA
+Ictidomys_tridecemlineatus__PREDICTED:_Ictidomys_tridecemlineatus_zinc_finger_protein_648_(Znf648),_transcript_variant_X1,_mRNA -> Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X1__mRNA
+Equus_caballus__Equus_caballus_zinc_finger_protein_648_(ZNF648),_mRNA -> Equus_caballus__Equus_caballus_zinc_finger_protein_648__ZNF648___mRNA
+Equus_caballus__PREDICTED:_Equus_caballus_zinc_finger_protein_648_(ZNF648),_transcript_variant_X1,_mRNA -> Equus_caballus__PREDICTED__Equus_caballus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA
+Equus_przewalskii__PREDICTED:_Equus_przewalskii_zinc_finger_protein_648_(ZNF648),_mRNA -> Equus_przewalskii__PREDICTED__Equus_przewalskii_zinc_finger_protein_648__ZNF648___mRNA
+Mustela_putorius_furo__PREDICTED:_Mustela_putorius_furo_zinc_finger_protein_648_(ZNF648),_mRNA -> Mustela_putorius_furo__PREDICTED__Mustela_putorius_furo_zinc_finger_protein_648__ZNF648___mRNA
+Enhydra_lutris_kenyoni__PREDICTED:_Enhydra_lutris_kenyoni_zinc_finger_protein_648_(LOC111150654),_mRNA -> Enhydra_lutris_kenyoni__PREDICTED__Enhydra_lutris_kenyoni_zinc_finger_protein_648__LOC111150654___mRNA
+Otolemur_garnettii__PREDICTED:_Otolemur_garnettii_zinc_finger_protein_648_(ZNF648),_mRNA -> Otolemur_garnettii__PREDICTED__Otolemur_garnettii_zinc_finger_protein_648__ZNF648___mRNA
+Suricata_suricatta__PREDICTED:_Suricata_suricatta_zinc_finger_protein_648_(ZNF648),_mRNA -> Suricata_suricatta__PREDICTED__Suricata_suricatta_zinc_finger_protein_648__ZNF648___mRNA
+Carlito_syrichta__PREDICTED:_Carlito_syrichta_zinc_finger_protein_648_(ZNF648),_mRNA -> Carlito_syrichta__PREDICTED__Carlito_syrichta_zinc_finger_protein_648__ZNF648___mRNA
+Camelus_ferus__PREDICTED:_Camelus_ferus_zinc_finger_protein_648_(ZNF648),_mRNA -> Camelus_ferus__PREDICTED__Camelus_ferus_zinc_finger_protein_648__ZNF648___mRNA
+Canis_lupus_dingo__PREDICTED:_Canis_lupus_dingo_zinc_finger_protein_648_(ZNF648),_mRNA -> Canis_lupus_dingo__PREDICTED__Canis_lupus_dingo_zinc_finger_protein_648__ZNF648___mRNA
+Canis_lupus_familiaris__PREDICTED:_Canis_lupus_familiaris_zinc_finger_protein_648_(ZNF648),_mRNA -> Canis_lupus_familiaris__PREDICTED__Canis_lupus_familiaris_zinc_finger_protein_648__ZNF648___mRNA
+Camelus_bactrianus__PREDICTED:_Camelus_bactrianus_zinc_finger_protein_648_(ZNF648),_mRNA -> Camelus_bactrianus__PREDICTED__Camelus_bactrianus_zinc_finger_protein_648__ZNF648___mRNA
+Vicugna_pacos__PREDICTED:_Vicugna_pacos_zinc_finger_protein_648_(ZNF648),_mRNA -> Vicugna_pacos__PREDICTED__Vicugna_pacos_zinc_finger_protein_648__ZNF648___mRNA
+
+                                                                                                                                 Gap/Ambiguity  Composition  p-value
+   1  Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA                               63.68%    failed      0.00%
+   2  Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA                               47.95%    failed      0.00%
+   3  Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__mRNA__cDNA_clone_MGC_168844_IMAGE_9021221___complete_cds                      74.85%    passed     52.87%
+   4  Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__mRNA__cDNA_clone_MGC_168843_IMAGE_9021220___complete_cds                      74.81%    passed     54.47%
+   5  Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__ZNF648___mRNA                                                                 73.29%    passed     17.85%
+   6  Homo_sapiens__Homo_sapiens_cDNA_FLJ46813_fis__clone_TRACH3036750__weakly__similar_to_Zinc_finger_protein_135                      73.31%    passed     17.77%
+   7  Gorilla_gorilla_gorilla__PREDICTED__Gorilla_gorilla_gorilla_zinc_finger_protein_648__ZNF648___mRNA                                73.36%    passed     17.01%
+   8  Pan_paniscus__PREDICTED__Pan_paniscus_zinc_finger_protein_648__ZNF648___mRNA                                                      73.35%    passed     16.30%
+   9  Pan_troglodytes__PREDICTED__Pan_troglodytes_zinc_finger_protein_648__ZNF648___mRNA                                                69.18%    passed     10.06%
+  10  Pongo_abelii__PREDICTED__Pongo_abelii_zinc_finger_protein_648__ZNF648___mRNA                                                      73.33%    passed     11.58%
+  11  Nomascus_leucogenys__PREDICTED__Nomascus_leucogenys_zinc_finger_protein_648__ZNF648___mRNA                                        73.31%    passed     11.86%
+  12  Chlorocebus_sabaeus__PREDICTED__Chlorocebus_sabaeus_zinc_finger_protein_648__ZNF648___mRNA                                        72.94%    passed     62.82%
+  13  Papio_anubis__PREDICTED__Papio_anubis_zinc_finger_protein_648__ZNF648___mRNA                                                      68.46%    failed      0.43%
+  14  Theropithecus_gelada__PREDICTED__Theropithecus_gelada_zinc_finger_protein_648__ZNF648___mRNA                                      73.38%    passed      5.86%
+  15  Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA                     74.22%    failed      3.88%
+  16  Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA                     74.16%    failed      4.33%
+  17  Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA                     67.49%    failed      0.39%
+  18  Piliocolobus_tephrosceles__PREDICTED__Piliocolobus_tephrosceles_zinc_finger_protein_648__ZNF648___mRNA                            73.33%    passed     14.85%
+  19  Macaca_fascicularis__PREDICTED__Macaca_fascicularis_zinc_finger_protein_648__ZNF648___mRNA                                        66.17%    failed      0.02%
+  20  Rhinopithecus_bieti__PREDICTED__Rhinopithecus_bieti_zinc_finger_protein_648__ZNF648___mRNA                                        73.24%    failed      2.11%
+  21  Rhinopithecus_roxellana__PREDICTED__Rhinopithecus_roxellana_zinc_finger_protein_648__ZNF648___mRNA                                73.26%    failed      3.12%
+  22  Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA                         73.25%    failed      1.04%
+  23  Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA                         70.50%    failed      0.32%
+  24  Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA                         72.83%    failed      1.82%
+  25  Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA                         70.82%    passed      8.71%
+  26  Macaca_mulatta__PREDICTED__Macaca_mulatta_zinc_finger_protein_648__ZNF648___mRNA                                                  68.81%    failed      0.40%
+  27  Colobus_angolensis_palliatus__PREDICTED__Colobus_angolensis_palliatus_zinc_finger_protein_648__ZNF648___mRNA                      73.32%    passed      7.32%
+  28  Mandrillus_leucophaeus__PREDICTED__Mandrillus_leucophaeus_zinc_finger_protein_648__ZNF648___mRNA                                  73.37%    passed      7.71%
+  29  Callithrix_jacchus__PREDICTED__Callithrix_jacchus_zinc_finger_protein_648__ZNF648___mRNA                                          75.43%    passed      7.41%
+  30  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X6__mRNA                         75.76%    passed     21.52%
+  31  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X8__mRNA                         77.83%    failed      0.63%
+  32  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X7__mRNA                         66.70%    passed     76.80%
+  33  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X5__mRNA                         83.18%    failed      0.01%
+  34  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA                         82.92%    failed      0.00%
+  35  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA                         82.32%    failed      0.00%
+  36  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X2__misc_RNA                     81.78%    failed      0.00%
+  37  Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA                         82.05%    failed      0.03%
+  38  Cebus_capucinus_imitator__PREDICTED__Cebus_capucinus_imitator_zinc_finger_protein_648__ZNF648___mRNA                              76.42%    failed      0.84%
+  39  Propithecus_coquereli__PREDICTED__Propithecus_coquereli_zinc_finger_protein_648__ZNF648___mRNA                                    87.75%    failed      0.00%
+  40  Galeopterus_variegatus__PREDICTED__Galeopterus_variegatus_zinc_finger_protein_648__ZNF648___mRNA                                  87.55%    failed      0.00%
+  41  Odobenus_rosmarus_divergens__PREDICTED__Odobenus_rosmarus_divergens_zinc_finger_protein_648__ZNF648___mRNA                        87.49%    failed      0.00%
+  42  Eumetopias_jubatus__PREDICTED__Eumetopias_jubatus_zinc_finger_protein_648__ZNF648___mRNA                                          87.49%    failed      0.00%
+  43  Callorhinus_ursinus__PREDICTED__Callorhinus_ursinus_zinc_finger_protein_648__ZNF648___mRNA                                        87.49%    failed      0.00%
+  44  Ursus_arctos_horribilis__PREDICTED__Ursus_arctos_horribilis_zinc_finger_protein_648__ZNF648___mRNA                                76.86%    failed      0.04%
+  45  Zalophus_californianus__PREDICTED__Zalophus_californianus_zinc_finger_protein_648__ZNF648___mRNA                                  87.49%    failed      0.00%
+  46  Ursus_maritimus__PREDICTED__Ursus_maritimus_zinc_finger_protein_648__ZNF648___mRNA                                                85.49%    failed      0.00%
+  47  Microcebus_murinus__PREDICTED__Microcebus_murinus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA                   78.94%    failed      0.00%
+  48  Microcebus_murinus__PREDICTED__Microcebus_murinus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA                   80.30%    failed      0.00%
+  49  Ceratotherium_simum_simum__PREDICTED__Ceratotherium_simum_simum_zinc_finger_protein_648__LOC101406016___mRNA                      87.15%    failed      0.00%
+  50  Leptonychotes_weddellii__PREDICTED__Leptonychotes_weddellii_zinc_finger_protein_648__ZNF648___mRNA                                87.49%    failed      0.00%
+  51  Neomonachus_schauinslandi__PREDICTED__Neomonachus_schauinslandi_zinc_finger_protein_648__ZNF648___mRNA                            87.51%    failed      0.00%
+  52  Ailuropoda_melanoleuca__PREDICTED__Ailuropoda_melanoleuca_zinc_finger_protein_648__ZNF648___mRNA                                  84.40%    failed      0.00%
+  53  Marmota_marmota_marmota__PREDICTED__Marmota_marmota_marmota_zinc_finger_protein_648__Znf648___mRNA                                85.16%    failed      0.26%
+  54  Marmota_flaviventris__PREDICTED__Marmota_flaviventris_zinc_finger_protein_648__Znf648___mRNA                                      87.66%    failed      0.00%
+  55  Urocitellus_parryii__PREDICTED__Urocitellus_parryii_zinc_finger_protein_648__Znf648___mRNA                                        87.66%    failed      0.02%
+  56  Equus_asinus__PREDICTED__Equus_asinus_zinc_finger_protein_648__ZNF648___mRNA                                                      86.80%    failed      0.00%
+  57  Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X2__mRNA   76.24%    passed     88.73%
+  58  Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X3__mRNA   78.37%    passed     99.70%
+  59  Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X1__mRNA   75.89%    passed     58.11%
+  60  Equus_caballus__Equus_caballus_zinc_finger_protein_648__ZNF648___mRNA                                                             87.53%    failed      0.00%
+  61  Equus_caballus__PREDICTED__Equus_caballus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA                           50.34%    failed      0.00%
+  62  Equus_przewalskii__PREDICTED__Equus_przewalskii_zinc_finger_protein_648__ZNF648___mRNA                                            86.37%    failed      0.00%
+  63  Mustela_putorius_furo__PREDICTED__Mustela_putorius_furo_zinc_finger_protein_648__ZNF648___mRNA                                    43.14%    failed      0.00%
+  64  Enhydra_lutris_kenyoni__PREDICTED__Enhydra_lutris_kenyoni_zinc_finger_protein_648__LOC111150654___mRNA                            87.49%    failed      0.00%
+  65  Otolemur_garnettii__PREDICTED__Otolemur_garnettii_zinc_finger_protein_648__ZNF648___mRNA                                          87.88%    failed      0.00%
+  66  Suricata_suricatta__PREDICTED__Suricata_suricatta_zinc_finger_protein_648__ZNF648___mRNA                                          87.51%    failed      0.00%
+  67  Carlito_syrichta__PREDICTED__Carlito_syrichta_zinc_finger_protein_648__ZNF648___mRNA                                              87.88%    failed      0.00%
+  68  Camelus_ferus__PREDICTED__Camelus_ferus_zinc_finger_protein_648__ZNF648___mRNA                                                    86.15%    failed      0.00%
+  69  Canis_lupus_dingo__PREDICTED__Canis_lupus_dingo_zinc_finger_protein_648__ZNF648___mRNA                                            80.93%    failed      0.00%
+  70  Canis_lupus_familiaris__PREDICTED__Canis_lupus_familiaris_zinc_finger_protein_648__ZNF648___mRNA                                  80.84%    failed      0.00%
+  71  Camelus_bactrianus__PREDICTED__Camelus_bactrianus_zinc_finger_protein_648__ZNF648___mRNA                                          86.38%    failed      0.00%
+  72  Vicugna_pacos__PREDICTED__Vicugna_pacos_zinc_finger_protein_648__ZNF648___mRNA                                                    86.07%    failed      0.00%
+WARNING: 70 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                             77.56%  51 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 172808)...
+
+NOTE: 42 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -60704.974
+2. Current log-likelihood: -55943.151
+3. Current log-likelihood: -55905.966
+4. Current log-likelihood: -55905.533
+Optimal log-likelihood: -55905.495
+Rate parameters:  A-C: 0.81987  A-G: 2.61880  A-T: 0.91329  C-G: 0.86395  C-T: 2.45452  G-T: 1.00000
+Base frequencies:  A: 0.247  C: 0.280  G: 0.265  T: 0.208
+Gamma shape alpha: 0.738
+Parameters optimization took 4 rounds (1.479 sec)
+Computing ML distances based on estimated model parameters... 0.125 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -56771.597
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.636 second
+Computing log-likelihood of 98 initial trees ... 6.315 seconds
+Current best score: -55905.495
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -55900.932
+BETTER TREE FOUND at iteration 3: -55900.931
+UPDATE BEST LOG-LIKELIHOOD: -55900.931
+Iteration 10 / LogL: -55900.941 / Time: 0h:0m:17s
+UPDATE BEST LOG-LIKELIHOOD: -55900.931
+Iteration 20 / LogL: -55900.933 / Time: 0h:0m:25s
+Finish initializing candidate tree set (5)
+Current best tree score: -55900.931 / CPU time: 23.168
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -55900.933 / Time: 0h:0m:33s (0h:1m:25s left)
+Iteration 40 / LogL: -55926.168 / Time: 0h:0m:42s (0h:1m:8s left)
+Iteration 50 / LogL: -55900.931 / Time: 0h:0m:51s (0h:0m:55s left)
+Iteration 60 / LogL: -55900.932 / Time: 0h:0m:59s (0h:0m:43s left)
+Iteration 70 / LogL: -55900.933 / Time: 0h:1m:8s (0h:0m:32s left)
+UPDATE BEST LOG-LIKELIHOOD: -55900.931
+Iteration 80 / LogL: -55900.937 / Time: 0h:1m:17s (0h:0m:22s left)
+Iteration 90 / LogL: -55900.938 / Time: 0h:1m:26s (0h:0m:12s left)
+UPDATE BEST LOG-LIKELIHOOD: -55900.931
+Iteration 100 / LogL: -55900.931 / Time: 0h:1m:34s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -55900.931
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 996 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 0h:3m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -55900.931
+Optimal log-likelihood: -55900.923
+Rate parameters:  A-C: 0.82266  A-G: 2.63066  A-T: 0.91538  C-G: 0.86680  C-T: 2.46192  G-T: 1.00000
+Base frequencies:  A: 0.247  C: 0.280  G: 0.265  T: 0.208
+Gamma shape alpha: 0.736
+Parameters optimization took 1 rounds (0.188 sec)
+BEST SCORE FOUND : -55900.923
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file speciesnamesdnaznf648.fa.splits.nex
+Total tree length: 3.919
+
+Total number of iterations: 104
+CPU time used for tree search: 215.264 sec (0h:3m:35s)
+Wall-clock time used for tree search: 215.305 sec (0h:3m:35s)
+Total CPU time used: 217.907 sec (0h:3m:37s)
+Total wall-clock time used: 217.968 sec (0h:3m:37s)
+UFBoot trees printed to speciesnamesdnaznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file speciesnamesdnaznf648.fa.splits.nex...
+72 taxa and 208 splits.
+Consensus tree written to speciesnamesdnaznf648.fa.contree
+Reading input trees file speciesnamesdnaznf648.fa.contree
+Log-likelihood of consensus tree: -55900.929
+
+Analysis results written to: 
+  IQ-TREE report:                speciesnamesdnaznf648.fa.iqtree
+  Maximum-likelihood tree:       speciesnamesdnaznf648.fa.treefile
+  Likelihood distances:          speciesnamesdnaznf648.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          speciesnamesdnaznf648.fa.splits.nex
+  Consensus tree:                speciesnamesdnaznf648.fa.contree
+  UFBoot trees:                  speciesnamesdnaznf648.fa.ufboot
+  Screen log file:               speciesnamesdnaznf648.fa.log
+
+Date and Time: Tue Aug 20 14:49:16 2019
