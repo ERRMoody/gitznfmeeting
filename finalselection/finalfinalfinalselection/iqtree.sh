@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --job-name=iqzincpara
+#SBATCH --job-name=zincml
 #SBATCH --partition=hmem
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -8,6 +8,6 @@
 
 module load apps/iqtree/omp-1.6.7
 
-iqtree -s zincparalogsali.fa -m LG+C60+F+G -bb 1000 -wbtl -bnni -nt AUTO --runs 10
+iqtree -s neorepali2.fa -m LG+C60+F+G -bb 1000 -wbtl -bnni -nt AUTO --runs 10
 
 
