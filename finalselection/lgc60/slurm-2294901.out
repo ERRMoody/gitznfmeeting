@@ -1,0 +1,1135 @@
+IQ-TREE multicore version 1.6.7 for Linux 64-bit built Aug 23 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    highmem13.bc4.acrc.priv (AVX2, FMA3, 503 GB RAM)
+Command: iqtree -s representativeselectionznf648.fa -m LG+C60+F+G -bb 1000 -wbtl -bnni -nt AUTO --runs 10
+Seed:    19192 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 22 21:47:34 2019
+Kernel:  AVX+FMA - auto-detect threads (28 CPU cores detected)
+
+Reading alignment file representativeselectionznf648.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 40 sequences with 1219 columns, 854 distinct patterns
+461 parsimony-informative, 201 singleton sites, 557 constant sites
+                              Gap/Ambiguity  Composition  p-value
+   1  Terrapene_carolina_triunguis   27.65%    passed     97.97%
+   2  Chrysemys_picta_bellii         22.31%    passed     95.52%
+   3  Chelonia_mydas                 24.28%    passed     80.06%
+   4  Pelodiscus_sinensis            22.15%    passed     89.22%
+   5  Alligator_sinensis             30.68%    passed     91.96%
+   6  Crocodylus_porosus             52.50%    passed     96.69%
+   7  Rhinatrema_bivittatum          54.63%    passed     89.56%
+   8  Latimeria_chalumnae            49.14%    failed      0.00%
+   9  Poecilia_reticulata            60.38%    passed      7.73%
+  10  Fundulus_heteroclitus          65.14%    passed     45.15%
+  11  Cyprinodon_variegatus          64.81%    passed     38.98%
+  12  Anabas_testudineus             61.12%    passed     34.47%
+  13  Acanthochromis_polyacanthus    64.73%    failed      3.23%
+  14  Stegastes_partitus             59.97%    passed     14.02%
+  15  Pundamilia_nyererei            59.97%    passed     24.98%
+  16  Neolamprologus_brichardi       70.14%    passed     18.19%
+  17  Maylandia_zebra                59.97%    passed     22.21%
+  18  Haplochromis_burtoni           59.97%    passed     26.40%
+  19  Oreochromis_niloticus          59.97%    passed     25.34%
+  20  Kryptolebias_marmoratus        59.89%    failed      0.07%
+  21  Cynoglossus_semilaevis         59.06%    passed     14.49%
+  22  Oryzias_latipes                63.58%    passed     98.57%
+  23  Danio_rerio                    60.54%    failed      0.35%
+  24  Astyanax_mexicanus             59.47%    passed     83.14%
+  25  Homo_sapiens                   53.40%    passed     44.00%
+  26  Nomascus_leucogenys            53.40%    passed     63.76%
+  27  Piliocolobus_tephrosceles      53.65%    passed     49.50%
+  28  Otolemur_garnettii             54.80%    passed     33.98%
+  29  Ursus_maritimus                53.40%    passed     14.09%
+  30  Mustela_putorius_furo          53.32%    passed     12.86%
+  31  Vulpes_vulpes                  53.32%    passed     15.39%
+  32  Panthera_tigris_altaica        53.32%    passed      6.59%
+  33  Equus_caballus                 53.49%    passed      7.90%
+  34  Bos_taurus                     53.73%    failed      2.08%
+  35  Marmota_marmota_marmota        53.98%    passed     48.50%
+  36  Castor_canadensis              54.72%    passed     96.63%
+  37  Mus_musculus                   56.93%    passed     77.82%
+  38  Lepisosteus_oculatus           68.25%    failed      0.20%
+  39  Aquila_chrysaetos_canadensis   62.10%    failed      4.01%
+  40  Aptenodytes_forsteri           62.59%    failed      0.00%
+WARNING: 34 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                          54.16%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+
+---> START RUN NUMBER 1 (seed: 19192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 19192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Measuring multi-threading efficiency up to 28 CPU cores
+5 trees examined
+Threads: 1 / Time: 32.796 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -30284
+Threads: 2 / Time: 16.860 sec / Speedup: 1.945 / Efficiency: 97% / LogL: -30284
+Threads: 3 / Time: 11.614 sec / Speedup: 2.824 / Efficiency: 94% / LogL: -30284
+Threads: 4 / Time: 8.822 sec / Speedup: 3.718 / Efficiency: 93% / LogL: -30284
+Threads: 5 / Time: 7.274 sec / Speedup: 4.509 / Efficiency: 90% / LogL: -30284
+Threads: 6 / Time: 6.380 sec / Speedup: 5.141 / Efficiency: 86% / LogL: -30284
+Threads: 7 / Time: 5.422 sec / Speedup: 6.049 / Efficiency: 86% / LogL: -30284
+Threads: 8 / Time: 5.002 sec / Speedup: 6.557 / Efficiency: 82% / LogL: -30284
+Threads: 9 / Time: 5.077 sec / Speedup: 6.460 / Efficiency: 72% / LogL: -30284
+Threads: 10 / Time: 4.622 sec / Speedup: 7.095 / Efficiency: 71% / LogL: -30284
+Threads: 11 / Time: 4.388 sec / Speedup: 7.474 / Efficiency: 68% / LogL: -30284
+Threads: 12 / Time: 4.304 sec / Speedup: 7.619 / Efficiency: 63% / LogL: -30284
+Threads: 13 / Time: 4.169 sec / Speedup: 7.867 / Efficiency: 61% / LogL: -30284
+Threads: 14 / Time: 4.174 sec / Speedup: 7.857 / Efficiency: 56% / LogL: -30284
+Threads: 15 / Time: 3.995 sec / Speedup: 8.209 / Efficiency: 55% / LogL: -30284
+Threads: 16 / Time: 3.953 sec / Speedup: 8.296 / Efficiency: 52% / LogL: -30284
+Threads: 17 / Time: 3.859 sec / Speedup: 8.499 / Efficiency: 50% / LogL: -30284
+BEST NUMBER OF THREADS: 16
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22745.132
+2. Current log-likelihood: -21243.056
+3. Current log-likelihood: -21235.344
+Optimal log-likelihood: -21235.326
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.005 0.004 0.000 0.000 0.017 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.047 0.011 0.021 0.013 0.000 0.000 0.028 0.002 0.000 0.000 0.001 0.012 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 3 rounds (8.655 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.855 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -21688.918
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.752 second
+Computing log-likelihood of 98 initial trees ... 133.091 seconds
+Current best score: -21235.326
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.251
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 10: -21208.450
+Iteration 10 / LogL: -21208.450 / Time: 0h:7m:28s
+Iteration 20 / LogL: -21218.416 / Time: 0h:10m:9s
+Finish initializing candidate tree set (6)
+Current best tree score: -21208.450 / CPU time: 462.095
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 23: -21207.168
+UPDATE BEST LOG-LIKELIHOOD: -21207.167
+BETTER TREE FOUND at iteration 29: -21207.167
+Iteration 30 / LogL: -21251.405 / Time: 0h:13m:8s (0h:44m:51s left)
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 32: -21205.167
+Iteration 40 / LogL: -21207.158 / Time: 0h:16m:37s (0h:39m:12s left)
+Iteration 50 / LogL: -21206.038 / Time: 0h:19m:50s (0h:33m:11s left)
+Iteration 60 / LogL: -21238.618 / Time: 0h:22m:53s (0h:27m:55s left)
+Iteration 70 / LogL: -21222.417 / Time: 0h:25m:53s (0h:23m:16s left)
+Iteration 80 / LogL: -21217.490 / Time: 0h:28m:31s (0h:18m:46s left)
+Iteration 90 / LogL: -21205.261 / Time: 0h:31m:27s (0h:14m:50s left)
+Iteration 100 / LogL: -21210.897 / Time: 0h:34m:17s (0h:11m:4s left)
+Iteration 110 / LogL: -21207.571 / Time: 0h:37m:15s (0h:7m:31s left)
+Iteration 120 / LogL: -21205.283 / Time: 0h:40m:14s (0h:4m:3s left)
+Iteration 130 / LogL: -21236.246 / Time: 0h:43m:14s (0h:0m:40s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 979 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 133 ITERATIONS / Time: 1h:30m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.167
+Optimal log-likelihood: -21205.164
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.004 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.019 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.611
+Parameters optimization took 1 rounds (1.972 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.164
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.027
+
+Total number of iterations: 133
+CPU time used for tree search: 83217.547 sec (23h:6m:57s)
+Wall-clock time used for tree search: 5265.921 sec (1h:27m:45s)
+Total CPU time used: 84265.128 sec (23h:24m:25s)
+Total wall-clock time used: 5415.744 sec (1h:30m:15s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 246 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21207.009
+
+---> START RUN NUMBER 2 (seed: 20192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 20192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22786.364
+2. Current log-likelihood: -21246.930
+3. Current log-likelihood: -21240.191
+Optimal log-likelihood: -21240.176
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.023 0.000 0.005 0.004 0.000 0.000 0.018 0.063 0.000 0.000 0.000 0.000 0.005 0.001 0.000 0.000 0.000 0.011 0.000 0.000 0.021 0.000 0.000 0.007 0.000 0.008 0.000 0.001 0.002 0.001 0.000 0.003 0.000 0.000 0.049 0.008 0.021 0.011 0.003 0.000 0.028 0.002 0.000 0.000 0.001 0.013 0.000 0.001 0.015 0.000 0.000
+Gamma shape alpha: 0.605
+Parameters optimization took 3 rounds (8.752 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 2.083 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21689.220
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.756 second
+Computing log-likelihood of 98 initial trees ... 132.636 seconds
+Current best score: -21240.176
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21207.845
+Iteration 10 / LogL: -21208.191 / Time: 0h:5m:13s
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 18: -21207.194
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 19: -21205.196
+Iteration 20 / LogL: -21205.824 / Time: 0h:7m:55s
+Finish initializing candidate tree set (9)
+Current best tree score: -21205.196 / CPU time: 460.149
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -21207.827 / Time: 0h:11m:1s (0h:33m:48s left)
+Iteration 40 / LogL: -21207.605 / Time: 0h:13m:57s (0h:28m:15s left)
+Iteration 50 / LogL: -21205.925 / Time: 0h:16m:55s (0h:23m:49s left)
+Iteration 60 / LogL: -21212.744 / Time: 0h:19m:50s (0h:19m:50s left)
+Iteration 70 / LogL: -21207.193 / Time: 0h:23m:9s (0h:16m:26s left)
+Iteration 80 / LogL: -21207.193 / Time: 0h:26m:4s (0h:12m:52s left)
+Iteration 90 / LogL: -21212.029 / Time: 0h:29m:20s (0h:9m:33s left)
+Iteration 100 / LogL: -21205.799 / Time: 0h:31m:45s (0h:6m:5s left)
+Iteration 110 / LogL: -21205.430 / Time: 0h:33m:59s (0h:2m:48s left)
+Iteration 120 / LogL: -21220.315 / Time: 0h:36m:40s (0h:0m:-19s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 988 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 120 ITERATIONS / Time: 1h:23m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.196
+Optimal log-likelihood: -21205.191
+Mixture weights: 0.667 0.000 0.000 0.000 0.000 0.000 0.009 0.000 0.000 0.000 0.024 0.000 0.005 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.003 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.020 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.051 0.008 0.020 0.013 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.009 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.611
+Parameters optimization took 1 rounds (1.989 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.191
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.004
+
+Total number of iterations: 120
+CPU time used for tree search: 78215.292 sec (21h:43m:35s)
+Wall-clock time used for tree search: 4964.756 sec (1h:22m:44s)
+Total CPU time used: 78500.195 sec (21h:48m:20s)
+Total wall-clock time used: 4982.810 sec (1h:23m:2s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 225 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21205.191
+
+---> START RUN NUMBER 3 (seed: 21192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 21192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22743.514
+2. Current log-likelihood: -21242.226
+3. Current log-likelihood: -21234.408
+Optimal log-likelihood: -21234.391
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.004 0.004 0.000 0.000 0.017 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.048 0.011 0.021 0.013 0.000 0.000 0.027 0.002 0.000 0.000 0.001 0.013 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.609
+Parameters optimization took 3 rounds (8.805 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.883 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.880
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.745 second
+Computing log-likelihood of 98 initial trees ... 133.376 seconds
+Current best score: -21234.391
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.285
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 8: -21208.137
+Iteration 10 / LogL: -21208.138 / Time: 0h:5m:15s
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 16: -21207.145
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 17: -21205.166
+Iteration 20 / LogL: -21208.551 / Time: 0h:8m:10s
+Finish initializing candidate tree set (7)
+Current best tree score: -21205.166 / CPU time: 475.243
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -21207.156 / Time: 0h:10m:52s (0h:32m:36s left)
+Iteration 40 / LogL: -21207.156 / Time: 0h:14m:7s (0h:27m:51s left)
+Iteration 50 / LogL: -21213.207 / Time: 0h:16m:42s (0h:22m:50s left)
+Iteration 60 / LogL: -21207.156 / Time: 0h:19m:52s (0h:19m:12s left)
+Iteration 70 / LogL: -21207.156 / Time: 0h:23m:11s (0h:15m:47s left)
+Iteration 80 / LogL: -21206.218 / Time: 0h:25m:37s (0h:12m:0s left)
+Iteration 90 / LogL: -21207.557 / Time: 0h:28m:53s (0h:8m:45s left)
+Iteration 100 / LogL: -21205.320 / Time: 0h:31m:47s (0h:5m:27s left)
+Iteration 110 / LogL: -21205.582 / Time: 0h:34m:46s (0h:2m:13s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 986 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 118 ITERATIONS / Time: 1h:22m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.166
+Optimal log-likelihood: -21205.161
+Mixture weights: 0.667 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.003 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.019 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.611
+Parameters optimization took 1 rounds (1.954 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.161
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 16.994
+
+Total number of iterations: 118
+CPU time used for tree search: 77652.845 sec (21h:34m:12s)
+Wall-clock time used for tree search: 4946.757 sec (1h:22m:26s)
+Total CPU time used: 77930.424 sec (21h:38m:50s)
+Total wall-clock time used: 4964.668 sec (1h:22m:44s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 230 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21206.998
+
+---> START RUN NUMBER 4 (seed: 22192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 22192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22745.198
+2. Current log-likelihood: -21242.921
+3. Current log-likelihood: -21235.376
+Optimal log-likelihood: -21235.358
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.005 0.004 0.000 0.000 0.016 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.047 0.011 0.021 0.013 0.000 0.000 0.028 0.002 0.000 0.000 0.001 0.012 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 3 rounds (8.434 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.988 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.939
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.754 second
+Computing log-likelihood of 98 initial trees ... 132.429 seconds
+Current best score: -21235.358
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.255
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 8: -21208.445
+Iteration 10 / LogL: -21218.249 / Time: 0h:5m:11s
+Iteration 20 / LogL: -21218.249 / Time: 0h:7m:53s
+Finish initializing candidate tree set (7)
+Current best tree score: -21208.445 / CPU time: 459.158
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 26: -21207.167
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 30: -21205.167
+Iteration 30 / LogL: -21205.167 / Time: 0h:11m:20s (0h:39m:2s left)
+Iteration 40 / LogL: -21208.767 / Time: 0h:14m:49s (0h:34m:10s left)
+Iteration 50 / LogL: -21207.160 / Time: 0h:17m:48s (0h:29m:3s left)
+Iteration 60 / LogL: -21205.320 / Time: 0h:20m:27s (0h:24m:15s left)
+Iteration 70 / LogL: -21211.276 / Time: 0h:22m:59s (0h:19m:58s left)
+Iteration 80 / LogL: -21212.323 / Time: 0h:25m:33s (0h:16m:10s left)
+Iteration 90 / LogL: -21216.970 / Time: 0h:28m:15s (0h:12m:41s left)
+Iteration 100 / LogL: -21205.740 / Time: 0h:30m:43s (0h:9m:18s left)
+Iteration 110 / LogL: -21205.310 / Time: 0h:33m:25s (0h:6m:7s left)
+Iteration 120 / LogL: -21205.322 / Time: 0h:35m:50s (0h:3m:0s left)
+Iteration 130 / LogL: -21210.739 / Time: 0h:38m:18s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 987 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 131 ITERATIONS / Time: 1h:25m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.167
+Optimal log-likelihood: -21205.164
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.003 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.019 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.611
+Parameters optimization took 1 rounds (1.982 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.164
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.009
+
+Total number of iterations: 131
+CPU time used for tree search: 80226.961 sec (22h:17m:6s)
+Wall-clock time used for tree search: 5121.164 sec (1h:25m:21s)
+Total CPU time used: 80496.635 sec (22h:21m:36s)
+Total wall-clock time used: 5138.694 sec (1h:25m:38s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 251 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21206.646
+
+---> START RUN NUMBER 5 (seed: 23192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 23192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22745.198
+2. Current log-likelihood: -21242.921
+3. Current log-likelihood: -21235.376
+Optimal log-likelihood: -21235.358
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.005 0.004 0.000 0.000 0.016 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.047 0.011 0.021 0.013 0.000 0.000 0.028 0.002 0.000 0.000 0.001 0.012 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 3 rounds (8.512 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 3.543 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.939
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.761 second
+Computing log-likelihood of 98 initial trees ... 131.557 seconds
+Current best score: -21235.358
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.255
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 8: -21208.445
+Iteration 10 / LogL: -21218.249 / Time: 0h:5m:12s
+Iteration 20 / LogL: -21218.249 / Time: 0h:7m:54s
+Finish initializing candidate tree set (4)
+Current best tree score: -21208.445 / CPU time: 458.882
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 23: -21208.345
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 24: -21207.167
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 28: -21205.168
+Iteration 30 / LogL: -21207.158 / Time: 0h:11m:5s (0h:37m:23s left)
+Iteration 40 / LogL: -21207.158 / Time: 0h:14m:16s (0h:32m:10s left)
+Iteration 50 / LogL: -21207.159 / Time: 0h:17m:29s (0h:27m:48s left)
+Iteration 60 / LogL: -21206.229 / Time: 0h:20m:43s (0h:23m:51s left)
+Iteration 70 / LogL: -21217.535 / Time: 0h:23m:37s (0h:19m:50s left)
+Iteration 80 / LogL: -21207.158 / Time: 0h:26m:27s (0h:16m:3s left)
+Iteration 90 / LogL: -21211.651 / Time: 0h:29m:6s (0h:12m:25s left)
+Iteration 100 / LogL: -21205.386 / Time: 0h:31m:48s (0h:8m:59s left)
+Iteration 110 / LogL: -21205.741 / Time: 0h:34m:32s (0h:5m:42s left)
+Iteration 120 / LogL: -21205.261 / Time: 0h:37m:0s (0h:2m:29s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 983 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 129 ITERATIONS / Time: 1h:25m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.168
+Optimal log-likelihood: -21205.164
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.004 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.019 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 1 rounds (1.947 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.164
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.015
+
+Total number of iterations: 129
+CPU time used for tree search: 79732.393 sec (22h:8m:52s)
+Wall-clock time used for tree search: 5112.412 sec (1h:25m:12s)
+Total CPU time used: 80004.831 sec (22h:13m:24s)
+Total wall-clock time used: 5130.756 sec (1h:25m:30s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 252 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21206.646
+
+---> START RUN NUMBER 6 (seed: 24192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 24192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22743.514
+2. Current log-likelihood: -21242.226
+3. Current log-likelihood: -21234.408
+Optimal log-likelihood: -21234.391
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.004 0.004 0.000 0.000 0.017 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.048 0.011 0.021 0.013 0.000 0.000 0.027 0.002 0.000 0.000 0.001 0.013 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.609
+Parameters optimization took 3 rounds (8.554 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.898 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.880
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.764 second
+Computing log-likelihood of 98 initial trees ... 131.187 seconds
+Current best score: -21234.391
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.285
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 9: -21208.137
+Iteration 10 / LogL: -21208.138 / Time: 0h:5m:13s
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 14: -21207.145
+Iteration 20 / LogL: -21216.671 / Time: 0h:7m:56s
+Finish initializing candidate tree set (7)
+Current best tree score: -21207.145 / CPU time: 461.278
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 24: -21207.145
+UPDATE BEST LOG-LIKELIHOOD: -21207.145
+UPDATE BEST LOG-LIKELIHOOD: -21207.145
+Iteration 30 / LogL: -21207.145 / Time: 0h:11m:16s (0h:36m:28s left)
+UPDATE BEST LOG-LIKELIHOOD: -21207.145
+UPDATE BEST LOG-LIKELIHOOD: -21207.145
+Iteration 40 / LogL: -21211.313 / Time: 0h:14m:29s (0h:31m:11s left)
+Iteration 50 / LogL: -21274.733 / Time: 0h:18m:13s (0h:27m:29s left)
+Iteration 60 / LogL: -21209.762 / Time: 0h:21m:38s (0h:23m:27s left)
+Iteration 70 / LogL: -21207.145 / Time: 0h:24m:38s (0h:19m:16s left)
+Iteration 80 / LogL: -21208.187 / Time: 0h:27m:58s (0h:15m:34s left)
+UPDATE BEST LOG-LIKELIHOOD: -21207.144
+UPDATE BEST LOG-LIKELIHOOD: -21207.144
+Iteration 90 / LogL: -21320.270 / Time: 0h:31m:29s (0h:12m:1s left)
+Iteration 100 / LogL: -21207.543 / Time: 0h:34m:52s (0h:8m:26s left)
+Iteration 110 / LogL: -21208.024 / Time: 0h:38m:16s (0h:4m:54s left)
+Iteration 120 / LogL: -21207.145 / Time: 0h:41m:18s (0h:1m:23s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 996 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 125 ITERATIONS / Time: 1h:31m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21207.144
+2. Current log-likelihood: -21207.132
+Optimal log-likelihood: -21207.129
+Mixture weights: 0.665 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.027 0.000 0.006 0.002 0.000 0.000 0.018 0.062 0.000 0.000 0.000 0.000 0.003 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.018 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.021 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.015 0.000 0.000
+Gamma shape alpha: 0.609
+Parameters optimization took 2 rounds (3.292 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21207.129
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 16.954
+
+Total number of iterations: 125
+CPU time used for tree search: 85168.169 sec (23h:39m:28s)
+Wall-clock time used for tree search: 5460.280 sec (1h:31m:0s)
+Total CPU time used: 85464.459 sec (23h:44m:24s)
+Total wall-clock time used: 5479.870 sec (1h:31m:19s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 239 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21207.537
+
+---> START RUN NUMBER 7 (seed: 25192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 25192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22743.514
+2. Current log-likelihood: -21242.226
+3. Current log-likelihood: -21234.408
+Optimal log-likelihood: -21234.391
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.004 0.004 0.000 0.000 0.017 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.048 0.011 0.021 0.013 0.000 0.000 0.027 0.002 0.000 0.000 0.001 0.013 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.609
+Parameters optimization took 3 rounds (8.631 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.850 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.880
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.742 second
+Computing log-likelihood of 98 initial trees ... 132.825 seconds
+Current best score: -21234.391
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.285
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 10: -21208.137
+Iteration 10 / LogL: -21208.137 / Time: 0h:5m:15s
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 17: -21207.145
+Iteration 20 / LogL: -21212.285 / Time: 0h:8m:14s
+Finish initializing candidate tree set (8)
+Current best tree score: -21207.145 / CPU time: 479.593
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 22: -21205.905
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 30: -21205.156
+Iteration 30 / LogL: -21205.156 / Time: 0h:11m:40s (0h:40m:10s left)
+Iteration 40 / LogL: -21207.157 / Time: 0h:14m:48s (0h:34m:7s left)
+Iteration 50 / LogL: -21267.490 / Time: 0h:17m:55s (0h:29m:13s left)
+Iteration 60 / LogL: -21223.056 / Time: 0h:20m:28s (0h:24m:15s left)
+Iteration 70 / LogL: -21205.425 / Time: 0h:22m:56s (0h:19m:56s left)
+Iteration 80 / LogL: -21205.449 / Time: 0h:25m:46s (0h:16m:18s left)
+Iteration 90 / LogL: -21210.388 / Time: 0h:28m:26s (0h:12m:46s left)
+Iteration 100 / LogL: -21215.060 / Time: 0h:30m:58s (0h:9m:22s left)
+Iteration 110 / LogL: -21205.273 / Time: 0h:33m:56s (0h:6m:13s left)
+Iteration 120 / LogL: -21207.157 / Time: 0h:36m:43s (0h:3m:5s left)
+Iteration 130 / LogL: -21210.742 / Time: 0h:39m:25s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 981 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 131 ITERATIONS / Time: 1h:25m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.156
+Optimal log-likelihood: -21205.154
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.004 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.020 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.611
+Parameters optimization took 1 rounds (1.994 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.154
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.037
+
+Total number of iterations: 131
+CPU time used for tree search: 79791.405 sec (22h:9m:51s)
+Wall-clock time used for tree search: 5133.064 sec (1h:25m:33s)
+Total CPU time used: 80063.844 sec (22h:14m:23s)
+Total wall-clock time used: 5151.357 sec (1h:25m:51s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 247 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21205.515
+
+---> START RUN NUMBER 8 (seed: 26192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 26192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22745.198
+2. Current log-likelihood: -21242.921
+3. Current log-likelihood: -21235.376
+Optimal log-likelihood: -21235.358
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.005 0.004 0.000 0.000 0.016 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.047 0.011 0.021 0.013 0.000 0.000 0.028 0.002 0.000 0.000 0.001 0.012 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 3 rounds (8.470 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.848 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.939
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.749 second
+Computing log-likelihood of 98 initial trees ... 132.220 seconds
+Current best score: -21235.358
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.255
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 9: -21208.445
+Iteration 10 / LogL: -21218.249 / Time: 0h:5m:12s
+Iteration 20 / LogL: -21222.818 / Time: 0h:8m:2s
+Finish initializing candidate tree set (6)
+Current best tree score: -21208.445 / CPU time: 467.830
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 22: -21207.812
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 24: -21207.142
+Iteration 30 / LogL: -21211.895 / Time: 0h:11m:27s (0h:37m:3s left)
+Iteration 40 / LogL: -21207.143 / Time: 0h:14m:32s (0h:31m:16s left)
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 50: -21205.161
+Iteration 50 / LogL: -21205.161 / Time: 0h:17m:51s (0h:36m:23s left)
+Iteration 60 / LogL: -21218.914 / Time: 0h:21m:31s (0h:32m:46s left)
+Iteration 70 / LogL: -21208.194 / Time: 0h:24m:49s (0h:28m:44s left)
+Iteration 80 / LogL: -21210.663 / Time: 0h:27m:54s (0h:24m:42s left)
+Iteration 90 / LogL: -21207.152 / Time: 0h:31m:10s (0h:21m:0s left)
+Iteration 100 / LogL: -21210.858 / Time: 0h:33m:53s (0h:17m:6s left)
+Iteration 110 / LogL: -21214.080 / Time: 0h:36m:29s (0h:13m:22s left)
+Iteration 120 / LogL: -21205.324 / Time: 0h:39m:10s (0h:9m:52s left)
+Iteration 130 / LogL: -21205.620 / Time: 0h:41m:49s (0h:6m:28s left)
+Iteration 140 / LogL: -21205.877 / Time: 0h:44m:28s (0h:3m:11s left)
+Iteration 150 / LogL: -21205.710 / Time: 0h:47m:43s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 979 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 151 ITERATIONS / Time: 1h:35m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.161
+Optimal log-likelihood: -21205.158
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.003 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.019 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.611
+Parameters optimization took 1 rounds (1.988 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.158
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.019
+
+Total number of iterations: 151
+CPU time used for tree search: 88551.985 sec (24h:35m:51s)
+Wall-clock time used for tree search: 5712.339 sec (1h:35m:12s)
+Total CPU time used: 88821.215 sec (24h:40m:21s)
+Total wall-clock time used: 5730.648 sec (1h:35m:30s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 238 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21206.640
+
+---> START RUN NUMBER 9 (seed: 27192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 27192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22785.139
+2. Current log-likelihood: -21245.782
+3. Current log-likelihood: -21239.388
+Optimal log-likelihood: -21239.372
+Mixture weights: 0.666 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.023 0.000 0.005 0.004 0.000 0.000 0.018 0.063 0.000 0.000 0.000 0.000 0.005 0.001 0.000 0.000 0.000 0.011 0.000 0.000 0.020 0.000 0.000 0.007 0.000 0.008 0.000 0.001 0.002 0.001 0.000 0.003 0.000 0.000 0.049 0.008 0.021 0.011 0.003 0.000 0.029 0.002 0.000 0.000 0.001 0.013 0.000 0.001 0.015 0.000 0.000
+Gamma shape alpha: 0.605
+Parameters optimization took 3 rounds (8.743 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.879 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21689.257
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.776 second
+Computing log-likelihood of 98 initial trees ... 133.460 seconds
+Current best score: -21239.372
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21207.852
+Iteration 10 / LogL: -21208.195 / Time: 0h:5m:15s
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 19: -21207.588
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 20: -21207.172
+Iteration 20 / LogL: -21207.172 / Time: 0h:8m:5s
+Finish initializing candidate tree set (9)
+Current best tree score: -21207.172 / CPU time: 470.425
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 21: -21206.008
+Iteration 30 / LogL: -21212.614 / Time: 0h:11m:23s (0h:35m:40s left)
+Iteration 40 / LogL: -21207.215 / Time: 0h:15m:3s (0h:31m:12s left)
+Iteration 50 / LogL: -21210.423 / Time: 0h:18m:1s (0h:26m:5s left)
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 52: -21205.164
+Iteration 60 / LogL: -21210.573 / Time: 0h:21m:26s (0h:33m:22s left)
+Iteration 70 / LogL: -21213.325 / Time: 0h:24m:24s (0h:28m:58s left)
+Iteration 80 / LogL: -21213.749 / Time: 0h:26m:56s (0h:24m:31s left)
+Iteration 90 / LogL: -21212.577 / Time: 0h:29m:41s (0h:20m:39s left)
+Iteration 100 / LogL: -21222.091 / Time: 0h:32m:4s (0h:16m:50s left)
+Iteration 110 / LogL: -21207.262 / Time: 0h:34m:48s (0h:13m:24s left)
+Iteration 120 / LogL: -21205.590 / Time: 0h:37m:20s (0h:10m:1s left)
+Iteration 130 / LogL: -21205.744 / Time: 0h:40m:36s (0h:6m:55s left)
+Iteration 140 / LogL: -21211.513 / Time: 0h:43m:11s (0h:3m:43s left)
+Iteration 150 / LogL: -21205.295 / Time: 0h:45m:49s (0h:0m:36s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 978 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 153 ITERATIONS / Time: 1h:33m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.164
+Optimal log-likelihood: -21205.160
+Mixture weights: 0.667 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.024 0.000 0.006 0.003 0.000 0.000 0.018 0.061 0.000 0.000 0.000 0.000 0.003 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.020 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.001 0.001 0.000 0.003 0.000 0.000 0.051 0.008 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 1 rounds (1.999 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.160
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.038
+
+Total number of iterations: 153
+CPU time used for tree search: 86337.031 sec (23h:58m:57s)
+Wall-clock time used for tree search: 5583.723 sec (1h:33m:3s)
+Total CPU time used: 86613.982 sec (24h:3m:33s)
+Total wall-clock time used: 5602.754 sec (1h:33m:22s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 245 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21205.506
+
+---> START RUN NUMBER 10 (seed: 28192)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 28192)...
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+
+NOTE: 1325 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22743.514
+2. Current log-likelihood: -21242.226
+3. Current log-likelihood: -21234.408
+Optimal log-likelihood: -21234.391
+Mixture weights: 0.669 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.001 0.000 0.024 0.000 0.004 0.004 0.000 0.000 0.017 0.065 0.000 0.000 0.000 0.000 0.006 0.001 0.000 0.000 0.000 0.013 0.000 0.000 0.019 0.000 0.000 0.005 0.000 0.007 0.000 0.000 0.003 0.001 0.000 0.003 0.000 0.000 0.048 0.011 0.021 0.013 0.000 0.000 0.027 0.002 0.000 0.000 0.001 0.013 0.000 0.001 0.014 0.000 0.000
+Gamma shape alpha: 0.609
+Parameters optimization took 3 rounds (8.612 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.854 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -21688.880
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.775 second
+Computing log-likelihood of 98 initial trees ... 133.465 seconds
+Current best score: -21234.391
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -21218.285
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 10: -21208.137
+Iteration 10 / LogL: -21208.137 / Time: 0h:5m:16s
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 19: -21207.145
+Iteration 20 / LogL: -21218.481 / Time: 0h:8m:12s
+Finish initializing candidate tree set (5)
+Current best tree score: -21207.145 / CPU time: 477.870
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 30: -21205.160
+Iteration 30 / LogL: -21205.160 / Time: 0h:11m:31s (0h:39m:38s left)
+Iteration 40 / LogL: -21207.154 / Time: 0h:15m:3s (0h:34m:40s left)
+Iteration 50 / LogL: -21208.817 / Time: 0h:17m:56s (0h:29m:14s left)
+Iteration 60 / LogL: -21207.154 / Time: 0h:20m:54s (0h:24m:46s left)
+Iteration 70 / LogL: -21205.343 / Time: 0h:23m:45s (0h:20m:37s left)
+Iteration 80 / LogL: -21205.576 / Time: 0h:26m:20s (0h:16m:39s left)
+Iteration 90 / LogL: -21205.203 / Time: 0h:28m:51s (0h:12m:57s left)
+Iteration 100 / LogL: -21205.525 / Time: 0h:31m:34s (0h:9m:33s left)
+Iteration 110 / LogL: -21206.387 / Time: 0h:34m:1s (0h:6m:14s left)
+Iteration 120 / LogL: -21211.277 / Time: 0h:36m:45s (0h:3m:5s left)
+Iteration 130 / LogL: -21205.569 / Time: 0h:39m:11s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 988 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 131 ITERATIONS / Time: 1h:26m:55s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21205.160
+Optimal log-likelihood: -21205.157
+Mixture weights: 0.667 0.000 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.000 0.025 0.000 0.006 0.003 0.000 0.000 0.017 0.061 0.000 0.000 0.000 0.000 0.004 0.001 0.000 0.000 0.000 0.014 0.000 0.000 0.019 0.000 0.000 0.008 0.000 0.007 0.000 0.000 0.002 0.001 0.000 0.003 0.000 0.000 0.052 0.009 0.020 0.014 0.003 0.000 0.032 0.002 0.000 0.000 0.000 0.008 0.000 0.000 0.014 0.000 0.000
+Gamma shape alpha: 0.610
+Parameters optimization took 1 rounds (1.959 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -21205.157
+Creating bootstrap support values...
+Split supports printed to NEXUS file representativeselectionznf648.fa.splits.nex
+Total tree length: 17.021
+
+Total number of iterations: 131
+CPU time used for tree search: 80051.617 sec (22h:14m:11s)
+Wall-clock time used for tree search: 5198.643 sec (1h:26m:38s)
+Total CPU time used: 80324.232 sec (22h:18m:44s)
+Total wall-clock time used: 5217.621 sec (1h:26m:57s)
+UFBoot trees printed to representativeselectionznf648.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file representativeselectionznf648.fa.splits.nex...
+40 taxa and 254 splits.
+Consensus tree written to representativeselectionznf648.fa.contree
+Reading input trees file representativeselectionznf648.fa.contree
+Log-likelihood of consensus tree: -21205.158
+
+---> SUMMARIZE RESULTS FROM 10 RUNS
+
+Run 7 gave best log-likelihood: -21205.154
+Model LG+C60+F+G is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+G
+ERROR: STACK TRACE FOR DEBUGGING:
+ERROR: 
+ERROR: *** IQ-TREE CRASHES WITH SIGNAL SEGMENTATION FAULT
+ERROR: *** For bug report please send to developers:
+ERROR: ***    Log file: representativeselectionznf648.fa.log
+ERROR: ***    Alignment files (if possible)
+/tmp/slurmd/job2294901/slurm_script: line 11: 30313 Segmentation fault      iqtree -s representativeselectionznf648.fa -m LG+C60+F+G -bb 1000 -wbtl -bnni -nt AUTO --runs 10
