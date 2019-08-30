@@ -1,0 +1,223 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s cutboyzlongreptilesalignment.fa -m LG+C60+G+F -bb 1000 -bnni -wbtl -redo
+Seed:    712952 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 26 22:53:24 2019
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file cutboyzlongreptilesalignment.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 42 sequences with 828 columns, 588 distinct patterns
+295 parsimony-informative, 152 singleton sites, 381 constant sites
+WARNING: Some sequence names are changed as follows:
+Callithrix_jacchus__PREDICTED:_zinc_finger_protein_648_[Callithrix_jacchus] -> Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_
+Pan_troglodytes__zinc_finger_protein_648_[Pan_troglodytes] -> Pan_troglodytes__zinc_finger_protein_648__Pan_troglodytes_
+Apteryx_rowi__zinc_finger_protein_648_[Apteryx_rowi] -> Apteryx_rowi__zinc_finger_protein_648__Apteryx_rowi_
+Terrapene_carolina_triunguis__zinc_finger_protein_648_[Terrapene_carolina_triunguis] -> Terrapene_carolina_triunguis__zinc_finger_protein_648__Terrapene_carolina_triunguis_
+Chrysemys_picta_bellii__zinc_finger_protein_648_[Chrysemys_picta_bellii] -> Chrysemys_picta_bellii__zinc_finger_protein_648__Chrysemys_picta_bellii_
+Chelonia_mydas__zinc_finger_protein_648_[Chelonia_mydas] -> Chelonia_mydas__zinc_finger_protein_648__Chelonia_mydas_
+Pelodiscus_sinensis__zinc_finger_protein_648_[Pelodiscus_sinensis] -> Pelodiscus_sinensis__zinc_finger_protein_648__Pelodiscus_sinensis_
+Alligator_sinensis__zinc_finger_protein_648_[Alligator_sinensis] -> Alligator_sinensis__zinc_finger_protein_648__Alligator_sinensis_
+Crocodylus_porosus__PREDICTED:_zinc_finger_protein_648_isoform_X1_[Crocodylus_porosus] -> Crocodylus_porosus__PREDICTED__zinc_finger_protein_648_isoform_X1__Crocodylus_porosus_
+Rhinatrema_bivittatum__zinc_finger_protein_648_[Rhinatrema_bivittatum] -> Rhinatrema_bivittatum__zinc_finger_protein_648__Rhinatrema_bivittatum_
+Latimeria_chalumnae__PREDICTED:_zinc_finger_protein_648-like_[Latimeria_chalumnae] -> Latimeria_chalumnae__PREDICTED__zinc_finger_protein_648-like__Latimeria_chalumnae_
+Poecilia_reticulata__PREDICTED:_oocyte_zinc_finger_protein_XlCOF22-like_[Poecilia_reticulata] -> Poecilia_reticulata__PREDICTED__oocyte_zinc_finger_protein_XlCOF22-like__Poecilia_reticulata_
+Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1_[Fundulus_heteroclitus] -> Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1__Fundulus_heteroclitus_
+Cyprinodon_variegatus__PREDICTED:_zinc_finger_protein_648-like_isoform_X1_[Cyprinodon_variegatus] -> Cyprinodon_variegatus__PREDICTED__zinc_finger_protein_648-like_isoform_X1__Cyprinodon_variegatus_
+Anabas_testudineus__zinc_finger_protein_648-like_[Anabas_testudineus] -> Anabas_testudineus__zinc_finger_protein_648-like__Anabas_testudineus_
+Stegastes_partitus__PREDICTED:_zinc_finger_protein_648_[Stegastes_partitus] -> Stegastes_partitus__PREDICTED__zinc_finger_protein_648__Stegastes_partitus_
+Acanthochromis_polyacanthus__zinc_finger_protein_648-like_[Acanthochromis_polyacanthus] -> Acanthochromis_polyacanthus__zinc_finger_protein_648-like__Acanthochromis_polyacanthus_
+Pundamilia_nyererei__PREDICTED:_zinc_finger_protein_648-like_[Pundamilia_nyererei] -> Pundamilia_nyererei__PREDICTED__zinc_finger_protein_648-like__Pundamilia_nyererei_
+Maylandia_zebra__zinc_finger_protein_648_[Maylandia_zebra] -> Maylandia_zebra__zinc_finger_protein_648__Maylandia_zebra_
+Haplochromis_burtoni__PREDICTED:_zinc_finger_protein_648-like_[Haplochromis_burtoni] -> Haplochromis_burtoni__PREDICTED__zinc_finger_protein_648-like__Haplochromis_burtoni_
+Oreochromis_niloticus__zinc_finger_protein_648_[Oreochromis_niloticus] -> Oreochromis_niloticus__zinc_finger_protein_648__Oreochromis_niloticus_
+Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1_[Kryptolebias_marmoratus] -> Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1__Kryptolebias_marmoratus_
+Cynoglossus_semilaevis__zinc_finger_protein_771_[Cynoglossus_semilaevis] -> Cynoglossus_semilaevis__zinc_finger_protein_771__Cynoglossus_semilaevis_
+Oryzias_latipes__zinc_finger_protein_648_[Oryzias_latipes] -> Oryzias_latipes__zinc_finger_protein_648__Oryzias_latipes_
+Danio_rerio__zinc_finger_protein_648_[Danio_rerio] -> Danio_rerio__zinc_finger_protein_648__Danio_rerio_
+Paramormyrops_kingsleyae__zinc_finger_protein_648-like_[Paramormyrops_kingsleyae] -> Paramormyrops_kingsleyae__zinc_finger_protein_648-like__Paramormyrops_kingsleyae_
+Astyanax_mexicanus__zinc_finger_protein_648_[Astyanax_mexicanus] -> Astyanax_mexicanus__zinc_finger_protein_648__Astyanax_mexicanus_
+Lepisosteus_oculatus__PREDICTED:_zinc_finger_protein_648_[Lepisosteus_oculatus] -> Lepisosteus_oculatus__PREDICTED__zinc_finger_protein_648__Lepisosteus_oculatus_
+Homo_sapiens__zinc_finger_protein_648_[Homo_sapiens] -> Homo_sapiens__zinc_finger_protein_648__Homo_sapiens_
+Nomascus_leucogenys__PREDICTED:_zinc_finger_protein_648_[Nomascus_leucogenys] -> Nomascus_leucogenys__PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_
+Piliocolobus_tephrosceles__zinc_finger_protein_648_[Piliocolobus_tephrosceles] -> Piliocolobus_tephrosceles__zinc_finger_protein_648__Piliocolobus_tephrosceles_
+Otolemur_garnettii__zinc_finger_protein_648_[Otolemur_garnettii] -> Otolemur_garnettii__zinc_finger_protein_648__Otolemur_garnettii_
+Ursus_maritimus__PREDICTED:_zinc_finger_protein_648_[Ursus_maritimus] -> Ursus_maritimus__PREDICTED__zinc_finger_protein_648__Ursus_maritimus_
+Mustela_putorius_furo__PREDICTED:_zinc_finger_protein_648_[Mustela_putorius_furo] -> Mustela_putorius_furo__PREDICTED__zinc_finger_protein_648__Mustela_putorius_furo_
+Vulpes_vulpes__zinc_finger_protein_648_[Vulpes_vulpes] -> Vulpes_vulpes__zinc_finger_protein_648__Vulpes_vulpes_
+Panthera_tigris_altaica__PREDICTED:_zinc_finger_protein_648_[Panthera_tigris_altaica] -> Panthera_tigris_altaica__PREDICTED__zinc_finger_protein_648__Panthera_tigris_altaica_
+Equus_caballus__zinc_finger_protein_648_[Equus_caballus] -> Equus_caballus__zinc_finger_protein_648__Equus_caballus_
+Bos_taurus__zinc_finger_protein_648_[Bos_taurus] -> Bos_taurus__zinc_finger_protein_648__Bos_taurus_
+Marmota_marmota_marmota__PREDICTED:_zinc_finger_protein_648_[Marmota_marmota_marmota] -> Marmota_marmota_marmota__PREDICTED__zinc_finger_protein_648__Marmota_marmota_marmota_
+Castor_canadensis__zinc_finger_protein_648_[Castor_canadensis] -> Castor_canadensis__zinc_finger_protein_648__Castor_canadensis_
+Mus_musculus__zinc_finger_protein_648_[Mus_musculus] -> Mus_musculus__zinc_finger_protein_648__Mus_musculus_
+Aquila_chrysaetos_canadensis__PREDICTED:_zinc_finger_protein_648_[Aquila_chrysaetos_canadensis] -> Aquila_chrysaetos_canadensis__PREDICTED__zinc_finger_protein_648__Aquila_chrysaetos_canadensis_
+
+                                                                                                   Gap/Ambiguity  Composition  p-value
+   1  Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_                         66.67%    passed     71.22%
+   2  Pan_troglodytes__zinc_finger_protein_648__Pan_troglodytes_                                          66.55%    passed     38.08%
+   3  Apteryx_rowi__zinc_finger_protein_648__Apteryx_rowi_                                                74.88%    failed      0.00%
+   4  Terrapene_carolina_triunguis__zinc_finger_protein_648__Terrapene_carolina_triunguis_                31.88%    passed     56.31%
+   5  Chrysemys_picta_bellii__zinc_finger_protein_648__Chrysemys_picta_bellii_                            23.07%    passed      8.73%
+   6  Chelonia_mydas__zinc_finger_protein_648__Chelonia_mydas_                                            26.93%    passed     16.30%
+   7  Pelodiscus_sinensis__zinc_finger_protein_648__Pelodiscus_sinensis_                                  23.79%    passed     15.03%
+   8  Alligator_sinensis__zinc_finger_protein_648__Alligator_sinensis_                                    36.23%    passed      8.92%
+   9  Crocodylus_porosus__PREDICTED__zinc_finger_protein_648_isoform_X1__Crocodylus_porosus_              68.36%    passed     83.55%
+  10  Rhinatrema_bivittatum__zinc_finger_protein_648__Rhinatrema_bivittatum_                              67.51%    passed     68.36%
+  11  Latimeria_chalumnae__PREDICTED__zinc_finger_protein_648-like__Latimeria_chalumnae_                  64.86%    failed      0.00%
+  12  Poecilia_reticulata__PREDICTED__oocyte_zinc_finger_protein_XlCOF22-like__Poecilia_reticulata_       75.72%    failed      4.56%
+  13  Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1__Fundulus_heteroclitus_               82.73%    passed     78.11%
+  14  Cyprinodon_variegatus__PREDICTED__zinc_finger_protein_648-like_isoform_X1__Cyprinodon_variegatus_   82.25%    passed     86.54%
+  15  Anabas_testudineus__zinc_finger_protein_648-like__Anabas_testudineus_                               76.81%    passed     28.02%
+  16  Stegastes_partitus__PREDICTED__zinc_finger_protein_648__Stegastes_partitus_                         75.48%    failed      4.63%
+  17  Acanthochromis_polyacanthus__zinc_finger_protein_648-like__Acanthochromis_polyacanthus_             82.13%    failed      0.09%
+  18  Pundamilia_nyererei__PREDICTED__zinc_finger_protein_648-like__Pundamilia_nyererei_                  75.48%    passed     15.59%
+  19  Maylandia_zebra__zinc_finger_protein_648__Maylandia_zebra_                                          75.48%    passed     19.07%
+  20  Haplochromis_burtoni__PREDICTED__zinc_finger_protein_648-like__Haplochromis_burtoni_                75.48%    passed     18.69%
+  21  Oreochromis_niloticus__zinc_finger_protein_648__Oreochromis_niloticus_                              75.48%    passed     25.49%
+  22  Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1__Kryptolebias_marmoratus_          74.64%    failed      0.01%
+  23  Cynoglossus_semilaevis__zinc_finger_protein_771__Cynoglossus_semilaevis_                            75.85%    passed      8.19%
+  24  Oryzias_latipes__zinc_finger_protein_648__Oryzias_latipes_                                          80.80%    passed     72.76%
+  25  Danio_rerio__zinc_finger_protein_648__Danio_rerio_                                                  76.33%    failed      0.00%
+  26  Paramormyrops_kingsleyae__zinc_finger_protein_648-like__Paramormyrops_kingsleyae_                   84.30%    passed     19.20%
+  27  Astyanax_mexicanus__zinc_finger_protein_648__Astyanax_mexicanus_                                    75.12%    passed     36.31%
+  28  Lepisosteus_oculatus__PREDICTED__zinc_finger_protein_648__Lepisosteus_oculatus_                     80.19%    failed      0.01%
+  29  Homo_sapiens__zinc_finger_protein_648__Homo_sapiens_                                                66.55%    passed     25.99%
+  30  Nomascus_leucogenys__PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_                       66.55%    passed     49.73%
+  31  Piliocolobus_tephrosceles__zinc_finger_protein_648__Piliocolobus_tephrosceles_                      66.91%    passed     25.09%
+  32  Otolemur_garnettii__zinc_finger_protein_648__Otolemur_garnettii_                                    68.60%    passed     44.93%
+  33  Ursus_maritimus__PREDICTED__zinc_finger_protein_648__Ursus_maritimus_                               66.55%    passed      6.62%
+  34  Mustela_putorius_furo__PREDICTED__zinc_finger_protein_648__Mustela_putorius_furo_                   66.43%    failed      2.94%
+  35  Vulpes_vulpes__zinc_finger_protein_648__Vulpes_vulpes_                                              66.43%    passed     15.16%
+  36  Panthera_tigris_altaica__PREDICTED__zinc_finger_protein_648__Panthera_tigris_altaica_               66.43%    failed      2.65%
+  37  Equus_caballus__zinc_finger_protein_648__Equus_caballus_                                            66.67%    failed      1.55%
+  38  Bos_taurus__zinc_finger_protein_648__Bos_taurus_                                                    67.15%    failed      0.43%
+  39  Marmota_marmota_marmota__PREDICTED__zinc_finger_protein_648__Marmota_marmota_marmota_               67.39%    passed     34.96%
+  40  Castor_canadensis__zinc_finger_protein_648__Castor_canadensis_                                      68.48%    passed     81.23%
+  41  Mus_musculus__zinc_finger_protein_648__Mus_musculus_                                                71.74%    passed     77.00%
+  42  Aquila_chrysaetos_canadensis__PREDICTED__zinc_finger_protein_648__Aquila_chrysaetos_canadensis_     78.14%    passed     29.04%
+WARNING: 37 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                               67.36%  12 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 712952)...
+Model LG+C60+G+F is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+G+F
+
+NOTE: 965 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -17228.324
+2. Current log-likelihood: -15830.629
+3. Current log-likelihood: -15780.116
+4. Current log-likelihood: -15778.960
+Optimal log-likelihood: -15778.931
+Mixture weights: 0.896 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.040 0.000 0.000 0.002 0.000 0.000 0.009 0.010 0.000 0.000 0.000 0.000 0.002 0.000 0.000 0.000 0.000 0.000 0.002 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.002 0.004 0.000 0.000 0.000 0.000 0.000 0.020 0.006 0.005 0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Gamma shape alpha: 5.757
+Parameters optimization took 4 rounds (78.397 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 0.474 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -15838.165
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.620 second
+Computing log-likelihood of 98 initial trees ... 787.581 seconds
+Current best score: -15761.633
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -15743.225
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 5: -15742.038
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 6: -15740.592
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 7: -15740.158
+Iteration 10 / LogL: -15743.370 / Time: 0h:25m:42s
+Iteration 20 / LogL: -15740.875 / Time: 0h:34m:59s
+Finish initializing candidate tree set (6)
+Current best tree score: -15740.158 / CPU time: 1992.997
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+UPDATE BEST LOG-LIKELIHOOD: -15740.049
+Iteration 30 / LogL: -15741.037 / Time: 0h:50m:52s (2h:15m:5s left)
+Iteration 40 / LogL: -15740.883 / Time: 1h:5m:1s (1h:51m:41s left)
+Iteration 50 / LogL: -15741.175 / Time: 1h:19m:52s (1h:32m:55s left)
+Iteration 60 / LogL: -15742.087 / Time: 1h:34m:1s (1h:14m:54s left)
+Iteration 70 / LogL: -15740.321 / Time: 1h:47m:50s (0h:57m:49s left)
+Iteration 80 / LogL: -15740.208 / Time: 2h:1m:24s (0h:41m:29s left)
+Iteration 90 / LogL: -15740.096 / Time: 2h:16m:19s (0h:26m:2s left)
+Iteration 100 / LogL: -15740.261 / Time: 2h:29m:47s (0h:10m:35s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 982 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 108 ITERATIONS / Time: 6h:37m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -15740.049
+Optimal log-likelihood: -15740.046
+Mixture weights: 0.911 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.039 0.000 0.000 0.001 0.000 0.000 0.009 0.000 0.000 0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.002 0.000 0.000 0.000 0.000 0.000 0.026 0.004 0.005 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Gamma shape alpha: 5.972
+Parameters optimization took 1 rounds (8.788 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -15740.046
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file cutboyzlongreptilesalignment.fa.splits.nex
+Total tree length: 24.428
+
+Total number of iterations: 108
+CPU time used for tree search: 23597.724 sec (6h:33m:17s)
+Wall-clock time used for tree search: 23773.421 sec (6h:36m:13s)
+Total CPU time used: 23712.413 sec (6h:35m:12s)
+Total wall-clock time used: 23888.668 sec (6h:38m:8s)
+UFBoot trees printed to cutboyzlongreptilesalignment.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file cutboyzlongreptilesalignment.fa.splits.nex...
+42 taxa and 297 splits.
+Consensus tree written to cutboyzlongreptilesalignment.fa.contree
+Reading input trees file cutboyzlongreptilesalignment.fa.contree
+Log-likelihood of consensus tree: -15740.161
+
+Analysis results written to: 
+  IQ-TREE report:                cutboyzlongreptilesalignment.fa.iqtree
+  Maximum-likelihood tree:       cutboyzlongreptilesalignment.fa.treefile
+  Likelihood distances:          cutboyzlongreptilesalignment.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          cutboyzlongreptilesalignment.fa.splits.nex
+  Consensus tree:                cutboyzlongreptilesalignment.fa.contree
+  UFBoot trees:                  cutboyzlongreptilesalignment.fa.ufboot
+  Screen log file:               cutboyzlongreptilesalignment.fa.log
+
+Date and Time: Tue Aug 27 05:31:54 2019

@@ -1,0 +1,878 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=272;
+TAXLABELS
+[1] 'Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[2] 'Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[3] 'Homo_sapiens__PREDICTED__Homo_sapiens_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[4] 'Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__mRNA__cDNA_clone_MGC_168844_IMAGE_9021221___complete_cds'
+[5] 'Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__mRNA__cDNA_clone_MGC_168843_IMAGE_9021220___complete_cds'
+[6] 'Homo_sapiens__Homo_sapiens_zinc_finger_protein_648__ZNF648___mRNA'
+[7] 'Homo_sapiens__Homo_sapiens_cDNA_FLJ46813_fis__clone_TRACH3036750__weakly__similar_to_Zinc_finger_protein_135'
+[8] 'Gorilla_gorilla_gorilla__PREDICTED__Gorilla_gorilla_gorilla_zinc_finger_protein_648__ZNF648___mRNA'
+[9] 'Pan_paniscus__PREDICTED__Pan_paniscus_zinc_finger_protein_648__ZNF648___mRNA'
+[10] 'Pan_troglodytes__PREDICTED__Pan_troglodytes_zinc_finger_protein_648__ZNF648___mRNA'
+[11] 'Pongo_abelii__PREDICTED__Pongo_abelii_zinc_finger_protein_648__ZNF648___mRNA'
+[12] 'Nomascus_leucogenys__PREDICTED__Nomascus_leucogenys_zinc_finger_protein_648__ZNF648___mRNA'
+[13] 'Chlorocebus_sabaeus__PREDICTED__Chlorocebus_sabaeus_zinc_finger_protein_648__ZNF648___mRNA'
+[14] 'Papio_anubis__PREDICTED__Papio_anubis_zinc_finger_protein_648__ZNF648___mRNA'
+[15] 'Theropithecus_gelada__PREDICTED__Theropithecus_gelada_zinc_finger_protein_648__ZNF648___mRNA'
+[16] 'Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[17] 'Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[18] 'Macaca_nemestrina__PREDICTED__Macaca_nemestrina_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[19] 'Piliocolobus_tephrosceles__PREDICTED__Piliocolobus_tephrosceles_zinc_finger_protein_648__ZNF648___mRNA'
+[20] 'Macaca_fascicularis__PREDICTED__Macaca_fascicularis_zinc_finger_protein_648__ZNF648___mRNA'
+[21] 'Rhinopithecus_bieti__PREDICTED__Rhinopithecus_bieti_zinc_finger_protein_648__ZNF648___mRNA'
+[22] 'Rhinopithecus_roxellana__PREDICTED__Rhinopithecus_roxellana_zinc_finger_protein_648__ZNF648___mRNA'
+[23] 'Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA'
+[24] 'Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[25] 'Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[26] 'Cercocebus_atys__PREDICTED__Cercocebus_atys_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[27] 'Macaca_mulatta__PREDICTED__Macaca_mulatta_zinc_finger_protein_648__ZNF648___mRNA'
+[28] 'Colobus_angolensis_palliatus__PREDICTED__Colobus_angolensis_palliatus_zinc_finger_protein_648__ZNF648___mRNA'
+[29] 'Mandrillus_leucophaeus__PREDICTED__Mandrillus_leucophaeus_zinc_finger_protein_648__ZNF648___mRNA'
+[30] 'Callithrix_jacchus__PREDICTED__Callithrix_jacchus_zinc_finger_protein_648__ZNF648___mRNA'
+[31] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X6__mRNA'
+[32] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X8__mRNA'
+[33] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X7__mRNA'
+[34] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X5__mRNA'
+[35] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA'
+[36] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[37] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X2__misc_RNA'
+[38] 'Aotus_nancymaae__PREDICTED__Aotus_nancymaae_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[39] 'Cebus_capucinus_imitator__PREDICTED__Cebus_capucinus_imitator_zinc_finger_protein_648__ZNF648___mRNA'
+[40] 'Propithecus_coquereli__PREDICTED__Propithecus_coquereli_zinc_finger_protein_648__ZNF648___mRNA'
+[41] 'Galeopterus_variegatus__PREDICTED__Galeopterus_variegatus_zinc_finger_protein_648__ZNF648___mRNA'
+[42] 'Odobenus_rosmarus_divergens__PREDICTED__Odobenus_rosmarus_divergens_zinc_finger_protein_648__ZNF648___mRNA'
+[43] 'Eumetopias_jubatus__PREDICTED__Eumetopias_jubatus_zinc_finger_protein_648__ZNF648___mRNA'
+[44] 'Callorhinus_ursinus__PREDICTED__Callorhinus_ursinus_zinc_finger_protein_648__ZNF648___mRNA'
+[45] 'Ursus_arctos_horribilis__PREDICTED__Ursus_arctos_horribilis_zinc_finger_protein_648__ZNF648___mRNA'
+[46] 'Zalophus_californianus__PREDICTED__Zalophus_californianus_zinc_finger_protein_648__ZNF648___mRNA'
+[47] 'Ursus_maritimus__PREDICTED__Ursus_maritimus_zinc_finger_protein_648__ZNF648___mRNA'
+[48] 'Microcebus_murinus__PREDICTED__Microcebus_murinus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[49] 'Microcebus_murinus__PREDICTED__Microcebus_murinus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[50] 'Ceratotherium_simum_simum__PREDICTED__Ceratotherium_simum_simum_zinc_finger_protein_648__LOC101406016___mRNA'
+[51] 'Leptonychotes_weddellii__PREDICTED__Leptonychotes_weddellii_zinc_finger_protein_648__ZNF648___mRNA'
+[52] 'Neomonachus_schauinslandi__PREDICTED__Neomonachus_schauinslandi_zinc_finger_protein_648__ZNF648___mRNA'
+[53] 'Ailuropoda_melanoleuca__PREDICTED__Ailuropoda_melanoleuca_zinc_finger_protein_648__ZNF648___mRNA'
+[54] 'Marmota_marmota_marmota__PREDICTED__Marmota_marmota_marmota_zinc_finger_protein_648__Znf648___mRNA'
+[55] 'Marmota_flaviventris__PREDICTED__Marmota_flaviventris_zinc_finger_protein_648__Znf648___mRNA'
+[56] 'Urocitellus_parryii__PREDICTED__Urocitellus_parryii_zinc_finger_protein_648__Znf648___mRNA'
+[57] 'Equus_asinus__PREDICTED__Equus_asinus_zinc_finger_protein_648__ZNF648___mRNA'
+[58] 'Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X2__mRNA'
+[59] 'Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X3__mRNA'
+[60] 'Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X1__mRNA'
+[61] 'Equus_caballus__Equus_caballus_zinc_finger_protein_648__ZNF648___mRNA'
+[62] 'Equus_caballus__PREDICTED__Equus_caballus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[63] 'Equus_przewalskii__PREDICTED__Equus_przewalskii_zinc_finger_protein_648__ZNF648___mRNA'
+[64] 'Mustela_putorius_furo__PREDICTED__Mustela_putorius_furo_zinc_finger_protein_648__ZNF648___mRNA'
+[65] 'Enhydra_lutris_kenyoni__PREDICTED__Enhydra_lutris_kenyoni_zinc_finger_protein_648__LOC111150654___mRNA'
+[66] 'Otolemur_garnettii__PREDICTED__Otolemur_garnettii_zinc_finger_protein_648__ZNF648___mRNA'
+[67] 'Suricata_suricatta__PREDICTED__Suricata_suricatta_zinc_finger_protein_648__ZNF648___mRNA'
+[68] 'Carlito_syrichta__PREDICTED__Carlito_syrichta_zinc_finger_protein_648__ZNF648___mRNA'
+[69] 'Camelus_ferus__PREDICTED__Camelus_ferus_zinc_finger_protein_648__ZNF648___mRNA'
+[70] 'Canis_lupus_dingo__PREDICTED__Canis_lupus_dingo_zinc_finger_protein_648__ZNF648___mRNA'
+[71] 'Canis_lupus_familiaris__PREDICTED__Canis_lupus_familiaris_zinc_finger_protein_648__ZNF648___mRNA'
+[72] 'Camelus_bactrianus__PREDICTED__Camelus_bactrianus_zinc_finger_protein_648__ZNF648___mRNA'
+[73] 'Vicugna_pacos__PREDICTED__Vicugna_pacos_zinc_finger_protein_648__ZNF648___mRNA'
+[74] 'Lynx_canadensis__PREDICTED__Lynx_canadensis_zinc_finger_protein_648__ZNF648___mRNA'
+[75] 'Vulpes_vulpes__PREDICTED__Vulpes_vulpes_zinc_finger_protein_648__ZNF648___mRNA'
+[76] 'Panthera_pardus__PREDICTED__Panthera_pardus_zinc_finger_protein_648__ZNF648___transcript_variant_X4__mRNA'
+[77] 'Panthera_pardus__PREDICTED__Panthera_pardus_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[78] 'Panthera_pardus__PREDICTED__Panthera_pardus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[79] 'Panthera_pardus__PREDICTED__Panthera_pardus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[80] 'Felis_catus__PREDICTED__Felis_catus_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[81] 'Felis_catus__PREDICTED__Felis_catus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[82] 'Felis_catus__PREDICTED__Felis_catus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[83] 'Panthera_tigris_altaica__PREDICTED__Panthera_tigris_altaica_zinc_finger_protein_648__ZNF648___mRNA'
+[84] 'Puma_concolor__PREDICTED__Puma_concolor_zinc_finger_protein_648__ZNF648___mRNA'
+[85] 'Acinonyx_jubatus__PREDICTED__Acinonyx_jubatus_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[86] 'Acinonyx_jubatus__PREDICTED__Acinonyx_jubatus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[87] 'Acinonyx_jubatus__PREDICTED__Acinonyx_jubatus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[88] 'Pteropus_vampyrus__PREDICTED__Pteropus_vampyrus_zinc_finger_protein_648__ZNF648___mRNA'
+[89] 'Ictidomys_tridecemlineatus__PREDICTED__Ictidomys_tridecemlineatus_zinc_finger_protein_648__Znf648___transcript_variant_X4__mRNA'
+[90] 'Pteropus_alecto__PREDICTED__Pteropus_alecto_zinc_finger_protein_648__ZNF648___mRNA'
+[91] 'Bos_indicus_x_Bos_taurus__PREDICTED__Bos_indicus_x_Bos_taurus_zinc_finger_protein_648__ZNF648___mRNA'
+[92] 'Bos_taurus__PREDICTED__Bos_taurus_zinc_finger_protein_648__ZNF648___mRNA'
+[93] 'Bos_mutus__PREDICTED__Bos_mutus_zinc_finger_protein_648__ZNF648___mRNA'
+[94] 'Bos_indicus__PREDICTED__Bos_indicus_zinc_finger_protein_648__ZNF648___mRNA'
+[95] 'Castor_canadensis__PREDICTED__Castor_canadensis_zinc_finger_protein_648__Znf648___mRNA'
+[96] 'Camelus_dromedarius__PREDICTED__Camelus_dromedarius_zinc_finger_protein_648__ZNF648___mRNA'
+[97] 'Tupaia_chinensis__PREDICTED__Tupaia_chinensis_zinc_finger_protein_648__ZNF648___mRNA'
+[98] 'Bubalus_bubalis__PREDICTED__Bubalus_bubalis_zinc_finger_protein_648__ZNF648___mRNA'
+[99] 'Balaenoptera_acutorostrata_scammoni__PREDICTED__Balaenoptera_acutorostrata_scammoni_zinc_finger_protein_648__ZNF648___mRNA'
+[100] 'Monodon_monoceros__PREDICTED__Monodon_monoceros_zinc_finger_protein_648__ZNF648___mRNA'
+[101] 'Orcinus_orca__PREDICTED__Orcinus_orca_zinc_finger_protein_648__ZNF648___mRNA'
+[102] 'Delphinapterus_leucas__PREDICTED__Delphinapterus_leucas_zinc_finger_protein_648__ZNF648___mRNA'
+[103] 'Neophocaena_asiaeorientalis_asiaeorientalis__PREDICTED__Neophocaena_asiaeorientalis_asiaeorientalis_zinc_finger_protein_648__ZNF648___mRNA'
+[104] 'Lagenorhynchus_obliquidens__PREDICTED__Lagenorhynchus_obliquidens_zinc_finger_protein_648__ZNF648___mRNA'
+[105] 'Ovis_aries__PREDICTED__Ovis_aries_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[106] 'Ovis_aries__PREDICTED__Ovis_aries_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[107] 'Capra_hircus__PREDICTED__Capra_hircus_zinc_finger_protein_648__ZNF648___mRNA'
+[108] 'Tursiops_truncatus__PREDICTED__Tursiops_truncatus_zinc_finger_protein_648__ZNF648___mRNA'
+[109] 'Lipotes_vexillifer__PREDICTED__Lipotes_vexillifer_zinc_finger_protein_648__ZNF648___mRNA'
+[110] 'Condylura_cristata__PREDICTED__Condylura_cristata_zinc_finger_protein_648__ZNF648___mRNA'
+[111] 'Chinchilla_lanigera__PREDICTED__Chinchilla_lanigera_zinc_finger_protein_648__Znf648___mRNA'
+[112] 'Rousettus_aegyptiacus__PREDICTED__Rousettus_aegyptiacus_zinc_finger_protein_648__ZNF648___mRNA'
+[113] 'Eptesicus_fuscus__PREDICTED__Eptesicus_fuscus_zinc_finger_protein_648__ZNF648___mRNA'
+[114] 'Ovis_aries_musimon__PREDICTED__Ovis_aries_musimon_zinc_finger_protein_648__ZNF648___transcript_variant_X3__mRNA'
+[115] 'Ovis_aries_musimon__PREDICTED__Ovis_aries_musimon_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[116] 'Odocoileus_virginianus_texanus__PREDICTED__Odocoileus_virginianus_texanus_zinc_finger_protein_648__ZNF648___mRNA'
+[117] 'Grammomys_surdaster__PREDICTED__Grammomys_surdaster_zinc_finger_protein_648__Znf648___mRNA'
+[118] 'Mus_musculus__Mus_musculus_zinc_finger_protein_648__Zfp648___mRNA'
+[119] 'Mus_musculus__PREDICTED__Mus_musculus_zinc_finger_protein_648__Zfp648___transcript_variant_X1__misc_RNA'
+[120] 'Mus_caroli__PREDICTED__Mus_caroli_zinc_finger_protein_648__Znf648___mRNA'
+[121] 'Cricetulus_griseus__PREDICTED__Cricetulus_griseus_zinc_finger_protein_648__Znf648___mRNA'
+[122] 'Dasypus_novemcinctus__PREDICTED__Dasypus_novemcinctus_zinc_finger_protein_648__ZNF648___mRNA'
+[123] 'Mus_pahari__PREDICTED__Mus_pahari_zinc_finger_protein_648__Znf648___mRNA'
+[124] 'Meriones_unguiculatus__PREDICTED__Meriones_unguiculatus_zinc_finger_protein_648__Znf648___mRNA'
+[125] 'Rattus_norvegicus__PREDICTED__Rattus_norvegicus_zinc_finger_protein_648__Zfp648___mRNA'
+[126] 'Peromyscus_maniculatus_bairdii__PREDICTED__Peromyscus_maniculatus_bairdii_zinc_finger_protein_648__Znf648___mRNA'
+[127] 'Mesocricetus_auratus__PREDICTED__Mesocricetus_auratus_zinc_finger_protein_648__Znf648___mRNA'
+[128] 'Microtus_ochrogaster__PREDICTED__Microtus_ochrogaster_zinc_finger_protein_648__Znf648___mRNA'
+[129] 'Hipposideros_armiger__PREDICTED__Hipposideros_armiger_zinc_finger_protein_648__ZNF648___mRNA'
+[130] 'Saimiri_boliviensis_boliviensis__PREDICTED__Saimiri_boliviensis_boliviensis_zinc_finger_protein_648__ZNF648___mRNA'
+[131] 'Bison_bison_bison__PREDICTED__Bison_bison_bison_zinc_finger_protein_648__ZNF648___mRNA'
+[132] 'Heterocephalus_glaber__PREDICTED__Heterocephalus_glaber_zinc_finger_protein_648__Znf648___mRNA'
+[133] 'Terrapene_carolina_triunguis__PREDICTED__Terrapene_carolina_triunguis_zinc_finger_protein_648__LOC112114869___mRNA'
+[134] 'Latimeria_chalumnae__PREDICTED__Latimeria_chalumnae_zinc_finger_protein_648-like__LOC102345176___mRNA'
+[135] 'Pelodiscus_sinensis__PREDICTED__Pelodiscus_sinensis_zinc_finger_protein_648__ZNF648___mRNA'
+[136] 'Crocodylus_porosus__PREDICTED__Crocodylus_porosus_zinc_finger_protein_648__ZNF648___transcript_variant_X1__mRNA'
+[137] 'Gavialis_gangeticus__PREDICTED__Gavialis_gangeticus_zinc_finger_protein_648-like__LOC109286943___transcript_variant_X1__mRNA'
+[138] 'Chelonia_mydas__PREDICTED__Chelonia_mydas_zinc_finger_protein_648__ZNF648___mRNA'
+[139] 'Crocodylus_porosus__PREDICTED__Crocodylus_porosus_zinc_finger_protein_648__ZNF648___transcript_variant_X2__mRNA'
+[140] 'Gavialis_gangeticus__PREDICTED__Gavialis_gangeticus_zinc_finger_protein_648-like__LOC109286943___transcript_variant_X2__mRNA'
+[141] 'Alligator_sinensis__PREDICTED__Alligator_sinensis_zinc_finger_protein_648__ZNF648___mRNA'
+[142] 'Chrysemys_picta_bellii__PREDICTED__Chrysemys_picta_bellii_zinc_finger_protein_648__ZNF648___mRNA'
+[143] 'Alligator_mississippiensis__PREDICTED__Alligator_mississippiensis_zinc_finger_protein_648__ZNF648___mRNA'
+[144] 'Mus_musculus__PREDICTED__Mus_musculus_predicted_gene__30388__Gm30388___transcript_variant_X2__ncRNA'
+[145] 'Rhinatrema_bivittatum__PREDICTED__Rhinatrema_bivittatum_zinc_finger_protein_648__ZNF648___mRNA'
+[146] 'Octodon_degus__PREDICTED__Octodon_degus_zinc_finger_protein_648__LOC101571624___mRNA'
+[147] 'Apteryx_rowi__PREDICTED__Apteryx_rowi_zinc_finger_protein_648__ZNF648___mRNA'
+[148] 'Cavia_porcellus__PREDICTED__Cavia_porcellus_zinc_finger_protein_648__Znf648___mRNA'
+[149] 'Sus_scrofa__PREDICTED__Sus_scrofa_zinc_finger_protein_648__ZNF648___ncRNA'
+[150] 'Oncorhynchus_mykiss__PREDICTED__Oncorhynchus_mykiss_zinc_finger_protein_648-like__LOC110524619___mRNA'
+[151] 'Oncorhynchus_tshawytscha__PREDICTED__Oncorhynchus_tshawytscha_zinc_finger_protein_648-like__LOC112243847___mRNA'
+[152] 'Oncorhynchus_nerka__PREDICTED__Oncorhynchus_nerka_zinc_finger_protein_648-like__LOC115145506___mRNA'
+[153] 'Oncorhynchus_mykiss__PREDICTED__Oncorhynchus_mykiss_zinc_finger_protein_648-like__LOC110521728___mRNA'
+[154] 'Salmo_salar__PREDICTED__Salmo_salar_zinc_finger_protein_648-like__LOC106584174___mRNA'
+[155] 'Oncorhynchus_kisutch__PREDICTED__Oncorhynchus_kisutch_zinc_finger_protein_648-like__LOC109898073___mRNA'
+[156] 'Salmo_trutta__PREDICTED__Salmo_trutta_zinc_finger_protein_648-like__LOC115158587___mRNA'
+[157] 'Oncorhynchus_kisutch__PREDICTED__Oncorhynchus_kisutch_zinc_finger_protein_648-like__LOC109902760___mRNA'
+[158] 'Oncorhynchus_tshawytscha__PREDICTED__Oncorhynchus_tshawytscha_zinc_finger_protein_648-like__LOC112251265___mRNA'
+[159] 'Oncorhynchus_tshawytscha__PREDICTED__Oncorhynchus_tshawytscha_zinc_finger_protein_648-like__LOC112251193___mRNA'
+[160] 'Esox_lucius__PREDICTED__Esox_lucius_zinc_finger_protein_648__LOC105011760___transcript_variant_X3__mRNA'
+[161] 'Salmo_trutta__PREDICTED__Salmo_trutta_zinc_finger_protein_648-like__LOC115192324___transcript_variant_X1__mRNA'
+[162] 'Salmo_trutta__PREDICTED__Salmo_trutta_zinc_finger_protein_648-like__LOC115192324___transcript_variant_X3__mRNA'
+[163] 'Oncorhynchus_nerka__PREDICTED__Oncorhynchus_nerka_zinc_finger_protein_648-like__LOC115119685___transcript_variant_X1__mRNA'
+[164] 'Salmo_trutta__PREDICTED__Salmo_trutta_zinc_finger_protein_648-like__LOC115192324___transcript_variant_X2__mRNA'
+[165] 'Salvelinus_alpinus__PREDICTED__Salvelinus_alpinus_zinc_finger_protein_648__LOC111971686___mRNA'
+[166] 'Oncorhynchus_nerka__PREDICTED__Oncorhynchus_nerka_zinc_finger_protein_648-like__LOC115119685___transcript_variant_X2__mRNA'
+[167] 'Salmo_salar__PREDICTED__Salmo_salar_zinc_finger_protein_648-like__LOC106560330___mRNA'
+[168] 'Esox_lucius__PREDICTED__Esox_lucius_zinc_finger_protein_648__LOC105011760___transcript_variant_X1__mRNA'
+[169] 'Esox_lucius__PREDICTED__Esox_lucius_zinc_finger_protein_648__LOC105011760___transcript_variant_X2__mRNA'
+[170] 'Salvelinus_alpinus__PREDICTED__Salvelinus_alpinus_zinc_finger_protein_648-like__LOC111975656___mRNA'
+[171] 'Cyprinodon_variegatus__PREDICTED__Cyprinodon_variegatus_zinc_finger_protein_648-like__LOC107091541___transcript_variant_X1__mRNA'
+[172] 'Cyprinodon_variegatus__PREDICTED__Cyprinodon_variegatus_zinc_finger_protein_648-like__LOC107091541___transcript_variant_X2__mRNA'
+[173] 'Cyprinodon_variegatus__PREDICTED__Cyprinodon_variegatus_zinc_finger_protein_648-like__LOC107091541___transcript_variant_X3__mRNA'
+[174] 'Labrus_bergylta__PREDICTED__Labrus_bergylta_zinc_finger_protein_648-like__LOC109982753___mRNA'
+[175] 'Carassius_auratus__PREDICTED__Carassius_auratus_zinc_finger_protein_648-like__LOC113051196___mRNA'
+[176] 'Cyprinus_carpio__PREDICTED__Cyprinus_carpio_zinc_finger_protein_648-like__LOC109095973___transcript_variant_X2__mRNA'
+[177] 'Seriola_dumerili__PREDICTED__Seriola_dumerili_zinc_finger_protein_648-like__LOC111231908___mRNA'
+[178] 'Cyprinus_carpio__PREDICTED__Cyprinus_carpio_zinc_finger_protein_648-like__LOC109095973___transcript_variant_X3__mRNA'
+[179] 'Anabas_testudineus__PREDICTED__Anabas_testudineus_zinc_finger_protein_648-like__LOC113152429___mRNA'
+[180] 'Sinocyclocheilus_anshuiensis__PREDICTED__Sinocyclocheilus_anshuiensis_zinc_finger_protein_648-like__LOC107660466___partial_mRNA'
+[181] 'Sinocyclocheilus_rhinocerous__PREDICTED__Sinocyclocheilus_rhinocerous_zinc_finger_protein_648-like__LOC107733900___transcript_variant_X2__mRNA'
+[182] 'Betta_splendens__PREDICTED__Betta_splendens_zinc_finger_protein_648-like__LOC114852949___mRNA'
+[183] 'Sinocyclocheilus_grahami__PREDICTED__Sinocyclocheilus_grahami_zinc_finger_protein_648-like__LOC107564440___partial_mRNA'
+[184] 'Acanthochromis_polyacanthus__PREDICTED__Acanthochromis_polyacanthus_zinc_finger_protein_648-like__LOC110966524___mRNA'
+[185] 'Amphiprion_ocellaris__PREDICTED__Amphiprion_ocellaris_zinc_finger_protein_648-like__LOC111579950___mRNA'
+[186] 'Sinocyclocheilus_rhinocerous__PREDICTED__Sinocyclocheilus_rhinocerous_zinc_finger_protein_648-like__LOC107733900___transcript_variant_X1__mRNA'
+[187] 'Sinocyclocheilus_rhinocerous__PREDICTED__Sinocyclocheilus_rhinocerous_zinc_finger_protein_648-like__LOC107719322___transcript_variant_X2__mRNA'
+[188] 'Danio_rerio__PREDICTED__Danio_rerio_zinc_finger_protein_648__znf648___transcript_variant_X3__mRNA'
+[189] 'Danio_rerio__PREDICTED__Danio_rerio_zinc_finger_protein_648__znf648___transcript_variant_X1__mRNA'
+[190] 'Nothobranchius_furzeri__PREDICTED__Nothobranchius_furzeri_zinc_finger_protein_501-like__LOC107387367___mRNA'
+[191] 'Danio_rerio__PREDICTED__Danio_rerio_zinc_finger_protein_648__znf648___transcript_variant_X2__mRNA'
+[192] 'Kryptolebias_marmoratus__PREDICTED__Kryptolebias_marmoratus_zinc_finger_protein_648-like__LOC108246255___transcript_variant_X2__mRNA'
+[193] 'Echeneis_naucrates__PREDICTED__Echeneis_naucrates_zinc_finger_protein_648-like__LOC115042096___mRNA'
+[194] 'Danio_rerio__PREDICTED__Danio_rerio_zinc_finger_protein_648__znf648___transcript_variant_X4__mRNA'
+[195] 'Neolamprologus_brichardi__PREDICTED__Neolamprologus_brichardi_zinc_finger_protein_648-like__LOC102784243___mRNA'
+[196] 'Dromaius_novaehollandiae__PREDICTED__Dromaius_novaehollandiae_zinc_finger_protein_648__ZNF648___mRNA'
+[197] 'Cyprinus_carpio__PREDICTED__Cyprinus_carpio_zinc_finger_protein_648-like__LOC109095973___transcript_variant_X1__mRNA'
+[198] 'Sinocyclocheilus_anshuiensis__PREDICTED__Sinocyclocheilus_anshuiensis_zinc_finger_protein_648-like__LOC107678353___transcript_variant_X2__mRNA'
+[199] 'Denticeps_clupeoides__PREDICTED__Denticeps_clupeoides_zinc_finger_protein_648-like__LOC114801723___mRNA'
+[200] 'Cyprinus_carpio__PREDICTED__Cyprinus_carpio_zinc_finger_protein_648-like__LOC109095428___mRNA'
+[201] 'Monopterus_albus__PREDICTED__Monopterus_albus_zinc_finger_protein_648-like__LOC109965706___mRNA'
+[202] 'Sinocyclocheilus_rhinocerous__PREDICTED__Sinocyclocheilus_rhinocerous_zinc_finger_protein_648-like__LOC107719322___transcript_variant_X1__mRNA'
+[203] 'Sinocyclocheilus_anshuiensis__PREDICTED__Sinocyclocheilus_anshuiensis_zinc_finger_protein_648-like__LOC107678353___transcript_variant_X1__mRNA'
+[204] 'Xiphophorus_maculatus__PREDICTED__Xiphophorus_maculatus_zinc_finger_protein_648__LOC102219833___mRNA'
+[205] 'Kryptolebias_marmoratus__PREDICTED__Kryptolebias_marmoratus_zinc_finger_protein_648-like__LOC108246255___transcript_variant_X1__mRNA'
+[206] 'Poecilia_mexicana__PREDICTED__Poecilia_mexicana_zinc_finger_protein_648-like__LOC106920128___mRNA'
+[207] 'Perca_flavescens__PREDICTED__Perca_flavescens_zinc_finger_protein_501-like__LOC114561815___transcript_variant_X3__mRNA'
+[208] 'Poecilia_formosa__PREDICTED__Poecilia_formosa_zinc_finger_protein_648-like__LOC103139835___mRNA'
+[209] 'Perca_flavescens__PREDICTED__Perca_flavescens_zinc_finger_protein_501-like__LOC114561815___transcript_variant_X2__mRNA'
+[210] 'Perca_flavescens__PREDICTED__Perca_flavescens_zinc_finger_protein_501-like__LOC114561815___transcript_variant_X1__mRNA'
+[211] 'Seriola_lalandi_dorsalis__PREDICTED__Seriola_lalandi_dorsalis_zinc_finger_protein_648-like__LOC111662597___mRNA'
+[212] 'Sinocyclocheilus_grahami__PREDICTED__Sinocyclocheilus_grahami_zinc_finger_protein_648-like__LOC107555382___transcript_variant_X2__mRNA'
+[213] 'Pundamilia_nyererei__PREDICTED__Pundamilia_nyererei_zinc_finger_protein_648-like__LOC102201103___mRNA'
+[214] 'Sinocyclocheilus_grahami__PREDICTED__Sinocyclocheilus_grahami_zinc_finger_protein_648-like__LOC107555382___transcript_variant_X1__mRNA'
+[215] 'Parambassis_ranga__PREDICTED__Parambassis_ranga_zinc_finger_protein_648-like__LOC114435047___transcript_variant_X2__mRNA'
+[216] 'Parambassis_ranga__PREDICTED__Parambassis_ranga_zinc_finger_protein_648-like__LOC114435047___transcript_variant_X1__mRNA'
+[217] 'Poecilia_reticulata__PREDICTED__Poecilia_reticulata_oocyte_zinc_finger_protein_XlCOF22-like__LOC103463994___mRNA'
+[218] 'Poecilia_latipinna__PREDICTED__Poecilia_latipinna_zinc_finger_protein_648-like__LOC106962279___mRNA'
+[219] 'Haplochromis_burtoni__PREDICTED__Haplochromis_burtoni_zinc_finger_protein_648-like__LOC102298599___mRNA'
+[220] 'Austrofundulus_limnaeus__PREDICTED__Austrofundulus_limnaeus_zinc_finger_protein_648-like__LOC106528810___mRNA'
+[221] 'Maylandia_zebra__PREDICTED__Maylandia_zebra_zinc_finger_protein_648__LOC101471384___mRNA'
+[222] 'Aptenodytes_forsteri__PREDICTED__Aptenodytes_forsteri_zinc_finger_protein_648__ZNF648___mRNA'
+[223] 'Astatotilapia_calliptera__PREDICTED__Astatotilapia_calliptera_zinc_finger_protein_648-like__LOC113016333___mRNA'
+[224] 'Astyanax_mexicanus__PREDICTED__Astyanax_mexicanus_zinc_finger_protein_648__LOC103037851___mRNA'
+[225] 'Notothenia_coriiceps__PREDICTED__Notothenia_coriiceps_zinc_finger_protein_648-like__LOC104949025___mRNA'
+[226] 'Xiphophorus_couchianus__PREDICTED__Xiphophorus_couchianus_zinc_finger_protein_648-like__LOC114151137___mRNA'
+[227] 'Stegastes_partitus__PREDICTED__Stegastes_partitus_zinc_finger_protein_648__znf648___mRNA'
+[228] 'Carassius_auratus__PREDICTED__Carassius_auratus_zinc_finger_protein_648-like__LOC113097717___mRNA'
+[229] 'Gouania_willdenowi__PREDICTED__Gouania_willdenowi_zinc_finger_protein_648-like__LOC114458882___mRNA'
+[230] 'Oryzias_melastigma__PREDICTED__Oryzias_melastigma_zinc_finger_protein_648-like__LOC112150671___transcript_variant_X2__misc_RNA'
+[231] 'Cottoperca_gobio__PREDICTED__Cottoperca_gobio_zinc_finger_protein_648-like__LOC115007394___transcript_variant_X2__mRNA'
+[232] 'Lates_calcarifer__PREDICTED__Lates_calcarifer_zinc_finger_protein_648-like__LOC108878951___mRNA'
+[233] 'Oryzias_melastigma__PREDICTED__Oryzias_melastigma_zinc_finger_protein_648-like__LOC112150671___transcript_variant_X1__mRNA'
+[234] 'Fundulus_heteroclitus__PREDICTED__Fundulus_heteroclitus_gastrula_zinc_finger_protein_XlCGF52.1__LOC105915935___mRNA'
+[235] 'Oreochromis_niloticus__PREDICTED__Oreochromis_niloticus_zinc_finger_protein_648__LOC102078887___mRNA'
+[236] 'Larimichthys_crocea__PREDICTED__Larimichthys_crocea_zinc_finger_protein_648__LOC104921765___mRNA'
+[237] 'Cottoperca_gobio__PREDICTED__Cottoperca_gobio_zinc_finger_protein_648-like__LOC115007394___transcript_variant_X1__mRNA'
+[238] 'Paralichthys_olivaceus__PREDICTED__Paralichthys_olivaceus_zinc_finger_protein_648-like__LOC109625445___transcript_variant_X1__mRNA'
+[239] 'Paralichthys_olivaceus__PREDICTED__Paralichthys_olivaceus_zinc_finger_protein_648-like__LOC109625445___transcript_variant_X2__mRNA'
+[240] 'Gadus_morhua__PREDICTED__Gadus_morhua_zinc_finger_protein_648-like__LOC115555657___mRNA'
+[241] 'Oryzias_latipes__PREDICTED__Oryzias_latipes_zinc_finger_protein_648__LOC101157046___mRNA'
+[242] 'Cynoglossus_semilaevis__PREDICTED__Cynoglossus_semilaevis_zinc_finger_protein_771__LOC103398322___mRNA'
+[243] 'Terrapene_carolina_triunguis__PREDICTED__Terrapene_carolina_triunguis_zinc_finger_protein_271-like__LOC113407336___mRNA'
+[244] 'Scleropages_formosus__PREDICTED__Scleropages_formosus_zinc_finger_protein_648-like__LOC108923726___transcript_variant_X2__mRNA'
+[245] 'Scleropages_formosus__PREDICTED__Scleropages_formosus_zinc_finger_protein_648-like__LOC108923726___mRNA'
+[246] 'Scleropages_formosus__PREDICTED__Scleropages_formosus_zinc_finger_protein_648-like__LOC108923726___transcript_variant_X1__mRNA'
+[247] 'Tachysurus_fulvidraco__PREDICTED__Tachysurus_fulvidraco_zinc_finger_protein_648-like__LOC113642971___transcript_variant_X1__mRNA'
+[248] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_91-like__LOC107649078___transcript_variant_X2__mRNA'
+[249] 'Tachysurus_fulvidraco__PREDICTED__Tachysurus_fulvidraco_zinc_finger_protein_648-like__LOC113642971___transcript_variant_X2__misc_RNA'
+[250] 'Pygoscelis_adeliae__PREDICTED__Pygoscelis_adeliae_zinc_finger_protein_648__ZNF648___mRNA'
+[251] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_91-like__LOC107649078___transcript_variant_X1__mRNA'
+[252] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_883-like__LOC100028888___transcript_variant_X1__mRNA'
+[253] 'Clupea_harengus__PREDICTED__Clupea_harengus_zinc_finger_protein_648__znf648___transcript_variant_X2__mRNA'
+[254] 'Clupea_harengus__PREDICTED__Clupea_harengus_zinc_finger_protein_648__znf648___transcript_variant_X1__mRNA'
+[255] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_883-like__LOC100028888___transcript_variant_X2__mRNA'
+[256] 'Pangasianodon_hypophthalmus__PREDICTED__Pangasianodon_hypophthalmus_zinc_finger_protein_648-like__LOC113528908___transcript_variant_X1__mRNA'
+[257] 'Pangasianodon_hypophthalmus__PREDICTED__Pangasianodon_hypophthalmus_zinc_finger_protein_648-like__LOC113528908___transcript_variant_X2__mRNA'
+[258] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_665-like__LOC107650533___partial_mRNA'
+[259] 'Lepisosteus_oculatus__PREDICTED__Lepisosteus_oculatus_zinc_finger_protein_648__znf648___mRNA'
+[260] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_420-like__LOC100617212___transcript_variant_X3__mRNA'
+[261] 'Paramormyrops_kingsleyae__PREDICTED__Paramormyrops_kingsleyae_zinc_finger_protein_648-like__LOC111846468___mRNA'
+[262] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_160-like__LOC107649099___transcript_variant_X1__mRNA'
+[263] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_420-like__LOC100617212___transcript_variant_X1__mRNA'
+[264] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_420-like__LOC100617212___transcript_variant_X2__mRNA'
+[265] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_420-like__LOC103101181___transcript_variant_X2__mRNA'
+[266] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_420-like__LOC103101181___transcript_variant_X1__mRNA'
+[267] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_OZF-like__LOC107650368___mRNA'
+[268] 'Electrophorus_electricus__PREDICTED__Electrophorus_electricus_zinc_finger_protein_696-like__LOC113569510___partial_mRNA'
+[269] 'Odobenus_rosmarus_divergens__PREDICTED__Odobenus_rosmarus_divergens_zinc_finger_protein_879__ZNF879___transcript_variant_X2__mRNA'
+[270] 'Monodelphis_domestica__PREDICTED__Monodelphis_domestica_zinc_finger_protein_208-like__LOC103096017___partial_mRNA'
+[271] 'Chelonia_mydas__PREDICTED__Chelonia_mydas_zinc_finger_protein_11-like__LOC114018205___mRNA'
+[272] 'Rhincodon_typus__PREDICTED__Rhincodon_typus_zinc_finger_protein_271-like__LOC109925221___mRNA'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=272 nsplits=591;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	1	 50 57 61 62 63 110,
+	1	 134 145 248 251 252 255 258 260 262 263 264 265 266 267 269 270 271 272,
+	1000	 2 3,
+	1	 181 186 198 203 212 214 228,
+	2	 16 17 18 20 29,
+	1	 14 15 20 23 24 25 26 27 29,
+	1	 106 114 115,
+	1	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 215 216 219 221 223 225 227 229 230 231 232 233 235 236 237 238 239 241 242,
+	1	 252 255 258 260 262 263 264 265 266 267 269 270,
+	1	 252 255 269 270,
+	1	 56 60 89,
+	1	 167 170,
+	1000	 14 27,
+	1	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 247 248 249 251 252 253 254 255 256 257 258 260 262 263 264 265 266 267 268 269 270 271 272,
+	1	 174 201 207 209 210 225 231 236 237,
+	1000	 23 24,
+	980	 14 23 24 27,
+	1	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 122 129 131 149,
+	980	 14 23 24 25 27,
+	2	 40 41 48 49 54 55 56 58 59 60 66 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	980	 14 23 24 25 26 27,
+	1	 260 263 264 267,
+	650	 14 23 24 25 26 27 29,
+	1	 42 43 44 45 46 47 51 52 53 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 114 115 116 131 149,
+	986	 14 15 23 24 25 26 27 29,
+	2	 175 176 178 180 181 183 186 187 188 189 191 194 197 198 199 200 202 203 212 214 228 253 254,
+	1	 50 57 61 62 63 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 113 114 115 116 131 149,
+	1000	 16 17,
+	1	 174 177 193 201 207 209 210 211 225 231 232 236 237 238 239 242,
+	999	 16 17 18,
+	2	 258 260 262 263 264 265 266,
+	990	 16 17 18 20,
+	1000	 14 15 16 17 18 20 23 24 25 26 27 29,
+	981	 13 14 15 16 17 18 20 23 24 25 26 27 29,
+	1	 80 84,
+	1	 198 203 212 214,
+	967	 19 28,
+	1	 177 211 238 239,
+	1	 136 137 139 140 141 143 147 196 222 250,
+	1000	 21 22,
+	1000	 19 21 22 28,
+	1000	 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,
+	1	 189 191,
+	1	 76 77 79 80 83 84 85,
+	1	 76 77 80 83 84 85,
+	2	 199 224 247 249 253 254 256 257 268,
+	1000	 32 33,
+	1	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242,
+	1	 92 94 131,
+	705	 34 38,
+	1	 94 131,
+	1	 62 63,
+	1000	 35 37,
+	1000	 34 35 37 38,
+	1	 133 134 135 136 137 138 139 140 141 142 143 145 147 196 222 243 250 259,
+	999	 34 35 36 37 38,
+	1000	 32 33 34 35 36 37 38,
+	1000	 31 32 33 34 35 36 37 38,
+	837	 30 31 32 33 34 35 36 37 38,
+	2	 40 48 49 54 55 56 58 59 60 66 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	724	 30 31 32 33 34 35 36 37 38 39,
+	1	 71 75,
+	1000	 30 31 32 33 34 35 36 37 38 39 130,
+	1	 15 29,
+	1	 201 232 238 239,
+	1	 184 227,
+	1000	 48 49,
+	1000	 40 48 49,
+	2	 42 43 44 45 46 47 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 131 132 146 148 149,
+	1000	 40 48 49 66,
+	1	 184 185 195 213 215 216 219 221 223 227 229 235,
+	1	 215 216 229,
+	1	 111 148,
+	996	 54 55,
+	1	 151 153,
+	1	 177 193 201 211 232,
+	5	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 48 49 54 55 56 58 59 60 66 68 89 95 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	1000	 58 59,
+	2	 184 185 227 229,
+	2	 41 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 122 129 131 149,
+	1000	 60 89,
+	999	 58 59 60 89,
+	1000	 56 58 59 60 89,
+	1000	 54 55 56 58 59 60 89,
+	1	 175 176 178 180 181 183 186 187 188 189 191 194 197 198 199 200 202 203 212 214 224 228 247 249 256 257 268,
+	1	 18 20,
+	737	 117 125,
+	1	 100 102 104,
+	1	 151 152,
+	1000	 118 119,
+	1	 172 173,
+	1000	 118 119 120,
+	2	 14 27 29,
+	1000	 118 119 120 123,
+	1000	 117 118 119 120 123 125,
+	1	 157 158,
+	817	 117 118 119 120 123 124 125,
+	4	 50 57 61 62 63 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 129 131 149,
+	5	 258 260 262 263 264 267,
+	1000	 121 127,
+	3	 91 92 93 94 98 116 131,
+	1	 153 155,
+	504	 126 128,
+	1000	 121 126 127 128,
+	1000	 117 118 119 120 121 123 124 125 126 127 128,
+	779	 54 55 56 58 59 60 89 117 118 119 120 121 123 124 125 126 127 128,
+	1	 100 101 102 103,
+	8	 248 251 258 260 262 263 264 265 266 267 270 272,
+	979	 111 146,
+	2	 193 238 239,
+	771	 111 146 148,
+	1	 248 251 258 262,
+	1000	 111 132 146 148,
+	540	 54 55 56 58 59 60 89 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	3	 195 219,
+	1000	 54 55 56 58 59 60 89 95 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	625	 41 54 55 56 58 59 60 89 95 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	1	 42 43 44 45 46 47 51 52 53 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 112 129,
+	494	 41 54 55 56 58 59 60 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	5	 1 2 3 4 5 6 7 8 9 10 12,
+	2	 41 42 43 44 45 46 47 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 131 132 146 148 149,
+	1	 174 179 182 207 209 210 225 231 236 237,
+	708	 43 46,
+	1	 57 62,
+	1000	 43 44 46,
+	1000	 42 43 44 46,
+	4	 50 57 61 62 63 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 113 114 115 116 129 131 149,
+	4	 111 132 148,
+	1000	 51 52,
+	1000	 42 43 44 46 51 52,
+	3	 76 77 78 79 80 81 82 83 85,
+	6	 132 146,
+	1000	 64 65,
+	167	 42 43 44 46 51 52 64 65,
+	3	 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 131 132 146 148 149,
+	11	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 114 115 116 129 131 149,
+	1000	 45 47,
+	9	 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 114 115 116 129 131 149,
+	1000	 45 47 53,
+	1000	 42 43 44 45 46 47 51 52 53 64 65,
+	1	 42 43 44 45 46 47 51 52 53 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 112 113,
+	2	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 122 129 131 149,
+	999	 70 71,
+	1	 32 33 34 35 37 38,
+	1000	 70 71 75,
+	1000	 42 43 44 45 46 47 51 52 53 64 65 70 71 75,
+	3	 14 15 27 29,
+	12	 76 77 79 80 84 85,
+	17	 81 82 86 87,
+	4	 74 76 77 78 79 80 83 85,
+	8	 81 82 84,
+	1000	 86 87,
+	973	 84 86 87,
+	51	 74 84 86 87,
+	1	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 110 129,
+	4	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 259 268,
+	1000	 81 82,
+	887	 74 81 82 84 86 87,
+	8	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 248 249 251 252 253 254 255 256 257 258 260 262 263 264 265 266 267 268 269 270 271 272,
+	1	 174 177 179 182 193 201 207 209 210 211 215 216 225 231 232 236 237 238 239,
+	10	 133 134 135 136 137 138 139 140 141 142 143 144 145 147 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 249 250 253 254 256 257 259 261 268,
+	982	 80 85,
+	956	 76 80 85,
+	1	 152 153,
+	955	 76 77 80 85,
+	1	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 66 130,
+	579	 76 77 79 80 85,
+	1	 40 41 48 49 66,
+	953	 76 77 78 79 80 85,
+	1	 174 177 179 182 184 185 190 192 193 195 201 205 207 209 210 211 213 215 216 219 220 221 223 225 227 229 231 232 235 236 237 238 239 242,
+	982	 76 77 78 79 80 83 85,
+	1000	 74 76 77 78 79 80 81 82 83 84 85 86 87,
+	1000	 67 74 76 77 78 79 80 81 82 83 84 85 86 87,
+	1000	 42 43 44 45 46 47 51 52 53 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87,
+	10	 174 177 179 182 193 195 201 207 209 210 211 213 215 216 219 221 223 225 231 232 235 236 237 238 239 242,
+	208	 42 43 44 45 46 47 51 52 53 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 110,
+	3	 121 124 126 127 128,
+	17	 248 251 258 262 265 266 267,
+	1	 213 219 221 223 235,
+	1	 57 61,
+	997	 61 62,
+	370	 57 61 62,
+	9	 14 15 16 17 18 23 24 25 26 27 29,
+	1000	 57 61 62 63,
+	1000	 50 57 61 62 63,
+	203	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 110,
+	3	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 253 254,
+	14	 69 72 73,
+	978	 69 72,
+	8	 42 43 44 45 46 47 51 52 53 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 112 113 129,
+	901	 69 72 96,
+	7	 69 72 73 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 114 115 116 131 149,
+	1000	 69 72 73 96,
+	17	 31 32 33 34 35 36 37 38 39 130,
+	4	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 112 113,
+	771	 91 92,
+	7	 248 251 252 255 258 260 262 263 264 265 266 267 269 270 271,
+	999	 91 92 94,
+	1	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 131 149,
+	43	 91 92 93 94,
+	11	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 66 68 97 130,
+	1000	 91 92 93 94 131,
+	1	 219 221 223,
+	998	 91 92 93 94 98 131,
+	8	 42 43 44 45 46 47 51 52 53 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 110 112 113 129,
+	7	 54 55 56 58 59 60 89 95 111 132 146 148,
+	999	 105 106,
+	7	 100 102 103 104 109,
+	2	 104 109,
+	1000	 114 115,
+	1000	 105 106 114 115,
+	13	 100 101 102 103 104 109,
+	1000	 105 106 107 114 115,
+	938	 91 92 93 94 98 105 106 107 114 115 131,
+	21	 1 2 3 4 5 6 7 9,
+	1000	 91 92 93 94 98 105 106 107 114 115 116 131,
+	5	 144 244 245 246 261,
+	9	 76 77 78 80 83 85,
+	16	 179 182 201 232,
+	998	 100 102,
+	3	 69 72 73 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 114 115 116 129 131 149,
+	999	 100 102 103,
+	4	 15 16 17 18 20 29,
+	989	 100 102 103 104,
+	5	 174 177 179 182 193 207 209 210 211 225 231 232 236 237 238 239,
+	8	 177 179 182 193 211 232 238 239,
+	871	 101 108,
+	987	 100 101 102 103 104 108,
+	26	 151 152 155,
+	1000	 100 101 102 103 104 108 109,
+	1000	 99 100 101 102 103 104 108 109,
+	996	 91 92 93 94 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 131,
+	15	 258 260 262 263 264,
+	236	 91 92 93 94 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 131 149,
+	1000	 69 72 73 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 131 149,
+	2	 100 103,
+	27	 50 57 61 62 63 69 72 73 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 131 149,
+	1000	 88 90,
+	45	 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 131 132 146 148 149,
+	1000	 88 90 112,
+	41	 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 131 132 146 148 149,
+	595	 88 90 112 129,
+	41	 41 42 43 44 45 46 47 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 131 132 146 148 149,
+	799	 88 90 112 113 129,
+	463	 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 113 114 115 116 129 131 149,
+	994	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 129 131 149,
+	5	 110 122,
+	927	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 122 129 131 149,
+	5	 133 134 135 136 137 138 139 140 141 142 143 145 147 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 249 250 253 254 256 257 259 261 268,
+	18	 76 77 78 79 80 83 84 85,
+	1000	 133 243,
+	17	 76 77 78 79 80 84 85,
+	1000	 133 142 243,
+	5	 76 77 78 80 84 85,
+	1000	 133 138 142 243,
+	18	 76 77 80 84 85,
+	1000	 133 135 138 142 243,
+	18	 76 80 84 85,
+	18	 80 84 85,
+	1000	 136 139,
+	17	 84 85,
+	18	 74 81 82 86 87,
+	1000	 137 140,
+	1000	 136 137 139 140,
+	1	 74 86 87,
+	1	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 219 221 223 225 227 231 232 235 236 237 238 239 242,
+	1000	 141 143,
+	1000	 136 137 139 140 141 143,
+	999	 133 135 136 137 138 139 140 141 142 143 243,
+	1	 174 177 179 182 184 185 193 201 207 209 210 211 225 227 231 232 236 237 238 239 242,
+	2	 177 179 182 193 201 211 232 238 239 242,
+	1000	 147 196,
+	3	 179 182 201 242,
+	3	 201 242,
+	1000	 222 250,
+	1000	 147 196 222 250,
+	1000	 133 135 136 137 138 139 140 141 142 143 147 196 222 243 250,
+	2	 150 157 158 159 163 166 167 170,
+	27	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 112 113 129,
+	1000	 134 145,
+	999	 133 134 135 136 137 138 139 140 141 142 143 145 147 196 222 243 250,
+	35	 133 134 135 136 137 138 139 140 141 142 143 144 145 147 196 222 243 248 250 251 252 255 258 260 262 263 264 265 266 267 269 270 271 272,
+	1	 41 68,
+	1	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 146 148 149,
+	1000	 248 251,
+	5	 213 219 221,
+	9	 195 221 223,
+	1000	 258 262,
+	11	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 114 115 116 129 131 149,
+	136	 258 262 267,
+	38	 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	50	 31 32 33 34 35 36 37 38 39,
+	1000	 265 266,
+	947	 258 262 265 266 267,
+	2	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46 47 48 49 50 51 52 53 57 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 122 129 130 131 149,
+	2	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46 47 48 49 50 51 52 53 57 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 122 129 130 131 149,
+	948	 260 263,
+	1	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 146 148 149,
+	1000	 260 263 264,
+	983	 258 260 262 263 264 265 266 267,
+	997	 248 251 258 260 262 263 264 265 266 267,
+	9	 184 185 195 213 219 221 223 227 235,
+	999	 248 251 258 260 262 263 264 265 266 267 270,
+	22	 69 73 96,
+	14	 260 263 264 265 266,
+	1000	 252 255,
+	19	 174 177 179 182 193 201 207 209 210 211 225 231 232 236 237 238 239 242,
+	1000	 252 255 269,
+	992	 248 251 252 255 258 260 262 263 264 265 266 267 269 270,
+	1	 69 72 73 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 129 131 149,
+	993	 248 251 252 255 258 260 262 263 264 265 266 267 269 270 272,
+	34	 68 97,
+	1000	 248 251 252 255 258 260 262 263 264 265 266 267 269 270 271 272,
+	627	 144 248 251 252 255 258 260 262 263 264 265 266 267 269 270 271 272,
+	2	 98 105 106 107 114 115,
+	19	 260 263 264 265 266 267,
+	21	 95 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	6	 207 209 210 231 237,
+	999	 158 159,
+	1000	 157 158 159,
+	731	 150 157 158 159,
+	1	 74 84,
+	67	 174 177 193 207 209 210 211 225 231 232 236 237 238 239,
+	1000	 163 166,
+	1000	 150 157 158 159 163 166,
+	85	 73 96,
+	87	 150 157 158 159 163 166 170,
+	8	 101 104,
+	33	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 230 231 232 233 234 235 236 237 238 239 241 242,
+	997	 156 167,
+	1000	 150 156 157 158 159 163 166 167 170,
+	7	 171 173,
+	23	 182 201,
+	997	 151 155,
+	3	 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 114 115 116 129 131 149,
+	973	 151 153 155,
+	9	 174 177 179 182 184 185 193 201 207 209 210 211 215 216 225 227 231 232 236 237 238 239,
+	1000	 151 152 153 155,
+	27	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 146 148 149 259,
+	939	 151 152 153 155 165,
+	17	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 48 49 66 130,
+	8	 258 262 265 266,
+	4	 54 56 58 59 60 89,
+	18	 177 193 211 232,
+	939	 162 164,
+	1000	 161 162 164,
+	1000	 154 161 162 164,
+	1000	 151 152 153 154 155 161 162 164 165,
+	966	 150 151 152 153 154 155 156 157 158 159 161 162 163 164 165 166 167 170,
+	11	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 123 124 125 126 127 128 129 130 131 132 146 148 149,
+	86	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 230 231 232 233 234 235 236 237 238 239 241 242,
+	20	 76 77 79 80 83 85,
+	1000	 168 169,
+	1000	 160 168 169,
+	1000	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170,
+	29	 76 77 80 83 85,
+	27	 76 80 83 85,
+	992	 171 172,
+	26	 80 83 85,
+	1000	 171 172 173,
+	53	 95 111 132 146 148,
+	62	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 54 55 56 58 59 60 66 68 89 95 97 111 117 118 119 120 121 122 123 124 125 126 127 128 130 132 146 148,
+	1000	 204 226,
+	40	 207 210,
+	33	 19 21 22,
+	2	 175 176 178 180 183 187 197 200 202 228,
+	873	 208 218,
+	1000	 206 208 218,
+	6	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 114 115 116 129 131 149,
+	1000	 206 208 217 218,
+	1000	 204 206 208 217 218 226,
+	14	 88 90 110 112 129,
+	369	 204 206 208 217 218 226 234,
+	1000	 171 172 173 204 206 208 217 218 226 234,
+	25	 181 186 198 200 203 212 214,
+	16	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 231 232 234 235 236 237 238 239 242,
+	118	 95 117 118 119 120 121 123 124 125 126 127 128,
+	1000	 192 205,
+	32	 54 55 56 58 59 60 89 111 132 146 148,
+	1000	 192 205 220,
+	1000	 190 192 205 220,
+	999	 171 172 173 190 192 204 205 206 208 217 218 220 226 234,
+	34	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 247 249 256 257 268,
+	26	 183 187 202,
+	995	 174 236,
+	15	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 54 55 56 58 59 60 66 89 95 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	59	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 219 221 223 225 227 231 232 235 236 237 238 239,
+	631	 207 209,
+	62	 174 177 179 182 193 195 201 207 209 210 211 213 219 221 223 225 231 232 235 236 237 238 239,
+	1000	 207 209 210,
+	5	 174 207 209 210 225 231 237,
+	17	 23 24 25 26 29,
+	20	 23 24 25 26,
+	1000	 231 237,
+	994	 225 231 237,
+	1000	 207 209 210 225 231 237,
+	1000	 174 207 209 210 225 231 236 237,
+	20	 23 24 25,
+	18	 14 15 27,
+	1000	 177 211,
+	131	 110 129,
+	997	 177 193 211,
+	62	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 113 114 115 116 131 149,
+	47	 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 113 114 115 116 131 149,
+	1000	 238 239,
+	955	 177 193 211 238 239,
+	150	 88 90 112 113,
+	952	 177 193 211 232 238 239,
+	14	 91 94,
+	156	 44 46,
+	112	 179 201,
+	12	 15 16 17 18 20,
+	923	 179 182 201,
+	891	 177 179 182 193 201 211 232 238 239,
+	996	 174 177 179 182 193 201 207 209 210 211 225 231 232 236 237 238 239,
+	73	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 215 216 219 221 223 225 227 229 231 232 235 236 237 238 239,
+	54	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 114 115 116 131 149,
+	999	 184 185,
+	59	 105 106 107 114 115 116,
+	1000	 184 185 227,
+	29	 174 177 179 182 184 185 193 201 207 209 210 211 225 227 231 232 236 237 238 239,
+	41	 132 148,
+	30	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 66 68 130,
+	8	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 97 130,
+	959	 221 223,
+	935	 213 221 223,
+	10	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 48 49 54 55 56 58 59 60 66 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	945	 213 219 221 223,
+	999	 195 213 219 221 223,
+	13	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 54 55 56 58 59 60 66 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	1000	 195 213 219 221 223 235,
+	26	 259 261,
+	39	 213 221,
+	1000	 215 216,
+	865	 195 213 215 216 219 221 223 235,
+	516	 184 185 195 213 215 216 219 221 223 227 235,
+	978	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 215 216 219 221 223 225 227 231 232 235 236 237 238 239,
+	791	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 231 232 234 235 236 237 238 239,
+	122	 100 101 102 103 104,
+	665	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 231 232 234 235 236 237 238 239,
+	14	 224 268,
+	185	 111 132 146,
+	1000	 230 233,
+	13	 111 132,
+	1000	 230 233 241,
+	101	 41 97,
+	695	 230 233 241 242,
+	1000	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 230 231 232 233 234 235 236 237 238 239 241 242,
+	11	 1 2 3 5,
+	967	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 230 231 232 233 234 235 236 237 238 239 240 241 242,
+	1000	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 230 231 232 233 234 235 236 237 238 239 240 241 242,
+	9	 1 2 3 5 7,
+	155	 45 47 53 64 65,
+	48	 30 39 130,
+	1000	 253 254,
+	999	 199 253 254,
+	43	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 177 179 182 184 185 190 192 193 195 199 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 230 231 232 233 234 235 236 237 238 239 240 241 242 253 254,
+	72	 30 39,
+	83	 54 55 56 58 59 60 89 95,
+	53	 213 219,
+	1000	 176 178,
+	25	 232 238 239,
+	1000	 176 178 197,
+	1000	 175 176 178 197,
+	4	 69 72 73 91 92 93 94 96 98 105 106 107 114 115 116 131,
+	74	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 68 97 130,
+	974	 180 183,
+	58	 229 230 233 241 242,
+	904	 180 183 187,
+	213	 113 129,
+	1000	 180 183 187 202,
+	1000	 175 176 178 180 183 187 197 202,
+	217	 69 72 73 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 131,
+	66	 40 41 48 49 54 55 56 58 59 60 66 89 95 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	1000	 181 186,
+	80	 40 48 49 54 55 56 58 59 60 66 89 95 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	54	 69 72 73 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 110 112 113 114 115 116 129 131 149,
+	1000	 212 214,
+	917	 181 186 212 214,
+	157	 88 90 110 112 113 129,
+	32	 110 113 129,
+	1000	 198 203,
+	1000	 181 186 198 203 212 214,
+	63	 110 113,
+	136	 43 44,
+	974	 200 228,
+	998	 181 186 198 200 203 212 214 228,
+	1000	 175 176 178 180 181 183 186 187 197 198 200 202 203 212 214 228,
+	46	 117 118 119 120 123,
+	415	 1 2 3 4 5 6,
+	999	 188 191,
+	96	 187 202,
+	1000	 188 189 191,
+	181	 121 126 127,
+	1000	 188 189 191 194,
+	1000	 175 176 178 180 181 183 186 187 188 189 191 194 197 198 200 202 203 212 214 228,
+	100	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 48 49 66 68 97 130,
+	42	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 247 249 253 254 256 257 268,
+	329	 209 210,
+	1000	 247 249,
+	323	 171 172 173 204 206 208 217 218 226,
+	314	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 114 115 116 131 149,
+	1000	 256 257,
+	1000	 247 249 256 257,
+	168	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 54 55 56 58 59 60 66 68 89 95 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	986	 247 249 256 257 268,
+	1000	 224 247 249 256 257 268,
+	995	 175 176 178 180 181 183 186 187 188 189 191 194 197 198 200 202 203 212 214 224 228 247 249 256 257 268,
+	1000	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 247 249 253 254 256 257 268,
+	144	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 215 216 219 221 223 225 227 229 231 232 235 236 237 238 239 242,
+	116	 174 177 179 182 184 185 193 195 201 207 209 210 211 213 215 216 219 221 223 225 227 231 232 235 236 237 238 239 242,
+	772	 244 246,
+	57	 184 185 215 216 227,
+	1000	 244 245 246,
+	127	 206 208,
+	918	 244 245 246 261,
+	308	 171 172 173 234,
+	4	 244 245 246 259 261,
+	573	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 259 261 268,
+	629	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 248 249 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272,
+	1000	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 146 148 149,
+	953	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 48 49 54 55 56 58 59 60 66 68 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	854	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 48 49 66 68 130,
+	899	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 68 130,
+	214	 92 94,
+	1000	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 130,
+	1000	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,
+	1000	 1 2 3 4 5 6 7 8 9 10 11 12,
+	995	 1 2 3 4 5 6 7 8 9 10 11,
+	1000	 1 2 3 4 5 6 7 8 9 10,
+	1000	 1 2 3 4 5 6 7 9 10,
+	547	 69 72 73 96 149,
+	374	 76 77 78 80 85,
+	979	 9 10,
+	1000	 1 2 3 4 5 6 7,
+	228	 1 2 3 4 5 7,
+	180	 117 118 119 120 121 123 125 126 127 128,
+	643	 1 2 3 4 5,
+	689	 1 2 3 4,
+	1000	 1 2 3,
+	295	 35 37 38,
+	217	 118 119 120 123 125,
+	315	 121 127 128,
+	329	 54 55 56 58 59 60 89 95 117 118 119 120 121 123 124 125 126 127 128,
+	186	 54 55 56 58 59 60 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 132 146 148,
+	678	 42 43 44 45 46 47 51 52 53,
+	931	 81 82 84 86 87,
+	88	 76 77 78 79 80 81 82 83 84 85 86 87,
+	630	 61 62 63,
+	766	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87,
+	647	 93 131,
+	519	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93 94 96 98 99 100 101 102 103 104 105 106 107 108 109 112 113 114 115 116 129 131 149,
+	852	 265 266 267,
+	52	 263 264,
+	2	 258 260 262 263 264 265 266 267 270,
+	298	 133 134 135 136 137 138 139 140 141 142 143 145 147 196 222 243 248 250 251 252 255 258 260 262 263 264 265 266 267 269 270 271 272,
+	63	 150 156 157 158 159 163 166 167,
+	865	 179 182,
+	1	 195 213,
+	50	 195 213 221 223,
+	380	 174 177 179 182 193 195 201 207 209 210 211 213 215 216 219 221 223 225 231 232 235 236 237 238 239,
+	50	 229 242,
+	305	 171 172 173 174 177 179 182 184 185 190 192 193 195 201 204 205 206 207 208 209 210 211 213 215 216 217 218 219 220 221 223 225 226 227 229 231 232 234 235 236 237 238 239 242,
+	920	 175 176 178 180 181 183 186 187 188 189 191 194 197 198 199 200 202 203 212 214 224 228 247 249 253 254 256 257 268,
+	907	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 261 268,
+	329	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 261 268,
+	339	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 259 261 268,
+	308	 1 2 3 5 6 7,
+	300	 1 2 3 6 7,
+	300	 1 2 3 7,
+	310	 91 92 94 131,
+	269	 150 163 166,
+	850	 156 167 170,
+	61	 154 161 162 164 165,
+	38	 201 232,
+	54	 177 193 201 211 232 238 239,
+	39	 174 177 193 201 207 209 210 211 225 231 232 236 237 238 239,
+	228	 245 246,
+	120	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 248 249 251 252 253 254 255 256 257 258 260 261 262 263 264 265 266 267 268 269 270 271 272,
+	106	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 48 49 54 55 56 58 59 60 66 68 89 95 97 111 117 118 119 120 121 123 124 125 126 127 128 130 132 146 148,
+	252	 39 130,
+	16	 42 43 44 45 46 47 50 51 52 53 57 61 62 63 64 65 67 70 71 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 90 110 112 113 129,
+	61	 161 164,
+	34	 151 152 153 154 155 160 161 162 164 165 168 169,
+	82	 181 186 198 203,
+	80	 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 268,
+	12	 144 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 244 245 246 247 249 253 254 256 257 268,
+	49	 1 2 3 4 6 7,
+	48	 1 2 3 4 7,
+	19	 13 19 21 22 28,
+	325	 14 15 23 24 25 26 27,
+;
+END; [Splits]
+

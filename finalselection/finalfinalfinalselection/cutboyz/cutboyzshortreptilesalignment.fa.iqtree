@@ -1,0 +1,349 @@
+IQ-TREE 1.6.10 built Feb 19 2019
+
+Input file name: cutboyzshortreptilesalignment.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 41427
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 42 sequences with 460 amino-acid sites
+Number of constant sites: 112 (= 24.3478% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 112 (= 24.3478% of all sites)
+Number of parsimony informative sites: 280
+Number of distinct site patterns: 417
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{LG+F+F,LG+FC60pi1,LG+FC60pi2,LG+FC60pi3,LG+FC60pi4,LG+FC60pi5,LG+FC60pi6,LG+FC60pi7,LG+FC60pi8,LG+FC60pi9,LG+FC60pi10,LG+FC60pi11,LG+FC60pi12,LG+FC60pi13,LG+FC60pi14,LG+FC60pi15,LG+FC60pi16,LG+FC60pi17,LG+FC60pi18,LG+FC60pi19,LG+FC60pi20,LG+FC60pi21,LG+FC60pi22,LG+FC60pi23,LG+FC60pi24,LG+FC60pi25,LG+FC60pi26,LG+FC60pi27,LG+FC60pi28,LG+FC60pi29,LG+FC60pi30,LG+FC60pi31,LG+FC60pi32,LG+FC60pi33,LG+FC60pi34,LG+FC60pi35,LG+FC60pi36,LG+FC60pi37,LG+FC60pi38,LG+FC60pi39,LG+FC60pi40,LG+FC60pi41,LG+FC60pi42,LG+FC60pi43,LG+FC60pi44,LG+FC60pi45,LG+FC60pi46,LG+FC60pi47,LG+FC60pi48,LG+FC60pi49,LG+FC60pi50,LG+FC60pi51,LG+FC60pi52,LG+FC60pi53,LG+FC60pi54,LG+FC60pi55,LG+FC60pi56,LG+FC60pi57,LG+FC60pi58,LG+FC60pi59,LG+FC60pi60}+G4
+
+  No  Component      Rate    Weight   Parameters
+   1  LG+F          1.0000   0.8567   LG+F
+   2  LG+FC60pi1    1.0000   0.0000   LG+FC60pi1
+   3  LG+FC60pi2    1.0000   0.0000   LG+FC60pi2
+   4  LG+FC60pi3    1.0000   0.0000   LG+FC60pi3
+   5  LG+FC60pi4    1.0000   0.0000   LG+FC60pi4
+   6  LG+FC60pi5    1.0000   0.0000   LG+FC60pi5
+   7  LG+FC60pi6    1.0000   0.0018   LG+FC60pi6
+   8  LG+FC60pi7    1.0000   0.0000   LG+FC60pi7
+   9  LG+FC60pi8    1.0000   0.0000   LG+FC60pi8
+  10  LG+FC60pi9    1.0000   0.0000   LG+FC60pi9
+  11  LG+FC60pi10   1.0000   0.0390   LG+FC60pi10
+  12  LG+FC60pi11   1.0000   0.0131   LG+FC60pi11
+  13  LG+FC60pi12   1.0000   0.0000   LG+FC60pi12
+  14  LG+FC60pi13   1.0000   0.0000   LG+FC60pi13
+  15  LG+FC60pi14   1.0000   0.0000   LG+FC60pi14
+  16  LG+FC60pi15   1.0000   0.0000   LG+FC60pi15
+  17  LG+FC60pi16   1.0000   0.0000   LG+FC60pi16
+  18  LG+FC60pi17   1.0000   0.0295   LG+FC60pi17
+  19  LG+FC60pi18   1.0000   0.0000   LG+FC60pi18
+  20  LG+FC60pi19   1.0000   0.0000   LG+FC60pi19
+  21  LG+FC60pi20   1.0000   0.0000   LG+FC60pi20
+  22  LG+FC60pi21   1.0000   0.0000   LG+FC60pi21
+  23  LG+FC60pi22   1.0000   0.0000   LG+FC60pi22
+  24  LG+FC60pi23   1.0000   0.0000   LG+FC60pi23
+  25  LG+FC60pi24   1.0000   0.0000   LG+FC60pi24
+  26  LG+FC60pi25   1.0000   0.0000   LG+FC60pi25
+  27  LG+FC60pi26   1.0000   0.0000   LG+FC60pi26
+  28  LG+FC60pi27   1.0000   0.0000   LG+FC60pi27
+  29  LG+FC60pi28   1.0000   0.0000   LG+FC60pi28
+  30  LG+FC60pi29   1.0000   0.0000   LG+FC60pi29
+  31  LG+FC60pi30   1.0000   0.0000   LG+FC60pi30
+  32  LG+FC60pi31   1.0000   0.0000   LG+FC60pi31
+  33  LG+FC60pi32   1.0000   0.0000   LG+FC60pi32
+  34  LG+FC60pi33   1.0000   0.0109   LG+FC60pi33
+  35  LG+FC60pi34   1.0000   0.0000   LG+FC60pi34
+  36  LG+FC60pi35   1.0000   0.0000   LG+FC60pi35
+  37  LG+FC60pi36   1.0000   0.0022   LG+FC60pi36
+  38  LG+FC60pi37   1.0000   0.0000   LG+FC60pi37
+  39  LG+FC60pi38   1.0000   0.0000   LG+FC60pi38
+  40  LG+FC60pi39   1.0000   0.0000   LG+FC60pi39
+  41  LG+FC60pi40   1.0000   0.0000   LG+FC60pi40
+  42  LG+FC60pi41   1.0000   0.0000   LG+FC60pi41
+  43  LG+FC60pi42   1.0000   0.0000   LG+FC60pi42
+  44  LG+FC60pi43   1.0000   0.0000   LG+FC60pi43
+  45  LG+FC60pi44   1.0000   0.0359   LG+FC60pi44
+  46  LG+FC60pi45   1.0000   0.0016   LG+FC60pi45
+  47  LG+FC60pi46   1.0000   0.0000   LG+FC60pi46
+  48  LG+FC60pi47   1.0000   0.0000   LG+FC60pi47
+  49  LG+FC60pi48   1.0000   0.0000   LG+FC60pi48
+  50  LG+FC60pi49   1.0000   0.0000   LG+FC60pi49
+  51  LG+FC60pi50   1.0000   0.0000   LG+FC60pi50
+  52  LG+FC60pi51   1.0000   0.0000   LG+FC60pi51
+  53  LG+FC60pi52   1.0000   0.0000   LG+FC60pi52
+  54  LG+FC60pi53   1.0000   0.0000   LG+FC60pi53
+  55  LG+FC60pi54   1.0000   0.0000   LG+FC60pi54
+  56  LG+FC60pi55   1.0000   0.0004   LG+FC60pi55
+  57  LG+FC60pi56   1.0000   0.0000   LG+FC60pi56
+  58  LG+FC60pi57   1.0000   0.0089   LG+FC60pi57
+  59  LG+FC60pi58   1.0000   0.0000   LG+FC60pi58
+  60  LG+FC60pi59   1.0000   0.0000   LG+FC60pi59
+  61  LG+FC60pi60   1.0000   0.0000   LG+FC60pi60
+
+Model for mixture component 1: LG+F
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0802
+  pi(R) = 0.0594
+  pi(N) = 0.0396
+  pi(D) = 0.0649
+  pi(C) = 0.0182
+  pi(Q) = 0.0445
+  pi(E) = 0.0830
+  pi(G) = 0.0849
+  pi(H) = 0.0212
+  pi(I) = 0.0169
+  pi(L) = 0.0765
+  pi(K) = 0.0683
+  pi(M) = 0.0218
+  pi(F) = 0.0211
+  pi(P) = 0.0736
+  pi(S) = 0.1062
+  pi(T) = 0.0544
+  pi(W) = 0.0084
+  pi(Y) = 0.0106
+  pi(V) = 0.0461
+
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 4.2799
+
+ Category  Relative_rate  Proportion
+  1         0.4691         0.2500
+  2         0.7844         0.2500
+  3         1.0843         0.2500
+  4         1.6623         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13334.9136 (s.e. 474.8160)
+Unconstrained log-likelihood (without tree): -2745.0281
+Number of free parameters (#branches + #model parameters): 161
+Akaike information criterion (AIC) score: 26991.8273
+Corrected Akaike information criterion (AICc) score: 27166.8743
+Bayesian information criterion (BIC) score: 27656.9548
+
+Total tree length (sum of branch lengths): 29.0101
+Sum of internal branch lengths: 11.8945 (41.0014% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0022) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_
+|
+|        +--Pan_troglodytes__zinc_finger_protein_648__Pan_troglodytes_
+|     +--| (92)
+|     |  +--Homo_sapiens__zinc_finger_protein_648__Homo_sapiens_
+|  +--| (76)
+|  |  +--Nomascus_leucogenys__PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_
++--| (59)
+|  +--Piliocolobus_tephrosceles__zinc_finger_protein_648__Piliocolobus_tephrosceles_
+|
+|                                          +--Apteryx_rowi__zinc_finger_protein_648__Apteryx_rowi_
+|                                     +----| (100)
+|                                     |    +------Aquila_chrysaetos_canadensis__PREDICTED__zinc_finger_protein_648__Aquila_chrysaetos_canadensis_
+|                                 +---| (96)
+|                                 |   +--Crocodylus_porosus__PREDICTED__zinc_finger_protein_648_isoform_X1__Crocodylus_porosus_
+|                          +------| (100)
+|                          |      +----------Rhinatrema_bivittatum__zinc_finger_protein_648__Rhinatrema_bivittatum_
+|                      +---| (86)
+|                      |   +--------------Latimeria_chalumnae__PREDICTED__zinc_finger_protein_648-like__Latimeria_chalumnae_
+|                  +---| (45)
+|                  |   |                               +--Poecilia_reticulata__PREDICTED__oocyte_zinc_finger_protein_XlCOF22-like__Poecilia_reticulata_
+|                  |   |                            +--| (83)
+|                  |   |                            |  +--Cyprinodon_variegatus__PREDICTED__zinc_finger_protein_648-like_isoform_X1__Cyprinodon_variegatus_
+|                  |   |                         +--| (100)
+|                  |   |                         |  +--Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1__Fundulus_heteroclitus_
+|                  |   |                      +--| (82)
+|                  |   |                      |  +--Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1__Kryptolebias_marmoratus_
+|                  |   |                 +----| (86)
+|                  |   |                 |    |        +---Anabas_testudineus__zinc_finger_protein_648-like__Anabas_testudineus_
+|                  |   |                 |    |     +--| (41)
+|                  |   |                 |    |     |  +-------------Cynoglossus_semilaevis__zinc_finger_protein_771__Cynoglossus_semilaevis_
+|                  |   |                 |    |  +--| (34)
+|                  |   |                 |    |  |  |  +--Stegastes_partitus__PREDICTED__zinc_finger_protein_648__Stegastes_partitus_
+|                  |   |                 |    |  |  +--| (93)
+|                  |   |                 |    |  |     +--Acanthochromis_polyacanthus__zinc_finger_protein_648-like__Acanthochromis_polyacanthus_
+|                  |   |                 |    +--| (39)
+|                  |   |                 |       |         +--Pundamilia_nyererei__PREDICTED__zinc_finger_protein_648-like__Pundamilia_nyererei_
+|                  |   |                 |       |      +--| (96)
+|                  |   |                 |       |      |  +--Maylandia_zebra__zinc_finger_protein_648__Maylandia_zebra_
+|                  |   |                 |       |   +--| (99)
+|                  |   |                 |       |   |  +--Haplochromis_burtoni__PREDICTED__zinc_finger_protein_648-like__Haplochromis_burtoni_
+|                  |   |                 |       +---| (99)
+|                  |   |                 |           +--Oreochromis_niloticus__zinc_finger_protein_648__Oreochromis_niloticus_
+|                  |   |        +--------| (99)
+|                  |   |        |        +-----Oryzias_latipes__zinc_finger_protein_648__Oryzias_latipes_
+|                  |   |     +--| (61)
+|                  |   |     |  +---------------Paramormyrops_kingsleyae__zinc_finger_protein_648-like__Paramormyrops_kingsleyae_
+|                  |   +-----| (58)
+|                  |         |         +---------------Danio_rerio__zinc_finger_protein_648__Danio_rerio_
+|                  |         +---------| (97)
+|                  |                   +---------Astyanax_mexicanus__zinc_finger_protein_648__Astyanax_mexicanus_
+|        +---------| (95)
+|        |         |                                   +**Terrapene_carolina_triunguis__zinc_finger_protein_648__Terrapene_carolina_triunguis_
+|        |         |                                +**| (63)
+|        |         |                                |  +--Chelonia_mydas__zinc_finger_protein_648__Chelonia_mydas_
+|        |         |                             +--| (56)
+|        |         |                             |  +---Pelodiscus_sinensis__zinc_finger_protein_648__Pelodiscus_sinensis_
+|        |         |                          +**| (57)
+|        |         |                          |  +**Chrysemys_picta_bellii__zinc_finger_protein_648__Chrysemys_picta_bellii_
+|        |         |       +------------------| (100)
+|        |         |       |                  +------Alligator_sinensis__zinc_finger_protein_648__Alligator_sinensis_
+|        |         +-------| (82)
+|        |                 +------Lepisosteus_oculatus__PREDICTED__zinc_finger_protein_648__Lepisosteus_oculatus_
+|     +--| (59)
+|     |  |           +--Ursus_maritimus__PREDICTED__zinc_finger_protein_648__Ursus_maritimus_
+|     |  |        +--| (53)
+|     |  |        |  +--Mustela_putorius_furo__PREDICTED__zinc_finger_protein_648__Mustela_putorius_furo_
+|     |  |     +--| (80)
+|     |  |     |  +--Vulpes_vulpes__zinc_finger_protein_648__Vulpes_vulpes_
+|     |  |  +--| (100)
+|     |  |  |  +--Panthera_tigris_altaica__PREDICTED__zinc_finger_protein_648__Panthera_tigris_altaica_
+|     |  +--| (88)
+|     |     |  +--Equus_caballus__zinc_finger_protein_648__Equus_caballus_
+|     |     +--| (94)
+|     |        +--Bos_taurus__zinc_finger_protein_648__Bos_taurus_
+|  +--| (68)
+|  |  |  +--Marmota_marmota_marmota__PREDICTED__zinc_finger_protein_648__Marmota_marmota_marmota_
+|  |  +--| (55)
+|  |     |  +--Castor_canadensis__zinc_finger_protein_648__Castor_canadensis_
+|  |     +--| (39)
+|  |        +-----Mus_musculus__zinc_finger_protein_648__Mus_musculus_
++--| (100)
+   +--Otolemur_garnettii__zinc_finger_protein_648__Otolemur_garnettii_
+
+Tree in newick format:
+
+(Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_:0.1396168229,(((Pan_troglodytes__zinc_finger_protein_648__Pan_troglodytes_:0.0184725023,Homo_sapiens__zinc_finger_protein_648__Homo_sapiens_:0.0156652627)92:0.0172476705,Nomascus_leucogenys__PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_:0.0437922623)76:0.0130983240,Piliocolobus_tephrosceles__zinc_finger_protein_648__Piliocolobus_tephrosceles_:0.0693871367)59:0.0187782902,(((((((((Apteryx_rowi__zinc_finger_protein_648__Apteryx_rowi_:0.3590269133,Aquila_chrysaetos_canadensis__PREDICTED__zinc_finger_protein_648__Aquila_chrysaetos_canadensis_:0.7697588264)100:0.5519403049,Crocodylus_porosus__PREDICTED__zinc_finger_protein_648_isoform_X1__Crocodylus_porosus_:0.3309325625)96:0.4457206403,Rhinatrema_bivittatum__zinc_finger_protein_648__Rhinatrema_bivittatum_:1.0965697016)100:0.7536494213,Latimeria_chalumnae__PREDICTED__zinc_finger_protein_648-like__Latimeria_chalumnae_:1.4941099496)86:0.4599632898,(((((((Poecilia_reticulata__PREDICTED__oocyte_zinc_finger_protein_XlCOF22-like__Poecilia_reticulata_:0.1666003745,Cyprinodon_variegatus__PREDICTED__zinc_finger_protein_648-like_isoform_X1__Cyprinodon_variegatus_:0.3198583186)83:0.0313742740,Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1__Fundulus_heteroclitus_:0.1837813845)100:0.2975271842,Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1__Kryptolebias_marmoratus_:0.3677496847)82:0.0674495115,(((Anabas_testudineus__zinc_finger_protein_648-like__Anabas_testudineus_:0.4818596279,Cynoglossus_semilaevis__zinc_finger_protein_771__Cynoglossus_semilaevis_:1.4307838636)41:0.1546586560,(Stegastes_partitus__PREDICTED__zinc_finger_protein_648__Stegastes_partitus_:0.0857281695,Acanthochromis_polyacanthus__zinc_finger_protein_648-like__Acanthochromis_polyacanthus_:0.2001514987)93:0.0792978352)34:0.0760970856,(((Pundamilia_nyererei__PREDICTED__zinc_finger_protein_648-like__Pundamilia_nyererei_:0.0050345446,Maylandia_zebra__zinc_finger_protein_648__Maylandia_zebra_:0.0050381293)96:0.0050466197,Haplochromis_burtoni__PREDICTED__zinc_finger_protein_648-like__Haplochromis_burtoni_:0.0154358698)99:0.0314059597,Oreochromis_niloticus__zinc_finger_protein_648__Oreochromis_niloticus_:0.0262906452)99:0.4473727043)39:0.0842566255)86:0.5202606867,Oryzias_latipes__zinc_finger_protein_648__Oryzias_latipes_:0.6160310341)99:0.9560661054,Paramormyrops_kingsleyae__zinc_finger_protein_648-like__Paramormyrops_kingsleyae_:1.5907675513)61:0.3486535236,(Danio_rerio__zinc_finger_protein_648__Danio_rerio_:1.5818889793,Astyanax_mexicanus__zinc_finger_protein_648__Astyanax_mexicanus_:0.9896625819)97:1.0598654520)58:0.6318275948)45:0.4175915597,(((((Terrapene_carolina_triunguis__zinc_finger_protein_648__Terrapene_carolina_triunguis_:0.0000020622,Chelonia_mydas__zinc_finger_protein_648__Chelonia_mydas_:0.0206470463)63:0.0000022979,Pelodiscus_sinensis__zinc_finger_protein_648__Pelodiscus_sinensis_:0.4738767542)56:0.0223627168,Chrysemys_picta_bellii__zinc_finger_protein_648__Chrysemys_picta_bellii_:0.0000026354)57:0.0000024568,Alligator_sinensis__zinc_finger_protein_648__Alligator_sinensis_:0.7257090194)100:1.8993395590,Lepisosteus_oculatus__PREDICTED__zinc_finger_protein_648__Lepisosteus_oculatus_:0.7139819678)82:0.8392661501)95:1.0426007680,((((Ursus_maritimus__PREDICTED__zinc_finger_protein_648__Ursus_maritimus_:0.1141096791,Mustela_putorius_furo__PREDICTED__zinc_finger_protein_648__Mustela_putorius_furo_:0.1442300486)53:0.0127541814,Vulpes_vulpes__zinc_finger_protein_648__Vulpes_vulpes_:0.1619081444)80:0.0320816396,Panthera_tigris_altaica__PREDICTED__zinc_finger_protein_648__Panthera_tigris_altaica_:0.1814681720)100:0.0998118990,(Equus_caballus__zinc_finger_protein_648__Equus_caballus_:0.1627852093,Bos_taurus__zinc_finger_protein_648__Bos_taurus_:0.3165905638)94:0.0709821732)88:0.0643178626)59:0.0511478154,(Marmota_marmota_marmota__PREDICTED__zinc_finger_protein_648__Marmota_marmota_marmota_:0.3602814814,(Castor_canadensis__zinc_finger_protein_648__Castor_canadensis_:0.3123448600,Mus_musculus__zinc_finger_protein_648__Mus_musculus_:0.6733072932)39:0.0262367099)55:0.0696360027)68:0.0461565900,Otolemur_garnettii__zinc_finger_protein_648__Otolemur_garnettii_:0.3503274145)100:0.1486962930);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -13335.054338
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_
+|
+|        +--Pan_troglodytes__zinc_finger_protein_648__Pan_troglodytes_
+|     +--| (92)
+|     |  +--Homo_sapiens__zinc_finger_protein_648__Homo_sapiens_
+|  +--| (76)
+|  |  +--Nomascus_leucogenys__PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_
++--| (59)
+|  +--Piliocolobus_tephrosceles__zinc_finger_protein_648__Piliocolobus_tephrosceles_
+|
+|                                                +---Apteryx_rowi__zinc_finger_protein_648__Apteryx_rowi_
+|                                          +-----| (100)
+|                                          |     +-------Aquila_chrysaetos_canadensis__PREDICTED__zinc_finger_protein_648__Aquila_chrysaetos_canadensis_
+|                                     +----| (96)
+|                                     |    +--Crocodylus_porosus__PREDICTED__zinc_finger_protein_648_isoform_X1__Crocodylus_porosus_
+|                             +-------| (100)
+|                             |       +-----------Rhinatrema_bivittatum__zinc_finger_protein_648__Rhinatrema_bivittatum_
+|                        +----| (86)
+|                        |    +----------------Latimeria_chalumnae__PREDICTED__zinc_finger_protein_648-like__Latimeria_chalumnae_
+|                    +---| (45)
+|                    |   |                                  +--Poecilia_reticulata__PREDICTED__oocyte_zinc_finger_protein_XlCOF22-like__Poecilia_reticulata_
+|                    |   |                               +--| (83)
+|                    |   |                               |  +--Cyprinodon_variegatus__PREDICTED__zinc_finger_protein_648-like_isoform_X1__Cyprinodon_variegatus_
+|                    |   |                            +--| (100)
+|                    |   |                            |  +--Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1__Fundulus_heteroclitus_
+|                    |   |                         +--| (82)
+|                    |   |                         |  +---Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1__Kryptolebias_marmoratus_
+|                    |   |                      +--| (55)
+|                    |   |                      |  |     +------Anabas_testudineus__zinc_finger_protein_648-like__Anabas_testudineus_
+|                    |   |                      |  |  +--| (40)
+|                    |   |                      |  |  |  |  +--Stegastes_partitus__PREDICTED__zinc_finger_protein_648__Stegastes_partitus_
+|                    |   |                      |  |  |  +--| (93)
+|                    |   |                      |  |  |     +--Acanthochromis_polyacanthus__zinc_finger_protein_648-like__Acanthochromis_polyacanthus_
+|                    |   |                      |  +--| (41)
+|                    |   |                      |     |          +--Pundamilia_nyererei__PREDICTED__zinc_finger_protein_648-like__Pundamilia_nyererei_
+|                    |   |                      |     |       +--| (96)
+|                    |   |                      |     |       |  +--Maylandia_zebra__zinc_finger_protein_648__Maylandia_zebra_
+|                    |   |                      |     |    +--| (99)
+|                    |   |                      |     |    |  +--Haplochromis_burtoni__PREDICTED__zinc_finger_protein_648-like__Haplochromis_burtoni_
+|                    |   |                      |     +----| (99)
+|                    |   |                      |          +--Oreochromis_niloticus__zinc_finger_protein_648__Oreochromis_niloticus_
+|                    |   |                   +--| (86)
+|                    |   |                   |  +--------------Cynoglossus_semilaevis__zinc_finger_protein_771__Cynoglossus_semilaevis_
+|                    |   |          +--------| (99)
+|                    |   |          |        +------Oryzias_latipes__zinc_finger_protein_648__Oryzias_latipes_
+|                    |   |      +---| (61)
+|                    |   |      |   +----------------Paramormyrops_kingsleyae__zinc_finger_protein_648-like__Paramormyrops_kingsleyae_
+|                    |   +------| (58)
+|                    |          |           +------------------Danio_rerio__zinc_finger_protein_648__Danio_rerio_
+|                    |          +-----------| (97)
+|                    |                      +---------Astyanax_mexicanus__zinc_finger_protein_648__Astyanax_mexicanus_
+|        +-----------| (95)
+|        |           |                                      +--Terrapene_carolina_triunguis__zinc_finger_protein_648__Terrapene_carolina_triunguis_
+|        |           |                                   +--| (63)
+|        |           |                                   |  +--Chelonia_mydas__zinc_finger_protein_648__Chelonia_mydas_
+|        |           |                                +--| (56)
+|        |           |                                |  +----Pelodiscus_sinensis__zinc_finger_protein_648__Pelodiscus_sinensis_
+|        |           |                             +--| (57)
+|        |           |                             |  +--Chrysemys_picta_bellii__zinc_finger_protein_648__Chrysemys_picta_bellii_
+|        |           |        +--------------------| (100)
+|        |           |        |                    +-------Alligator_sinensis__zinc_finger_protein_648__Alligator_sinensis_
+|        |           +--------| (82)
+|        |                    +-------Lepisosteus_oculatus__PREDICTED__zinc_finger_protein_648__Lepisosteus_oculatus_
+|     +--| (59)
+|     |  |           +--Ursus_maritimus__PREDICTED__zinc_finger_protein_648__Ursus_maritimus_
+|     |  |        +--| (53)
+|     |  |        |  +--Mustela_putorius_furo__PREDICTED__zinc_finger_protein_648__Mustela_putorius_furo_
+|     |  |     +--| (80)
+|     |  |     |  +--Vulpes_vulpes__zinc_finger_protein_648__Vulpes_vulpes_
+|     |  |  +--| (100)
+|     |  |  |  +--Panthera_tigris_altaica__PREDICTED__zinc_finger_protein_648__Panthera_tigris_altaica_
+|     |  +--| (88)
+|     |     |  +--Equus_caballus__zinc_finger_protein_648__Equus_caballus_
+|     |     +--| (94)
+|     |        +--Bos_taurus__zinc_finger_protein_648__Bos_taurus_
+|  +--| (68)
+|  |  |  +---Marmota_marmota_marmota__PREDICTED__zinc_finger_protein_648__Marmota_marmota_marmota_
+|  |  +--| (55)
+|  |     |  +--Castor_canadensis__zinc_finger_protein_648__Castor_canadensis_
+|  |     +--| (39)
+|  |        +------Mus_musculus__zinc_finger_protein_648__Mus_musculus_
++--| (100)
+   +---Otolemur_garnettii__zinc_finger_protein_648__Otolemur_garnettii_
+
+
+Consensus tree in newick format: 
+
+(Callithrix_jacchus__PREDICTED__zinc_finger_protein_648__Callithrix_jacchus_:0.1394731943,(((Pan_troglodytes__zinc_finger_protein_648__Pan_troglodytes_:0.0184551167,Homo_sapiens__zinc_finger_protein_648__Homo_sapiens_:0.0156517647)92:0.0172392574,Nomascus_leucogenys__PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_:0.0437507881)76:0.0130946171,Piliocolobus_tephrosceles__zinc_finger_protein_648__Piliocolobus_tephrosceles_:0.0692970701)59:0.0187537703,(((((((((Apteryx_rowi__zinc_finger_protein_648__Apteryx_rowi_:0.3609754878,Aquila_chrysaetos_canadensis__PREDICTED__zinc_finger_protein_648__Aquila_chrysaetos_canadensis_:0.7695777739)100:0.5522868560,Crocodylus_porosus__PREDICTED__zinc_finger_protein_648_isoform_X1__Crocodylus_porosus_:0.3319856501)96:0.4404847191,Rhinatrema_bivittatum__zinc_finger_protein_648__Rhinatrema_bivittatum_:1.1059791259)100:0.7544761501,Latimeria_chalumnae__PREDICTED__zinc_finger_protein_648-like__Latimeria_chalumnae_:1.5082020742)86:0.4432149131,((((((((Poecilia_reticulata__PREDICTED__oocyte_zinc_finger_protein_XlCOF22-like__Poecilia_reticulata_:0.1660162958,Cyprinodon_variegatus__PREDICTED__zinc_finger_protein_648-like_isoform_X1__Cyprinodon_variegatus_:0.3184764151)83:0.0311585878,Fundulus_heteroclitus__gastrula_zinc_finger_protein_XlCGF52.1__Fundulus_heteroclitus_:0.1833786067)100:0.3041372979,Kryptolebias_marmoratus__zinc_finger_protein_648-like_isoform_X1__Kryptolebias_marmoratus_:0.3666953243)82:0.0908245425,((Anabas_testudineus__zinc_finger_protein_648-like__Anabas_testudineus_:0.6246129234,(Stegastes_partitus__PREDICTED__zinc_finger_protein_648__Stegastes_partitus_:0.0868233817,Acanthochromis_polyacanthus__zinc_finger_protein_648-like__Acanthochromis_polyacanthus_:0.1993992264)93:0.0764503961)40:0.0786367232,(((Pundamilia_nyererei__PREDICTED__zinc_finger_protein_648-like__Pundamilia_nyererei_:0.0050321650,Maylandia_zebra__zinc_finger_protein_648__Maylandia_zebra_:0.0050363631)96:0.0050450758,Haplochromis_burtoni__PREDICTED__zinc_finger_protein_648-like__Haplochromis_burtoni_:0.0154285235)99:0.0313095288,Oreochromis_niloticus__zinc_finger_protein_648__Oreochromis_niloticus_:0.0263612155)99:0.4488724115)41:0.0565725832)55:0.2543964849,Cynoglossus_semilaevis__zinc_finger_protein_771__Cynoglossus_semilaevis_:1.3368970796)86:0.2776743472,Oryzias_latipes__zinc_finger_protein_648__Oryzias_latipes_:0.6397024905)99:0.8698500358,Paramormyrops_kingsleyae__zinc_finger_protein_648-like__Paramormyrops_kingsleyae_:1.4969081571)61:0.4122478009,(Danio_rerio__zinc_finger_protein_648__Danio_rerio_:1.6701047670,Astyanax_mexicanus__zinc_finger_protein_648__Astyanax_mexicanus_:0.9163261757)97:1.1153682910)58:0.6133970402)45:0.4318096886,(((((Terrapene_carolina_triunguis__zinc_finger_protein_648__Terrapene_carolina_triunguis_:0.0000020622,Chelonia_mydas__zinc_finger_protein_648__Chelonia_mydas_:0.0207267867)63:0.0000020622,Pelodiscus_sinensis__zinc_finger_protein_648__Pelodiscus_sinensis_:0.4721744526)56:0.0223495180,Chrysemys_picta_bellii__zinc_finger_protein_648__Chrysemys_picta_bellii_:0.0000020637)57:0.0000023875,Alligator_sinensis__zinc_finger_protein_648__Alligator_sinensis_:0.7304170042)100:1.8895904079,Lepisosteus_oculatus__PREDICTED__zinc_finger_protein_648__Lepisosteus_oculatus_:0.7209854421)82:0.8291539722)95:1.0546682418,((((Ursus_maritimus__PREDICTED__zinc_finger_protein_648__Ursus_maritimus_:0.1143115695,Mustela_putorius_furo__PREDICTED__zinc_finger_protein_648__Mustela_putorius_furo_:0.1441756417)53:0.0123626050,Vulpes_vulpes__zinc_finger_protein_648__Vulpes_vulpes_:0.1621926176)80:0.0321197014,Panthera_tigris_altaica__PREDICTED__zinc_finger_protein_648__Panthera_tigris_altaica_:0.1815345586)100:0.1000117981,(Equus_caballus__zinc_finger_protein_648__Equus_caballus_:0.1625956726,Bos_taurus__zinc_finger_protein_648__Bos_taurus_:0.3164113620)94:0.0708602262)88:0.0641464113)59:0.0511029933,(Marmota_marmota_marmota__PREDICTED__zinc_finger_protein_648__Marmota_marmota_marmota_:0.3602056881,(Castor_canadensis__zinc_finger_protein_648__Castor_canadensis_:0.3123850715,Mus_musculus__zinc_finger_protein_648__Mus_musculus_:0.6742832538)39:0.0262224170)55:0.0694999324)68:0.0461164648,Otolemur_garnettii__zinc_finger_protein_648__Otolemur_garnettii_:0.3498719243)100:0.1486667518);
+
+TIME STAMP
+----------
+
+Date and time: Tue Aug 27 04:47:09 2019
+Total CPU time used: 21095.61661 seconds (5h:51m:35s)
+Total wall-clock time used: 21249.94572 seconds (5h:54m:9s)
+
