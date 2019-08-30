@@ -8,6 +8,6 @@
 
 module load apps/iqtree/omp-1.6.7
 
-iqtree -s neorepali2.fa -m LG+C60+F+G -bb 1000 -wbtl -bnni -nt AUTO --runs 10
+iqtree -s neorepali3.fa -m LG+C60+F+G -bb 1000 -wbtl -bnni -nt AUTO --runs 10
 
 
