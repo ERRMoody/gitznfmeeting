@@ -49,18 +49,41 @@ dataFinal2 <- cbind(col1Data2, bcol1Data2, bcol2Data)
 #################
 
 XdataFinal2 %>%
-  ggplot(aes(x=V1, y=V2, fill=V3)) +
-  geom_raster() + scale_fill_viridis(option="viridis") +
+  ggplot(aes(x=V1,y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
+  geom_raster() + scale_fill_gradientn(colours=c("cyan","red")) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  labs(y=NULL, x=NULL, fill="Cterm - Percentage ID")
+  labs(y=NULL, x=NULL, fill="Percentage ID")
 
 dataFinal2 %>%
-  ggplot(aes(x=factor(V1,levels = rev(levels(factor(V1)))),y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
+  ggplot(aes(x=V1,y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
+  geom_raster() + scale_fill_gradientn(colours=c("cyan","red")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(y=NULL, x=NULL, fill="Percentage ID")
+
+XdataFinal2 %>%
+  ggplot(aes(x=V1,y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
   geom_raster() + scale_fill_viridis(option="viridis") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  labs(y=NULL, x=NULL, fill="Nterm - Percentage ID")
+  labs(y=NULL, x=NULL, fill="Percentage ID")
+
+dataFinal2 %>%
+  ggplot(aes(x=V1,y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
+  geom_raster() + scale_fill_viridis(option="viridis") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(y=NULL, x=NULL, fill="Percentage ID")
 
 
+XdataFinal2 %>%
+  ggplot(aes(x=V1,y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
+  geom_raster() + scale_fill_viridis(option="plasma") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(y=NULL, x=NULL, fill="Percentage ID")
+
+dataFinal2 %>%
+  ggplot(aes(x=V1,y=factor(V2,levels = rev(levels(factor(V2)))), fill=V3)) +
+  geom_raster() + scale_fill_viridis(option="plasma") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(y=NULL, x=NULL, fill="Percentage ID")
 
 
 
